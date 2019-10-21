@@ -4,9 +4,6 @@
   "description": "Personal website to hold my portfolio",
   "version": "0.1.0",
   "license": "MIT",
-  "scripts": {
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
-  },
   "dependencies": {
     "@hot-loader/react-dom": "^16.8.6",
     "babel-plugin-styled-components": "^1.10.6",
@@ -30,6 +27,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/elena-bremner/elena-website-upgraded"
+    "url": "https://github.com/elena-bremner/elena-bremner.github.io/"
+  },
+  "scripts": {
+    "deploy": "gatsby build && gh-pages -d public -b master"
   }
 }
