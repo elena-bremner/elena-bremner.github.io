@@ -2,7 +2,7 @@ import React from 'react'
 
 const Resume = () => (
  	<div>
- 		<embed src="/static/resume-532d10c4dbaf674a1f5c61ba02995ac9.pdf" width="75%"/>
+ 		<embed src="/static/yesresume-148d6dcc4aa57a731718f96064d4f36b.pdf" width="75%"/>
 	</div>
 )
 
