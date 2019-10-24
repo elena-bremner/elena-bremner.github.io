@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "gatsby"
-import resume from './resume.pdf'
+import resume from './yesresume.pdf'
 import style from './layout.module.css'
 
 const linkStyle = {

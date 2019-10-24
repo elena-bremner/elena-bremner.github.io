@@ -5,14 +5,21 @@
     height: 40%; /* This could be anything, content should scroll vertical */
     background: white;
     box-sizing:border-box;
-    font-size: 70pt;
+    font-size: 60pt;
     line-height: auto;
+    font-color:black;
+}
+
+.contactlink2{
+    text-decoration: none;
+    color:pink;
 }
 
 .contactlink{
     text-decoration: none;
-    font-color:pink;
+    color:black;
 }
+
 
 .contactlink:hover{
     color:#FF7963;
