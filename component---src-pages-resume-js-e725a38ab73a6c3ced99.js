@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{195:function(e,n,t){"use strict";t.r(n);var a=t(0),c=t.n(a);n.default=function(){return c.a.createElement("div",null,c.a.createElement("embed",{src:"/static/yesresume-148d6dcc4aa57a731718f96064d4f36b.pdf",width:"75%"}))}}}]);
-//# sourceMappingURL=component---src-pages-resume-js-e725a38ab73a6c3ced99.js.map
