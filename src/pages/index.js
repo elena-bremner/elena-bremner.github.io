@@ -4,15 +4,23 @@ import Styles from "./index.module.css"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
 
+/* this page is what you see in the home page 
+* including name image and link to each page
+*/
 export default ({data}) => (
   <Layout>
+  <div className={Styles.intro}>
+    <p> Hello! I'm Elena. </p>
+  I am currently studying industrial design with a minor in computation at RISD. 
+  </div>
+
+  
   <div className={Styles.wrapper}> 
   {data.allMarkdownRemark.edges.map(({ node }) =>
       <div key={node.id} className={Styles.subwrapper}>
         <Work
           name={node.frontmatter.title}
           picture= {node.frontmatter.square.childImageSharp.fluid}
-          description= {node.frontmatter.desc}
           link={"work" + node.fields.slug}
         />
       </div>
@@ -30,11 +38,9 @@ export const query = graphql`
           id
           frontmatter {
             title
-            date(formatString: "DD, MMMM, YYYY")
-            desc
             square{
               childImageSharp {
-                fluid(maxWidth: 800) {
+                fluid(maxWidth: 1000) {
                   ...GatsbyImageSharpFluid
                 }
               }

@@ -1,9 +1,10 @@
 .wrapper {
+
   height: 100%;
-  width:100%;
+  width:90%;
   display: grid;
-  grid-gap: 0;
-  grid-template-columns: repeat(3, 33.333%);
+  grid-gap: 0px;
+  grid-template-columns: repeat(3, 33.3%);
   grid-template-rows: repeat(6, min-content);
   grid-auto-flow: row;
   line-height: 0px;
@@ -18,6 +19,15 @@
 	overflow:auto;
 }
 
-.purple {
-  color: purple;
+.intro p {
+color: black;
+font-weight:bold;
 }
+
+.intro {
+color: black;
+padding-bottom: 10%;
+font-weight: lighter;
+}
+
+

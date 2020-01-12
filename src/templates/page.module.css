@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono|Roboto:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
+
+.title{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:black;
+    font-size: 16pt;
+    font-weight:bolder;
+    /*padding-left:20%;*/
+}
+
+.description{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:black;
+    font-size: 12pt;
+    font-weight:medium;
+    width: 600px;
+    line-height:2;
+/*    padding-left:10%;*/
+
+
+}
+.date{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:gray;
+    font-size: 12pt;
+    font-weight:bold;
+
+
+ 
+}
