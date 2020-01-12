@@ -284,10 +284,10 @@ order: 6
 <!-- <div style= "width:40%; /*float:right;*/margin:auto; margin-top:100px;">
     <img src = "./volar/coverImageVolar.png" > 
 </div> -->
-<div class = "Title">
+<!-- <div class = "Title">
   Reflection
   <hr class="line">
-</div>
+</div> -->
 
 
 

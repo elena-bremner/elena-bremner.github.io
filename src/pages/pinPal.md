@@ -69,13 +69,14 @@ order: 2
 .iconsImages {
   width:50%;
   margin:auto;
-  margin-right:400px;
+ 
 }
 .stepsText{
   font-family: 'IBM Plex Sans',sans-serif;
   text-indent:50px;
   text-align:left;
-  margin-left:500px;
+/*  margin-left:500px;*/
+margin:auto;
   font-weight:bolder;
   color:gray;
   margin-top:50px;
