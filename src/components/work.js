@@ -2,6 +2,8 @@ import React from "react";
 import Styles from "./work.module.css";
 import Img from "gatsby-image"
 
+// argument for image, link and text for each container
+
 const Work = props =>
   <div>
      <a href={props.link}> 

@@ -6,7 +6,8 @@ const About = () => (
   	<Layout>
 		<div id="main-content2" >  
 		    <h1 className={Styles.hello}>Hello! - <br></br> I'm Elena.</h1>
-		    <h2 className={Styles.introduction}>I study Industrial Design at RISD</h2>
+		    <h2 className={Styles.introduction}>I'm a product designer studying at RISD.</h2>
+            <h2 className={Styles.introduction}>  </h2>
 		</div>
  	</Layout>
 )

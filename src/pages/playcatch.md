@@ -1,9 +1,14 @@
 ---
 title: "Catch"
-date: "2018-07-30"
-desc: "description"
+date: "JANUARY, 2018 (2 WEEKS)"
+desc: "Why compete when you can always win? 
+I coded a game where two players 
+collaboratively keep a digital ball inside the screen. The two players are guaranteed to win every game.
+
+Once the ball escapes the screen, the players will click the ellipse to continue playing. The players will keep passing the ball until they reach 10 points. 
+"
 square: ./playcatch/square.png
-order: 5
+order: 4
 ---
 
 <style>
@@ -23,7 +28,6 @@ order: 5
     
 </style>
 
-<img src= "./playcatch/catchgame-bigfont.png" class="intro" />
 
 <video class="catchsize" controls>
   <source src="./playcatch/final-game-screengrab.mp4"  type="video/mp4">
