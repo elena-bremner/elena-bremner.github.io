@@ -92,9 +92,9 @@ TEAMMATES: Jennifer Xu, Jessica Hsiao, and Shuyuan Zheng
 
 
 <div style="font-family: 'IBM Plex Sans', sans-serif; width: 600px; line-height:2; margin-bottom:100px;">
-    When you look around the streets, most people have their faces buried in their smartphone screens oblivous to the rich 
-    possibilities in their own neighborhood.</br></br>
-    My teammates and I designed an app to help explore their personal geography, a way to pin the shops, locales and spots with personal meaning in their community. </br></br>
+    <b>Intro: </b> When you look around the streets, most people have their faces buried in their smartphone screens oblivous to the rich 
+    possibilities in their own neighborhood.</br><!-- </br> -->
+    My teammates and I designed an app to help explore their personal geography, a way to pin the shops, locales and spots with personal meaning in their community. </br><!-- </br> -->
     What if you could knock your screen to pin your location 
     using GPS?
 </div>

@@ -35,3 +35,6 @@ order: 3
 <div style = "width:25%; float:right; margin-right:300px;">
     <img src = "./rover/cover.jpg" > 
 </div>
+<div class = "intro">
+  <a href="https://www.nasa.gov/stem/roverchallenge/competition/index.html">Human Exploration Rover Challenge</a>
+</div>
