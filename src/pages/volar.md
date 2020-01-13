@@ -145,7 +145,7 @@ order: 6
     width: 600px;
     line-height:2;
 ">
-  The US is certainly not known for its world-class airports. The top-ranked US airport in the 2019 Skytrax Ranking is Denver Airport, which came in 32nd place. In contrast, Singapore Changi airport was awarded best airport honors, deservingly so given its impeccable architecture and fluid transitions between shops and facilities that help passengers forget that they are in an airport. 
+  <b>Intro: </b> The US is certainly not known for its world-class airports. The top-ranked US airport in the 2019 Skytrax Ranking is Denver Airport, which came in 32nd place. In contrast, Singapore Changi airport was awarded best airport honors, deservingly so given its impeccable architecture and fluid transitions between shops and facilities that help passengers forget that they are in an airport. 
   Yet most of these higher ranking airports were built fairly recently. </br>Here’s the challenge: How can we improve a passenger’s experience navigating the complex architecture and layout of older airports?
 
 </div>
