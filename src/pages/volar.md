@@ -71,7 +71,6 @@ order: 6
   font-family: 'IBM Plex Sans', sans-serif;
   font-size:14pt;
   text-align: left;
-
   color:#253E50;
   width:600px;
   line-height:1.6;
@@ -123,7 +122,16 @@ order: 6
   height: 200px;
   width: 100%;
   color:pink;
-}
+  }
+
+  .vidsize{
+  width:25%;
+  display: flex;
+  flex-direction: column;
+  float:right;
+  margin-top:250px;
+  margin-right:150px;
+  }
 
 
 }
@@ -138,7 +146,7 @@ order: 6
     line-height:2;
 ">
   The US is certainly not known for its world-class airports. The top-ranked US airport in the 2019 Skytrax Ranking is Denver Airport, which came in 32nd place. In contrast, Singapore Changi airport was awarded best airport honors, deservingly so given its impeccable architecture and fluid transitions between shops and facilities that help passengers forget that they are in an airport. 
-  Yet most of these higher ranking airports were built fairly recently. For example, Singapore Changi airport opened in 2014, while most of the US airports like JFK were built in the early post-war era. </br>Here’s the challenge: How can we improve a US passenger’s experience navigating the complex architecture and layout of older American airports?
+  Yet most of these higher ranking airports were built fairly recently. </br>Here’s the challenge: How can we improve a passenger’s experience navigating the complex architecture and layout of older airports?
 
 </div>
 
@@ -153,9 +161,9 @@ order: 6
       How do we improve the airport experience without changing the architecture or layout?
        To highlight checkpoints of what people found most stressful and frustrating at airports, 
        I began my project with some research and interviews conducted on regular flyers. Additionally, I looked 
-       at existing airport platforms and apps to see what is working well or what people are lacking during
-       the experience. It was also critical to look into limitations and existing technologies that could
-       be implemented into making information accessible to the users as much as possible. 
+       at existing airport platforms and apps to see what is working well and what is not.
+        It was also critical to look into limitations and existing technologies that could
+       be implemented into making information more accessible. 
     </h6>
 </div>
 <!-- 1a -->
@@ -218,7 +226,7 @@ order: 6
 <!-- <div style="background-color:black; margin-bottom:8%;">
     <img src = "./volar/stakeholderimage.png" > 
 </div> -->
-<div style= "width:30%; margin-bottom:100px; margin-right:200px; float:right;">
+<div style= "width:20%; margin-bottom:100px; /*margin-right:200px;*/ margin:auto;">
     <img src = "./volar/stakeholder.png" > 
 </div>
 <!-- 1e -->
@@ -238,16 +246,16 @@ order: 6
     FEATURES
 </div>
 <div class ="images">
-    <img src = "./volar/solution.png" > 
+    <img src = "./volar/workpls.png" > 
 </div>
-<div style = "  margin-top:150px;font-family: 'IBM Plex Sans', sans-serif;color:#253E50;font-size: 22pt;font-weight:bold;">
+<div style = "  margin-top:100px;font-family: 'IBM Plex Sans', sans-serif;color:#253E50;font-size: 22pt;font-weight:bold;">
     Ideation
     <hr style="border-style:solid;width:100%;">
 </div>
  <h6 class = "paragraph" style="background-color:#f9f9f9;font-family: 'IBM Plex Sans' ">
-     After I had a clear idea of my constraints, I went into my ideation stage. Using the journey map to see the checkpoints and or any possible frustrations users may face, I started sketching out possible interfaces.
+     After I had an understanding of my constraints, I went into my ideation stage. Using the journey map to see the checkpoints and any possible frustrations users may face, I started sketching out possible interfaces.
    </br>
-     During this time, I focused on keeping the design as simple as possible. Passengers are already occupied by the hectic airport, the last thing they need is a complicated app disrupting their flow. 
+     During this time, I focused on keeping the design as simple as possible. Passengers are already occupied in the airport, the last thing they need is a complicated app disrupting their experience. 
  </h6>
 <div class ="subTitle">
     SKETCHES
@@ -262,7 +270,7 @@ order: 6
     WIREFRAMES
 </div>
 <div class = "subParagraph">
-    Sketching and ideating allowed me to hash out focal user needs and simplify the solutions.
+   To figure out a good user flow, I created base designs for possible interfaces. 
 </div>
 <div style =" margin:auto;width:50%; margin-bottom:100px;">
     <img src = "./volar/wireframe.png" > 
@@ -273,28 +281,38 @@ order: 6
   <hr class="line">
 </div>
 <div class = "subParagraph">
-    After many iterations based on feedback, I created finalized interfaces for the app. 
+    After many iterations based on feedback, I created finalized designs for the app. Focusing on passengers' focal problems, I created three designs for three main features: queue times, checkpoints, and activities. 
 </div>
-<div style= "width:60%; /*float:left; */ margin:auto; margin-top:100px;">
+ <video class = "vidsize" controls autoplay loop >
+    <source src="./volar/checkpointsAnimation.mp4" type="video/mp4">
+  </video>
+<div style= "width:60%; /*float:left; */ float:left; margin-top:100px;">
     <img src = "./volar/interfaces1.png" > 
 </div>
-<div style= "width:60%; /*float:right;*/margin:auto; margin-top:100px;">
+<div style= " margin-top:750px; width:60%; /*float:right;*/">
     <img src = "./volar/interfaces2.png" > 
 </div>
-<!-- <div style= "width:40%; /*float:right;*/margin:auto; margin-top:100px;">
-    <img src = "./volar/coverImageVolar.png" > 
-</div> -->
-<!-- <div class = "Title">
-  Reflection
-  <hr class="line">
-</div> -->
-
-
-
-
-
-
-
+<div class = "Title">
+  Self Reflection
+  <hr style="border-width:thin;border-style:solid; margin-bottom:50px;}">
+</div>
+<div style=" margin-top:100px; font-family: 'IBM Plex Sans',sans-serif;font-size:14pt; text-align: left;color:#253E50;width:600px;line-height:1.6; margin:auto;">
+I've always found wonder in the idea of creating an experience with just a few phone screens. 
+Since my university did not offer classes on UIUX at the time, I started this project as a way to introduce and educate myself to the world of pixels and icons. 
+Despite my initial doubts, <b style = "color:blue;">I've come to realize that UIUX - when done effectively opens up new opportunities that would be quite difficult to create with physical objects. </b> In this case, creating a seamless journey through the airport seems a lot more feasible than changing the architecture of an airport. 
+</br>
+</br>
+In terms of the process, I've noticed that it is easy to assume what users want. Talking and listening to users may be the most effective way to find out what users really need. In addition, keeping the user flow simple and intuitive is as important as focusing on an array of features. 
+</br>
+</br>
+<div>
+  Note to future self: 
+</div>
+<div style = "margin-bottom:100px; text-indent: 50px; font-style: italic; ">
+  <b >
+  Solve one problem at a time, you're not trying to save the world. 
+  </div>
+</div>
 
 
 

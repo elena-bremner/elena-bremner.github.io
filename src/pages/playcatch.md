@@ -2,10 +2,10 @@
 title: "Catch"
 date: "JANUARY, 2018 (2 WEEKS)"
 desc: "Why compete when you can always win? 
-I coded a game where two players 
-collaboratively keep a digital ball inside the screen. The two players are guaranteed to win every game.
+Using processing, I created a game where two players 
+collaboratively keep a digital ball inside the screen. 
 
-Once the ball escapes the screen, the players will click the ellipse to continue playing. The players will keep passing the ball until they reach 10 points. 
+Once the ball escapes the screen, they will click the ellipse to continue playing. The game continues until they reach 10 points. 
 "
 square: ./playcatch/square.png
 order: 4
