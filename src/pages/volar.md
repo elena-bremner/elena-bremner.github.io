@@ -304,7 +304,6 @@ Despite my initial doubts, <b style = "color:blue;">I've come to realize that UI
 </br>
 In terms of the process, I've noticed that it is easy to assume what users want. Talking and listening to users may be the most effective way to find out what users really need. In addition, keeping the user flow simple and intuitive is as important as focusing on an array of features. 
 </br>
-</br>
 <div>
   Note to future self: 
 </div>

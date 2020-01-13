@@ -187,7 +187,7 @@ Research
     <hr style="border-style:solid;width:100%;">
 </div>
  <h6 class = "paragraph" style="background-color:#f9f9f9;">
-     The final design invites users to explore and pin interesting locales around their community by guiding them through 2 simple steps:<b style = "color:blue"> maps</b>, and <b style = "color:blue"> activity logs.</b> 
+     The final design invites users to explore and pin interesting locales around their community by guiding them through 2 simple steps:<b style = "color:blue"> maps</b> and <b style = "color:blue"> activity logs.</b> 
      </br> 
      </br> 
      Personal association is key to remembering places. The activity log allows users to view and retain locations or events that they found interetsing throughout the day. 
@@ -232,20 +232,19 @@ Research
     <hr style="border-style:solid;width:100%;">
 </div>
 <div style=" margin-top:100px; font-family: 'IBM Plex Sans',sans-serif;font-size:14pt; text-align: left;color:#253E50;width:600px;line-height:1.6; margin:auto;">
-How we retain information through screens is something that has complexed me for a while. While the ubiquity of smartphones is something that gives us convenience, it seems as though people are being less mindful about what the kind of information we intake. 
+How we retain information through screens is something that has perplexed me for a while. While the ubiquity of smartphones is something that gives us convenience, it seems as though people are being less mindful about what the kind of information we intake. 
 Most of us have thousands of pictures in our camera roll, but how many of those pictures do we remember taking?
 This project allowed me to explore ways in which people can connect to their environment with the help of their phone, instead of depending soley on their phone.  
 </br>
 </br>
 In terms of the process, I noticed how <b style = "color:blue;">  user-testers are really good at pointing out the blindspots. It can be difficult to step out of your project and view things from a different perspective. </b>
 </br>
-</br>
 <div>
   Note to future self: 
 </div>
 <div style = "margin-bottom:100px; text-indent: 50px; font-style: italic; ">
   <b >
-   It's a lot more fun when you have a passionate group of teammates working by your side. 
+  Challenges are a lot more fun when you have a passionate group of teammates working by your side. 
   </div>
 </div>
 
