@@ -94,8 +94,7 @@ TEAMMATES: Jennifer Xu, Jessica Hsiao, and Shuyuan Zheng
 <div style="font-family: 'IBM Plex Sans', sans-serif; width: 600px; line-height:2; margin-bottom:100px;">
     When you look around the streets, most people have their faces buried in their smartphone screens oblivous to the rich 
     possibilities in their own neighborhood.</br></br>
-    My teammates and I designed an app to help explore their personal geography, a way to pin the shops, locales and spots with personal meaning in their immediate 
-    surroundings. </br></br>
+    My teammates and I designed an app to help explore their personal geography, a way to pin the shops, locales and spots with personal meaning in their community. </br></br>
     What if you could knock your screen to pin your location 
     using GPS?
 </div>
@@ -116,10 +115,9 @@ Research
 </div>
 </div>
 <div class= "subTitle">
-  <b> 
-    Our Mission:
-  </b>
+    Our Mission
 </div>
+</br>
 <h6 class = "paragraph" style="background-color:#f9f9f9;">
      Give people a greater sense of their own personal geography, allowing them to better connect with their community.  
     </h6>
@@ -151,7 +149,7 @@ Research
     <hr style="border-style:solid;width:100%;">
 </div>
  <h6 class = "paragraph" style="background-color:#f9f9f9;">
-     <!-- In order to figure out our flaws.. <div> -->
+     After we had a clear idea of the features we wanted to focus on, we started creating paper mockups of our ideas. After several rounds of user-testing, we took a trip to Boston to experience a dense urban setting to imagine how a user might micro-map using this app. 
  </h6>
 <div class = "subTitle">
   Features
@@ -191,7 +189,8 @@ Research
  <h6 class = "paragraph" style="background-color:#f9f9f9;">
      The final design invites users to explore and pin interesting locales around their community by guiding them through 2 simple steps:<b style = "color:blue"> maps</b>, and <b style = "color:blue"> activity logs.</b> 
      </br> 
-     Pins will be added to their activity log where they can see 
+     </br> 
+     Personal association is key to remembering places. The activity log allows users to view and retain locations or events that they found interetsing throughout the day. 
       <div>
  </h6>
  <div style = "font-family: 'Montserrat', sans-serif; color:#3fa6ff;font-weight:bold; margin-bottom:50px; ">
@@ -221,6 +220,34 @@ Research
   <div style = "width:55%; margin:auto;">
     <img src="./pinPal/finaldesign2.png"/>
   </div>
+<!-- <div style = "margin-top:200px;font-family: 'IBM Plex Sans', sans-serif;color:#253E50;font-size: 22pt;font-weight:bold;">
+    Refinements
+    <hr style="border-style:solid;width:100%;">
+</div>
+<h6 class = "paragraph" style="background-color:#f9f9f9;">
+     Motivation is some thing
+</h6> -->
+<div style = "margin-top:100px;font-family: 'IBM Plex Sans', sans-serif;color:#253E50;font-size: 22pt;font-weight:bold; margin-bottom:50px">
+    Self Reflection
+    <hr style="border-style:solid;width:100%;">
+</div>
+<div style=" margin-top:100px; font-family: 'IBM Plex Sans',sans-serif;font-size:14pt; text-align: left;color:#253E50;width:600px;line-height:1.6; margin:auto;">
+How we retain information through screens is something that has complexed me for a while. While the ubiquity of smartphones is something that gives us convenience, it seems as though people are being less mindful about what the kind of information we intake. 
+Most of us have thousands of pictures in our camera roll, but how many of those pictures do we remember taking?
+This project allowed me to explore ways in which people can connect to their environment with the help of their phone, instead of depending soley on their phone.  
+</br>
+</br>
+In terms of the process, I noticed how <b style = "color:blue;">  user-testers are really good at pointing out the blindspots. It can be difficult to step out of your project and view things from a different perspective. </b>
+</br>
+</br>
+<div>
+  Note to future self: 
+</div>
+<div style = "margin-bottom:100px; text-indent: 50px; font-style: italic; ">
+  <b >
+   It's a lot more fun when you have a passionate group of teammates working by your side. 
+  </div>
+</div>
 
 <!-- <div style= "float:center; width:30%; margin:auto;">
     <img src="./pinPal/process3.png"/>
