@@ -44,3 +44,16 @@
     box-sizing:border-box;
     padding-top: 5%;
 }
+
+#text span {
+  display:none;
+
+}
+#text span:target {
+  display:block;
+
+}
+#icons{
+    text-decoration: none;
+   color:blue;
+}
