@@ -38,3 +38,6 @@ order: 3
 <div class = "intro">
   <a href="https://www.nasa.gov/stem/roverchallenge/competition/index.html">Human Exploration Rover Challenge</a>
 </div>
+<!--  <video controls autoplay loop >
+    <source src="./rover/rover_vid.mov" type="video/mov">
+</video> -->

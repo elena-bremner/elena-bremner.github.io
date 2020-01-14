@@ -16,13 +16,15 @@ const linkActiveStyle = {
 
 export default ({ children }) => {
     return (
+
       <div className={style.container} >      
-     
+    
         <div className={style.sidebar}>
+      
           <div className={style.ElenaBremner}>
-           Elena Bremner :)
+           Elena Bremner 
+           <Link to="/"style={linkStyle} activeStyle={linkActiveStyle}> :)</Link>
           </div>
-        
         	<Link to="/" style={linkStyle} activeStyle={linkActiveStyle}>
             Work
           </Link>
