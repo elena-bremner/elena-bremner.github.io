@@ -232,7 +232,7 @@ Research
     <hr style="border-style:solid;width:100%;">
 </div>
 <div style=" margin-top:100px; font-family: 'IBM Plex Sans',sans-serif;font-size:14pt; text-align: left;color:#253E50;width:600px;line-height:1.6; margin:auto;">
-How we retain information through screens is something that has perplexed me for a while. While the ubiquity of smartphones is something that gives us convenience, it seems as though people are being less mindful about what the kind of information we intake. 
+How we retain information through screens is something that has perplexed me for a while. While the ubiquity of smartphones is something that gives us convenience, it seems as though people are being less mindful about what kind of information we intake. 
 Most of us have thousands of pictures in our camera roll, but how many of those pictures do we remember taking?
 This project allowed me to explore ways in which people can connect to their environment with the help of their phone, instead of depending soley on their phone.  
 </br>
