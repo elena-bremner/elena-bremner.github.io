@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from "../components/layout"
 import Styles from "./contact.module.css"
-import Img from "gatsby-image"
+// import Img from "gatsby-image"
 /* eslint-disable */
 export default () => (
   <Layout>
