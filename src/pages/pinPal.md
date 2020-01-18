@@ -1,6 +1,7 @@
 ---
 title: "PinPal"
 date: "NOVEMBER, 2019 (6 WEEKS)"
+team: "hs"
 desc: ""
 square: ./pinPal/blue.png
 order: 2
@@ -82,6 +83,9 @@ margin:auto;
   margin-top:50px;
   font-size:15pt;
 }
+.vidsize{
+  width:15%;
+}
 
 
 
@@ -138,6 +142,18 @@ Research
 <div style= "float:right; width:20%; margin-right:200px;">
     <img src="./pinPal/bank.png"/>
 </div>
+<div class="subParagraph">
+    </br>
+    Sam loves to explore new areas and shops. Unfortunately, he does not have much time during the work week to experience his neighborhood. </br> </br> 
+    He would like a way to take note of interesting locations that he can enjoy later or share with the broader community 
+    anonymously. 
+</div>
+<!-- <div class = "subTitle">
+    UX blueprint
+</div>
+<div style= "float:right; width:80%; margin-right:200px;">
+    <img src="./pinPal/blueprint.png"/>
+</div> -->
 <div class="subParagraph">
     </br>
     Sam loves to explore new areas and shops. Unfortunately, he does not have much time during the work week to experience his neighborhood. </br> </br> 
@@ -210,6 +226,11 @@ Research
   <div style = "font-family: 'Montserrat', sans-serif; color:#3fa6ff;font-weight:bold; margin-top:100px; ">
       Maps
   </div> 
+ <!--  <div>
+    <video class = "vidsize" controls autoplay loop >
+    <source src="./pinPal/pinning.mp4" type="video/mp4">
+  </video>
+  </div> -->
   <div style= "width:55%; margin:auto;">
       <img src="./pinPal/finaldesign1.png"/>
   </div>
