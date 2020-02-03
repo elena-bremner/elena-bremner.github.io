@@ -2,7 +2,7 @@ import React from 'react'
 import { useStaticQuery, graphql } from "gatsby"
 import Layout from '../components/layout'
 import Styles from './about.module.css'
-import Img from "gatsby-image"
+// import Img from "gatsby-image"
 
 // import React from "react"
 // import { useStaticQuery, graphql } from "gatsby"
