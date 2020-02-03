@@ -2,6 +2,8 @@ import React from "react";
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import style from "./page.module.css"
+import { Link } from "gatsby"
+
 
 
 /*template for each portfolio page

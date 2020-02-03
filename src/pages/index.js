@@ -10,7 +10,7 @@ import { graphql } from "gatsby"
 export default ({data}) => (
   <Layout>
   <div className={Styles.intro}>
-    <p> Hello! I'm Elena. </p>
+    <p> I'm Elena. </p>
   I am currently studying industrial design with a concentration in computation at RISD. 
   </div>
 
@@ -27,6 +27,8 @@ export default ({data}) => (
     )}
  </div>
  </Layout>
+
+
 )
 
 export const query = graphql`

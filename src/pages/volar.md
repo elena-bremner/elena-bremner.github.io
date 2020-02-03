@@ -25,16 +25,13 @@ order: 6
 }
 
 .introimg {
-  width:60%;
-  padding-left:20%;
-  padding-right:20%;
+  width:100%;
   margin:auto;
-  background-color:#83a5c3;
+/*  background-color:#83a5c3;*/
   margin-bottom:200px;
   margin-top:100px;
-
 }
-.Title {
+#Title {
   font-family: 'IBM Plex Sans', sans-serif;
   color:#253E50;
   font-size: 22pt;
@@ -133,7 +130,6 @@ order: 6
   margin-right:150px;
   }
 
-
 }
 
 </style>
@@ -147,11 +143,11 @@ order: 6
 ">
   <b>Intro: </b> The US is certainly not known for its world-class airports. The top-ranked US airport in the 2019 Skytrax Ranking is Denver Airport, which came in 32nd place. In contrast, Singapore Changi airport was awarded best airport honors, deservingly so given its impeccable architecture and fluid transitions between shops and facilities that help passengers forget that they are in an airport. 
   Yet most of these higher ranking airports were built fairly recently. </br>Here’s the challenge: How can we improve a passenger’s experience navigating the complex architecture and layout of older airports?
-
 </div>
-
+</br>
+    <a style = "text-decoration: underline; color:#3fa6ff; font-weight:bold;font-family: 'IBM Plex Sans', sans-serif;" href="#Title">Jump to "self reflection"</a>
 <div class = "introimg">
-   <img src = "./volar/blue.png"> 
+   <img src = "./volar/quickExport.png"> 
 </div>
 <!-- 1 -->
 <div class = "Title" >
@@ -216,19 +212,19 @@ order: 6
     <img src = "./volar/storyboard.png" > 
 </div>
 <!-- 1d -->
-<div class = "subTitle">
+<!-- <div class = "subTitle">
     PLAYERS
 </div>
 <div class = "subParagraph">
     To view constraints and existing technologies, I created a diagram of stakeholders involved. 
    Lidar scanners allow airports to view how crowded the airport is in live time. 
-</div>
+</div> -->
 <!-- <div style="background-color:black; margin-bottom:8%;">
     <img src = "./volar/stakeholderimage.png" > 
 </div> -->
-<div style= "width:20%; margin-bottom:100px; /*margin-right:200px;*/ margin:auto;">
+<!-- <div style= "width:20%; margin-bottom:100px; /*margin-right:200px;*/ margin:auto;">
     <img src = "./volar/stakeholder.png" > 
-</div>
+</div> -->
 <!-- 1e -->
 <hr/ width="100%">
 <div class = "subTitle">
@@ -248,7 +244,7 @@ order: 6
 <div class ="images">
     <img src = "./volar/workpls.png" > 
 </div>
-<div style = "  margin-top:100px;font-family: 'IBM Plex Sans', sans-serif;color:#253E50;font-size: 22pt;font-weight:bold;">
+<div style = "  margin-top:50px;font-family: 'IBM Plex Sans', sans-serif;color:#253E50;font-size: 22pt;font-weight:bold;">
     Ideation
     <hr style="border-style:solid;width:100%;">
 </div>
@@ -292,7 +288,7 @@ order: 6
 <div style= " margin-top:750px; width:60%; /*float:right;*/">
     <img src = "./volar/interfaces2.png" > 
 </div>
-<div class = "Title">
+<div id = "Title">
   Self Reflection
   <hr style="border-width:thin;border-style:solid; margin-bottom:50px;}">
 </div>
