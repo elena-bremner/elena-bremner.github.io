@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono|Roboto:300&display=swap');
+
+.test{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:black;
+    font-size: 12pt;
+    font-weight:medium;
+    width: 600px;
+    line-height:2;
+    float:right;
+    margin-right:250px;
+}
+.poop{
+    width:25%;
+    float:left;
+}
+.title{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:black;
+    font-size: 14pt;
+    font-weight:medium;
+    width: 600px;
+    line-height:2;
+    
+}

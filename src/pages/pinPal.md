@@ -86,6 +86,13 @@ margin:auto;
 .vidsize{
   width:15%;
 }
+#selfReflection{
+  margin-top:100px;
+  font-family: 'IBM Plex Sans',sans-serif;color:#253E50;
+  font-size: 22pt;
+  font-weight:bold; 
+  margin-bottom:50px
+}
 
 
 
@@ -93,16 +100,19 @@ margin:auto;
 <!-- <b style = "color:gray;font-size: 10pt;font-weight:bold;">
 TEAMMATES: Jennifer Xu, Jessica Hsiao, and Shuyuan Zheng
 </b> -->
-
-
 <div style="font-family: 'IBM Plex Sans', sans-serif; width: 600px; line-height:2; margin-bottom:100px;">
     <b>Intro: </b> When you look around the streets, most people have their faces buried in their smartphone screens oblivous to the rich 
     possibilities in their own neighborhood.</br><!-- </br> -->
     My teammates and I designed an app to help explore their personal geography, a way to pin the shops, locales and spots with personal meaning in their community. </br><!-- </br> -->
     What if you could knock your screen to pin your location 
     using GPS?
-</div>
-<div style="/*float:right;*/ width:18%; margin-right:350px;">
+    </br>
+    <div >
+    </div>
+    </br>
+     <a href="/pinPal2/ " style = "color:#3fa6ff; font-weight:bold; text-decoration:underline;"> More of our process</a>
+     </br>
+    <a style = "text-decoration: underline; color:#3fa6ff; font-weight:bold;" href="#selfReflection">Jump to "self reflection"</a>
 </div>
 <div style = "width:60%; background-color:#dfe0df; padding-left:20%; padding-right:20%; margin:auto;">
     <img src="./pinPal/test2.png"/>
@@ -148,17 +158,12 @@ Research
     He would like a way to take note of interesting locations that he can enjoy later or share with the broader community 
     anonymously. 
 </div>
-<!-- <div class = "subTitle">
+<hr class="line">
+<div class = "subTitle">
     UX blueprint
 </div>
-<div style= "float:right; width:80%; margin-right:200px;">
+<div style= " margin:auto;width:60%; margin-right:200px; margin-bottom:100px;">
     <img src="./pinPal/blueprint.png"/>
-</div> -->
-<div class="subParagraph">
-    </br>
-    Sam loves to explore new areas and shops. Unfortunately, he does not have much time during the work week to experience his neighborhood. </br> </br> 
-    He would like a way to take note of interesting locations that he can enjoy later or share with the broader community 
-    anonymously. 
 </div>
 <div style = "  margin-top:200px;font-family: 'IBM Plex Sans', sans-serif;color:#253E50;font-size: 22pt;font-weight:bold;">
     Ideation
@@ -226,13 +231,22 @@ Research
   <div style = "font-family: 'Montserrat', sans-serif; color:#3fa6ff;font-weight:bold; margin-top:100px; ">
       Maps
   </div> 
- <!--  <div>
-    <video class = "vidsize" controls autoplay loop >
-    <source src="./pinPal/pinning.mp4" type="video/mp4">
-  </video>
-  </div> -->
-  <div style= "width:55%; margin:auto;">
-      <img src="./pinPal/finaldesign1.png"/>
+    <!-- <p style = "font-family: 'Montserrat',sans-serif; font-size: 9px;  color:black; width:150px; float:right; margin-top:350px; margin-right:140px;">Color layering allow users to see which locations are close to each other.  
+      The purple area warns users of construction sites near selected cafes.  
+    </p> -->
+   <div style= "width:70%; margin:auto; margin-top:50px;">
+      <img src="./pinPal/Maps.png"/>
+  </div>
+  <div>
+  <p style = "font-family: 'Montserrat', sans-serif; color:gray;font-weight:bold; text-align:center;">Pinning Locations and Construction Sites</p>
+    <video style = " float:right;width:16%;margin-right:300px;" controls autoplay loop >
+      <source src="./pinPal/constructions.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div>
+      <video style = "width:16%;margin-left:300px;" controls autoplay loop >
+          <source src="./pinPal/pinningVid.mp4" type="video/mp4">
+      </video>
   </div>
   </br>
   <div style = "font-family: 'Montserrat', sans-serif;color:#3fa6ff;font-weight:bold;">
@@ -244,11 +258,11 @@ Research
 <!-- <div style = "margin-top:200px;font-family: 'IBM Plex Sans', sans-serif;color:#253E50;font-size: 22pt;font-weight:bold;">
     Refinements
     <hr style="border-style:solid;width:100%;">
-</div>
-<h6 class = "paragraph" style="background-color:#f9f9f9;">
+</div> -->
+<!-- <h6 class = "paragraph" style="background-color:#f9f9f9;">
      Motivation is some thing
 </h6> -->
-<div style = "margin-top:100px;font-family: 'IBM Plex Sans', sans-serif;color:#253E50;font-size: 22pt;font-weight:bold; margin-bottom:50px">
+<div id = "selfReflection">
     Self Reflection
     <hr style="border-style:solid;width:100%;">
 </div>
@@ -268,6 +282,7 @@ In terms of the process, I noticed how <b style = "color:blue;">  user-testers a
   Challenges are a lot more fun when you have a passionate group of teammates working by your side. 
   </div>
 </div>
+
 
 <!-- <div style= "float:center; width:30%; margin:auto;">
     <img src="./pinPal/process3.png"/>

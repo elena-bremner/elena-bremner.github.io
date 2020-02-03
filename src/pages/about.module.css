@@ -28,5 +28,8 @@
     width:900px;
     line-height: auto;
     margin:center;
+    font-weight:lighter;
 }
-
+.poop{
+    width:10px;
+}

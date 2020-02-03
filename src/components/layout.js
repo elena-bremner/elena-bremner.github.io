@@ -25,6 +25,7 @@ export default ({ children }) => {
            Elena Bremner 
            <Link to="/"style={linkStyle} activeStyle={linkActiveStyle}> :)</Link>
           </div>
+
         	<Link to="/" style={linkStyle} activeStyle={linkActiveStyle}>
             Work
           </Link>

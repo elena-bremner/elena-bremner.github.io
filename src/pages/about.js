@@ -1,15 +1,53 @@
 import React from 'react'
+import { useStaticQuery, graphql } from "gatsby"
 import Layout from '../components/layout'
 import Styles from './about.module.css'
+import Img from "gatsby-image"
 
-const About = () => (
+// import React from "react"
+// import { useStaticQuery, graphql } from "gatsby"
+// import Layout from "../components/layout"
+// import Styles from './about.module.css'
+// import Img from "gatsby-image"
+
+
+// export default () => {
+//   const about = useStaticQuery(graphql`
+//     query MyQuery {
+//       file(relativePath: { eq: "pages/about/diagram.png" }) {
+//         childImageSharp {
+//           # Specify the image processing specifications right in the query.
+//           fluid {
+            
+//             ...GatsbyImageSharpFluid
+
+//           }
+//         }
+//       }
+//     }
+//   `)
+//   return (
+//     <Layout>
+//     <div>
+//       <Img 
+//         fluid={data.file.childImageSharp.fluid}
+//         alt="aa"
+//       /> 
+//       <h1 className={Styles.test}>hey</h1>
+//     </div>
+//     </Layout>
+//   )
+// }
+
+
+ const About = () => (
   	<Layout> 
 		<div id="main-content2" >  
 		    <h1 className={Styles.hello}>Hello! - <br></br> I'm Elena.</h1>
 		    <h2 className={Styles.introduction}> 
-            I am an Industrial designer originally from Tokyo, Japan.  
+            I am an Industrial Designer originally from Tokyo, Japan.  
             <br></br><br></br>
-            I remember the thrill of my first design project. “So, I can make this hand mixer look like whatever I want?!” 
+            I remember the thrill of my first design project. “So, I can make this hand mixer look like whatever I want?!”
             The challenge, of course, was understanding the set of constraints that I had to design around. I still approach 
             my projects with the same excitement, ready to solve the next puzzle. 
             <br></br><br></br>
@@ -18,7 +56,7 @@ const About = () => (
  
             <br></br><br></br>
             As technology evolves, so will design. I often ask myself, “What would UIUX look like if screens are no longer the main sources of information?” 
-            Smart design is about solving problems for users and those problems will most likely be different in the decade ahead.  
+            Smart design is about solving problems for users and those problems will most likely be different in the decade ahead.
 
             <br></br><br></br>
             As a result, I’m always searching for new design sensibilities and  tools that I can use in my work. For the past two years, I’ve been taking computer science classes at Brown University, 
