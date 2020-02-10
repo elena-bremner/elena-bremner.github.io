@@ -5,11 +5,12 @@
 .ElenaBremner {
     font-family: 'Roboto Mono', monospace;
     color:#6E6E6E;
+    font-style:bold;
     /*font-weight: bold #6E6E6E ;*/
     padding-left:0%;
     padding-top:0%;
     padding-bottom:20%;
-    font-size:12pt;
+    font-size:13pt;
     line-height: 1.3;
 
 }
