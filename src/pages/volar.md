@@ -31,13 +31,11 @@ order: 6
   margin-bottom:200px;
   margin-top:100px;
 }
-#Title {
+.Title {
   font-family: 'IBM Plex Sans', sans-serif;
   color:#253E50;
   font-size: 22pt;
   font-weight:bold;
-
-
 }
 .subTitle{
   font-family: 'Montserrat', sans-serif;

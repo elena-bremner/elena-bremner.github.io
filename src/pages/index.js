@@ -10,7 +10,8 @@ import { graphql } from "gatsby"
 export default ({data}) => (
   <Layout>
   <div className={Styles.intro}>
-    <p> I'm Elena. </p>
+    <p> Welcome!I'm Elena. </p>
+    
   I am currently studying industrial design with a concentration in computation at RISD. 
   </div>
 
