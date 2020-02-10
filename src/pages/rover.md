@@ -73,6 +73,9 @@ order: 3
 <div style = "margin-top:100px">
   <img src = "./rover/fullbody.jpg"  > 
 </div>
+<div style = "width:60%;padding-top:100px; margin:auto">
+  <img src = "./rover/terrain.png"  > 
+</div>
 <div  class = "Title" >
     My Role
     <hr class="line" >
