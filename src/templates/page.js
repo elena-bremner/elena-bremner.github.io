@@ -9,7 +9,7 @@ import style from "./page.module.css"
 /*template for each portfolio page
 * every page includes title, date, and description of work
 */
-
+ /* displaying in each md file */
 export default ({data}) => {
   let post = data.markdownRemark
   return (
@@ -34,6 +34,7 @@ export const query = graphql`
         title
         date 
         desc
+        team
       }
     }
   }

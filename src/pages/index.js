@@ -9,12 +9,11 @@ import { graphql } from "gatsby"
 */
 export default ({data}) => (
   <Layout>
+
   <div className={Styles.intro}>
     <p> Welcome!I'm Elena. </p>
-    
-  I am currently studying industrial design with a concentration in computation at RISD. 
+    I am currently studying industrial design with a concentration in computation at RISD. 
   </div>
-
   
   <div className={Styles.wrapper}> 
   {data.allMarkdownRemark.edges.map(({ node }) =>
@@ -28,9 +27,9 @@ export default ({data}) => (
     )}
  </div>
  </Layout>
-
-
+  
 )
+
 
 export const query = graphql`
   query IndexQuery {
@@ -59,3 +58,4 @@ export const query = graphql`
     }
   }
 `;
+

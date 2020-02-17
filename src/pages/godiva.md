@@ -4,6 +4,7 @@ date: "DECEMBER, 2018 (3 WEEKS)"
 desc: ""
 square: ./godiva/cover.png
 order: 5
+worktype: "notux"
 ---
 
 <style>
@@ -20,14 +21,16 @@ order: 5
       width: 35%;
   }
 </style>
-<div style="font-family: 'IBM Plex Sans', sans-serif; width: 600px; line-height:2; float:left">
+<div style="font-family: 'IBM Plex Sans', sans-serif; width: 600px; line-height:2; ">
    As part of a team project, we repackaged Godiva’s chocolate-covered strawberries.
    Thinking about efficient space usage, structure, and the unpackaging experience, we designed a hexagonal box that is more interactive and appropriate for the brand.
 </div>
-<div style = "float:right; width:20%; margin-right:300px;">
-  <img src="./godiva/cover.png"/>
+<div style = "  pointer-events: none;width:70%; margin:auto; padding-top:100px;">
+ <!--  <img src="./godiva/cover.png"/> -->
+   <img src="./godiva/image.png"/> 
+
 </div>
-<div style = "padding-top:400px; margin:auto; width:100%;">
+<div style = "pointer-events: none;padding-top:200px; margin:auto; width:100%;">
   <img src="./godiva/scroll.png" class="scroll" />
     <br>
   <img src="./godiva/godiva.gif" class="gif"/>

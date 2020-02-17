@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono|Roboto:300&display=swap');
 
+.copyright{
+    color:gray;
+    font-size:12px;
+    font-family: 'Roboto Mono', monospace;
+    float:bottom;
+    position:bottom;
+  /* padding-top must be the same as header height */
+
+}
 
 .ElenaBremner {
     font-family: 'Roboto Mono', monospace;
@@ -25,12 +34,39 @@
     position: fixed;
     z-index:99;
     font-size:12pt;
-    line-height: 4;
-    
+   line-height: 2;
 }
 
+.work {
+    font-family: 'Roboto Mono', monospace;
+    font-size:12pt;
+    position: fixed;
+     box-sizing:border-box;
+     z-index:99;
+     color:pink;
+}
+.UX{
+    font-family: 'Roboto Mono', monospace;
+    font-size:9pt;
+    display:none;
+    margin-left:12px;
+}
+.CAD{
+    font-family: 'Roboto Mono', monospace;
+    font-size:9pt;
+    display:none;
+    margin-left:12px;
+}
+
+.sidebar:hover .UX{
+    display:block;
+}
+.sidebar:hover .CAD{
+    display:block;
+}
+
+
 .container {
-    
     padding: 25px;
     margin: 0px;
 }

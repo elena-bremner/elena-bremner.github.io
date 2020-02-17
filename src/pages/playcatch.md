@@ -9,6 +9,7 @@ Once the ball escapes the screen, they will click the ellipse to continue playin
 "
 square: ./playcatch/square.png
 order: 4
+worktype: "notux"
 ---
 
 <style>
@@ -29,6 +30,6 @@ order: 4
 </style>
 
 
-<video class="catchsize" controls>
+<video class="catchsize"  controls autoplay loop>
   <source src="./playcatch/final-game-screengrab.mp4"  type="video/mp4">
 </video>
