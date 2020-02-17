@@ -47,7 +47,7 @@ import Styles from './about.module.css'
 		    <h2 className={Styles.introduction}> 
             I am an Industrial Designer originally from Tokyo, Japan.  
             <br></br><br></br>
-                <img src="./about/hi.png"/>
+          
             I remember the thrill of my first design project. “So, I can make this hand mixer look like whatever I want?!”
             The challenge, of course, was understanding the set of constraints that I had to design around. I still approach 
             my projects with the same excitement, ready to solve the next puzzle. 

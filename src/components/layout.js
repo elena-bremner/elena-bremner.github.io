@@ -18,20 +18,26 @@ export default ({ children }) => {
     return (
 
       <div className={style.container} >      
-    
         <div className={style.sidebar}>
       
           <div className={style.ElenaBremner}>
            Elena Bremner 
            <Link to="/"style={linkStyle} activeStyle={linkActiveStyle}> :)</Link>
           </div>
-
-        	<Link to="/" style={linkStyle} activeStyle={linkActiveStyle}>
-            Work
-          </Link>
-
-       	  <br/>
-
+          <div className = {style.work}>
+          	<Link to="/" style={linkStyle} activeStyle={linkActiveStyle}>
+              Work
+            </Link>
+          </div>
+          <br/>
+          <div className = {style.dropdown}>
+            <Link to="/UX/" className = {style.UX} style={linkStyle} activeStyle={linkActiveStyle}>
+              UX/UI
+            </Link>
+            <Link to="/CAD/" className = {style.CAD} style={linkStyle} activeStyle={linkActiveStyle}>
+              CAD
+            </Link>
+          </div>
           <Link to="/about/" style={linkStyle} activeStyle={linkActiveStyle}>
           About me
           </Link>
@@ -45,12 +51,13 @@ export default ({ children }) => {
           <br/> 
 
           <a href={resume} style={linkStyle}>Resume</a>
+          <div className = {style.copyright}>
+            <p> © BY ELENA BREMNER</p>
+          </div>
         </div>
-
         <div className={style.maincontent}>
           { children }
         </div>
-
       </div>
     ) 
 }

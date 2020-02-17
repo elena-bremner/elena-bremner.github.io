@@ -4,6 +4,7 @@ date: "JANUARY, 2019 (6 WEEKS)"
 desc: ""
 square: ./volar/coverImage.png
 order: 6
+worktype: "ux"
 ---
 
 <style>

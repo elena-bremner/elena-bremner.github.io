@@ -1,10 +1,11 @@
 ---
 title: "PinPal"
 date: "NOVEMBER, 2019 (6 WEEKS)"
-team: "hs"
+team: "Team: 4"
 desc: ""
 square: ./pinPal/blue.png
-order: 2
+order: 1
+worktype: "ux"
 ---
 
 <style>
@@ -110,7 +111,7 @@ TEAMMATES: Jennifer Xu, Jessica Hsiao, and Shuyuan Zheng
     <div >
     </div>
     </br>
-     <a href="/pinPal2/ " style = "color:#3fa6ff; font-weight:bold; text-decoration:underline;"> More of our process</a>
+     <a href="/pinPal2/" style = "color:#3fa6ff; font-weight:bold; text-decoration:underline;"> More of our process</a>
      </br>
     <a style = "text-decoration: underline; color:#3fa6ff; font-weight:bold;" href="#selfReflection">Jump to "self reflection"</a>
 </div>
@@ -126,6 +127,7 @@ Research
     </h6>
 <div class = "iconsImages">
   <img src="./pinPal/problemIcons.png"/>
+    <p style = "  font-family: 'IBM Plex Sans', sans-serif;font-size:9pt; color:blue; float:right; ">Icons designed by Elena Bremner</p>
 </div>
 </div>
 <div class= "subTitle">
@@ -133,10 +135,13 @@ Research
 </div>
 </br>
 <h6 class = "paragraph" style="background-color:#f9f9f9;">
-     Give people a greater sense of their own personal geography, allowing them to better connect with their community.  
+     Think pocket guide but personalized and simplified. Pinpal brings the digital liking ability onto a physical map and allows users to build a community in passive environments through shared reviews. Pinpal seamlessly allows commuters to decide their destinations. As they are commuting, users can pin locations, receive construction alerts, and find real-time events just by passing through the space.<br/>
+     Pinpal will utilize blockchain to notify each other of potential inconveniences, as well as machine learning to filter and categorize user-inputted information about the urban environment.<br/>
+     The app will collect informational data that users will be able to review later in an activity log. Pinpal supports user needs and helps them stay immersed in their immediate environments.
     </h6>
 <div class = "introimg">
     <img src="./pinPal/knocking.png"/>
+     <p style = "  font-family: 'IBM Plex Sans', sans-serif;font-size:9pt; color:blue; width:300px;float:right; ">Illustration designed by Shuyuan Zheng</p>
 </div>
 <div class = "subTitle">
     Knock Knock
@@ -177,6 +182,7 @@ Research
 </div>  
 <div class ="iconsImages">
   <img src="./pinPal/icons.png"/>
+    <p style = " font-size:9pt; font-family: 'IBM Plex Sans', sans-serif;ont-size:9pt; color:blue; float:right; ">Icons designed by Elena Bremner</p>
 </div>
 <hr class="line">
 <div class = "subTitle">
