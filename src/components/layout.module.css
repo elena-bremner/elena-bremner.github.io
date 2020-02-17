@@ -7,6 +7,7 @@
     font-family: 'Roboto Mono', monospace;
     float:bottom;
     position:bottom;
+    margin-top:400px;
   /* padding-top must be the same as header height */
 
 }
@@ -34,7 +35,7 @@
     position: fixed;
     z-index:99;
     font-size:12pt;
-   line-height: 2;
+   line-height: 3;
 }
 
 .work {
@@ -44,6 +45,7 @@
      box-sizing:border-box;
      z-index:99;
      color:pink;
+
 }
 .UX{
     font-family: 'Roboto Mono', monospace;

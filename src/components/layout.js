@@ -51,6 +51,7 @@ export default ({ children }) => {
           <br/> 
 
           <a href={resume} style={linkStyle}>Resume</a>
+          <br/>
           <div className = {style.copyright}>
             <p> © BY ELENA BREMNER</p>
           </div>
