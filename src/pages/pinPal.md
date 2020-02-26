@@ -6,6 +6,7 @@ desc: ""
 square: ./pinPal/blue.png
 order: 1
 worktype: "ux"
+content: "index"
 ---
 
 <style>
@@ -135,9 +136,8 @@ Research
 </div>
 </br>
 <h6 class = "paragraph" style="background-color:#f9f9f9;">
-     Think pocket guide but personalized and simplified. Pinpal brings the digital liking ability onto a physical map and allows users to build a community in passive environments through shared reviews. Pinpal seamlessly allows commuters to decide their destinations. As they are commuting, users can pin locations, receive construction alerts, and find real-time events just by passing through the space.<br/>
-     Pinpal will utilize blockchain to notify each other of potential inconveniences, as well as machine learning to filter and categorize user-inputted information about the urban environment.<br/>
-     The app will collect informational data that users will be able to review later in an activity log. Pinpal supports user needs and helps them stay immersed in their immediate environments.
+    Think pocket guide but personalized and simplified. <div style = "color:blue; font-weight:bold;">Our product brings the digital liking ability onto a physical map and will allow users to build a community in passive environments through shared reviews. </div> We will seamlessly create an interface for commuters by allowing them to decide which destinations they want to go to. Users can manage their daily activities, such as <b style = "color:#FF6868; "> pinning locations, construction alerts, </b>  and real-time events just by passing by the space.
+    </br>The app will collect informational data that users will be able to <b style = "color:#FF6868; "> review later in an activity log.</b> Pinpal supports user needs and helps them stay immersed in their immediate environments.
     </h6>
 <div class = "introimg">
     <img src="./pinPal/knocking.png"/>
@@ -151,17 +151,16 @@ Research
     On Huawei mobile, users can knock their knuckles on their screens to trigger a feature like a screen shot. This function could also be used to engage GPS to capture and pin a specific location without the hassle of opening several apps. We envision this being an option on more smartphones in the future.
 </div>
 <hr class="line">
-<div class = "subTitle">
-    Meet Banks!
+<div style = "   font-family: 'Montserrat', sans-serif;color:#3fa6ff;font-size: 16pt;font-weight:bold;text-indent:50px; margin-top:50px">
+    Meet Brian!
 </div>
-<div style= "float:right; width:20%; margin-right:200px;">
-    <img src="./pinPal/bank.png"/>
-</div>
-<div class="subParagraph">
+<div style="  font-family: 'IBM Plex Sans', sans-serif;color:#253E50;font-size: 11pt;line-height:2;margin:auto;width:600px; padding-right:50px;">
     </br>
-    Sam loves to explore new areas and shops. Unfortunately, he does not have much time during the work week to experience his neighborhood. </br> </br> 
-    He would like a way to take note of interesting locations that he can enjoy later or share with the broader community 
-    anonymously. 
+   PinPal is designed for users who want to immerse themselves more into their community by getting to know local shops and areas. At the same time, they would prefer 
+   not to depend on their phones for information while walking, as they view their phone as a root of distraction. 
+</div>
+<div style= " width:60%; padding-top:25px; margin:auto;  ">
+    <img src="./pinPal/usertesting.png"/>
 </div>
 <hr class="line">
 <div class = "subTitle">

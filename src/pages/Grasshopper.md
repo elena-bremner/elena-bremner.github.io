@@ -5,6 +5,7 @@ desc: "This page is under construction. Come back soon!"
 square: ./CAD/blue.png
 order: 7
 worktype: "CAD"
+content: "index"
 ---
 
 <style>

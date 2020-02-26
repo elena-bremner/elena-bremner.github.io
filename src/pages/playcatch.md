@@ -10,6 +10,7 @@ Once the ball escapes the screen, they will click the ellipse to continue playin
 square: ./playcatch/square.png
 order: 4
 worktype: "notux"
+content: "index"
 ---
 
 <style>
