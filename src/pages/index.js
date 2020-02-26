@@ -33,7 +33,7 @@ export default ({data}) => (
 
 export const query = graphql`
   query IndexQuery {
-    allMarkdownRemark (sort: { fields: [frontmatter___order], order: ASC }) {
+    allMarkdownRemark (sort: { fields: [frontmatter___order], order: ASC }, filter: {frontmatter: { content: {eq: "index"} } } ) {
       totalCount
       edges {
         node {
@@ -47,6 +47,7 @@ export const query = graphql`
                 }
               }
             }
+            content
             order
           }
           fields {

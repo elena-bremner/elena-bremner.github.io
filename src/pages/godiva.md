@@ -5,6 +5,7 @@ desc: ""
 square: ./godiva/cover.png
 order: 5
 worktype: "notux"
+content: "index"
 ---
 
 <style>
