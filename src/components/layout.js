@@ -37,6 +37,9 @@ export default ({ children }) => {
             <Link to="/CAD/" className = {style.CAD} style={linkStyle} activeStyle={linkActiveStyle}>
               CAD
             </Link>
+            <Link to="/sketch/" className = {style.CAD} style={linkStyle} activeStyle={linkActiveStyle}>
+              Sketch
+            </Link>
           </div>
           <Link to="/about/" style={linkStyle} activeStyle={linkActiveStyle}>
           About me
