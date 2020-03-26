@@ -1,8 +1,8 @@
 ---
-title: "Sketch1"
+title: "Cinema 4D"
 date: "FILL (FILL)"
 desc: "FILL"
-square: ./sketch/coverimage.png
+square: ./sketch/house.png
 order:
 worktype: "sketch"
 content: "notindex"

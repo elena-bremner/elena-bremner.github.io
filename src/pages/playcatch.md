@@ -1,16 +1,16 @@
 ---
 title: "Catch"
-date: "JANUARY, 2018 (2 WEEKS)"
-desc: "Why compete when you can always win? 
-Using processing, I created a game where two players 
-collaboratively keep a digital ball inside the screen. 
-
-Once the ball escapes the screen, they will click the ellipse to continue playing. The game continues until they reach 10 points. 
-"
-square: ./playcatch/square.png
-order: 4
-worktype: "notux"
-content: "index"
+date: "January, 2018 (1 WEEK)"
+desc: "
+      Why compete when you can always win? 
+      Using processing, I created a game where two players 
+      collaboratively keep a digital ball inside the screen. 
+      Once the ball escapes the screen, they will click the ellipse to continue playing. 
+      The game continues until they reach 10 points. "
+square: ./sketch/pop.png
+order:
+worktype: "sketch"
+content: "notindex"
 ---
 
 <style>
@@ -32,5 +32,5 @@ content: "index"
 
 
 <video class="catchsize"  controls autoplay loop>
-  <source src="./playcatch/final-game-screengrab.mp4"  type="video/mp4">
+  <source src="./sketch/vid.mp4"  type="video/mp4">
 </video>

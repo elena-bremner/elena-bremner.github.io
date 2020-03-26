@@ -63,7 +63,7 @@ content: "index"
     <hr class="line" >
   </br>
     <h6 class = "paragraph">
-     RISD rover is a club run by students and advisor Michael Lye - RISD professor and NASA coordinator. The club takes part in an annual NASA competition to race
+     RISD rover is a club run by students and advisor <a style = "color: gray; border-bottom: 2px solid gray; text-decoration:none" target="_blank" href="https://www.risd.edu/people/michael-lye/">Michael Lye</a> - RISD professor and NASA coordinator. The club takes part in an annual NASA competition to race
      against over 100 engineering schools. In the 2019 race, RISD placed second and received the Featherweight award. 
      We design and fabricate most compartments of the rover, including the chassis, seats, wheels, steering, suspension, and additional products required for the obstacles. 
     </br>
