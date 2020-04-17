@@ -22,7 +22,6 @@ export default ({ children }) => {
       
           <div className={style.ElenaBremner}>
            Elena Bremner 
-        
           </div>
           <div className = {style.work}>
           	<Link to="/" style={linkStyle} activeStyle={linkActiveStyle}>
