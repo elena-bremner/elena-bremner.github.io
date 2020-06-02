@@ -3,7 +3,7 @@ title: "PinPal"
 date: "NOVEMBER, 2019 (6 WEEKS)"
 team: "Team: 4"
 desc: ""
-square: ./pinPal/blue.png
+square: ./pinPal/croppedPurp.png
 order: 1
 worktype: "ux"
 content: "index"

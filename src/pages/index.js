@@ -12,8 +12,8 @@ export default ({data}) => (
   <Layout>
 
   <div className={Styles.intro}>
-    <p> Welcome!I'm Elena. </p>
-    I am currently studying industrial design with a concentration in computation at RISD. 
+    <p> Welcome!  I'm Elena.  </p>
+   I am studying <a className = {Styles.mark}> industrial design </a> with a concentration in computation at RISD. 
   </div>
   
 <div className={Styles.wrapper}> 

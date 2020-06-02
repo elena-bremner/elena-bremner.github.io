@@ -11,7 +11,7 @@ const linkStyle = {
   textDecoration: 'none',
 }
 const linkActiveStyle = {
-  color: "#5AC3FF", 
+  color: "#70FFCE",  //5AC3FF
 }
 
 export default ({ children }) => {

@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .hello {
     position: relative;
@@ -10,6 +11,7 @@
     font-size: 16pt;
     line-height: auto;
     margin-bottom:100px;
+    font-family: 'Lato', sans-serif;
 
 }
 
@@ -29,6 +31,7 @@
     line-height: auto;
     margin:center;
     font-weight:lighter;
+    font-family: 'Lato', sans-serif;
 }
 
 .pic{

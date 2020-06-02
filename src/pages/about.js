@@ -67,9 +67,9 @@ export default () => {
         alt="A corgi smiling happily"
       />
     </div>
-    <h1 className={Styles.hello}>Hello! - <br></br> I'm Elena.</h1>
+    <h1 className={Styles.hello}>Hey! - <br></br> I'm Elena.</h1>
       <h2 className={Styles.introduction}> 
-        I am an Industrial Designer originally from Tokyo, Japan.  
+        I am an Industrial designer originally from Tokyo, Japan.  
             <br></br><br></br>
         I remember the thrill of my first design project. “So, I can make this hand mixer look like whatever I want?!”
         The challenge, of course, was understanding the set of constraints that I had to design around. I still approach 
@@ -82,8 +82,10 @@ export default () => {
         Smart design is about solving problems for users and those problems will most likely be different in the decade ahead.
             <br></br><br></br>
         As a result, I’m always searching for new design sensibilities and  tools that I can use in my work. For the past two years, I’ve been taking computer science classes at Brown University, 
-        which has helped me widen my design language. Oddly enough, sometimes I feel the most inspired when I take myself out of the design bubble.  
+        which has helped me widen my design language. Oddly enough, sometimes I feel the most inspired when I take myself out of the design bubble.
         My journey as a designer is just beginning, but I’m excited by the possibilities ahead!
+         <br></br><br></br><br></br>
+         This website is coded by Elena and built with gatsby.js
       </h2>
     </Layout>
   )

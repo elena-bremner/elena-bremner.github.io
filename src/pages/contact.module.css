@@ -1,20 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .contact { /*contact */
     position: relative;
     width: 100%;
     padding-left:10%; /* padding-left must be the same as sidebar width */
     height: 40%; /* This could be anything, content should scroll vertical */
-    background: white;
+    background-color:white;
     box-sizing:border-box;
     font-size: 30pt;
     line-height: auto;
     font-color:black;
+    font-family: 'Lato', sans-serif;
 }
 
 .contactlink2{
     text-decoration: none;
     color:#91A5BD;
-    font-size:15pt;
-    padding-left: 
+    font-size:15pt; 
     
     /*padding-right: 90%;*/
 }
@@ -26,8 +28,12 @@
 
 
 .contactlink:hover{
-    color:#5AC3FF;
+    color:#70FFCE;
 }
 .contactlink2:hover{
      color:#FF0080;
+}
+.cat{
+
+
 }
