@@ -5,7 +5,7 @@ desc: "Human exploration rover challenge is an annual competition held by NASA. 
   As one of four teamleaders, I lead seats. 
   Our process includes research, testing, and refining. In 2019, our team won the  Featherweight class design award and placed second among 100 other schools."
 square: ./rover/snowpic.jpg
-order: 3
+order: 4
 worktype: "notux"
 content: "index"
 ---

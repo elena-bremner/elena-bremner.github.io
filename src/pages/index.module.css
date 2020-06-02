@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .trial{
   float:left;
   font-size:10px;
@@ -13,6 +15,7 @@
   grid-template-rows: repeat(6, min-content);
   grid-auto-flow: row;
   line-height: 0px;
+
  
 }
 .subwrapper{
@@ -22,17 +25,24 @@
 	float:left;
 	clear: both;
 	overflow:auto;
+
 }
 
 .intro p {
 color: black;
 font-weight:bold;
+font-family: 'Lato', sans-serif;
 }
 
 .intro {
 color: black;
 padding-bottom: 10%;
 font-weight: lighter;
+font-family: 'Lato', sans-serif;
+}
+
+.mark {
+  background-color:#70FFCE;
 }
 
 
