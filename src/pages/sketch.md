@@ -1,8 +1,8 @@
 ---
-title: "Test"
-date: "FILL (FILL)"
+title: "RunwayML"
+date: "FILL (2 weeks)"
 desc: "FILL"
-square: ./sketch/house.png
+square: ./sketch/RunwayML_cover.jpg
 order:
 worktype: "sketch"
 content: "notindex"
@@ -23,5 +23,7 @@ content: "notindex"
   }
 </style>
 
-  <iframe src="https://editor.p5js.org/ebremner/embed/MjUTtuxSj"width="640" height="480" ></iframe>
+
+<!-- does not work for live data -->
+ <!--  <iframe src="https://editor.p5js.org/ebremner/embed/MjUTtuxSj"width="640" height="480" ></iframe> -->
 

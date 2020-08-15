@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .wrapper {
 
   height: 10%;
@@ -24,6 +26,7 @@
 .intro p {
 color: black;
 font-weight:bold;
+font-family: 'Lato', sans-serif;
 }
 
 .intro {
