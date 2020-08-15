@@ -10,7 +10,7 @@ import { graphql } from "gatsby"
 export default ({data}) => (
   <Layout>
   <div className={Styles.intro}>
-    <p> Welcome to my Sketches! <br></br> This is where you can find exploration and smaller projects I have worked on.  </p>
+    <p> Explorations <br></br><br></br> Where I explore and wonder  </p>
   </div>
 
   <div className={Styles.wrapper}> 

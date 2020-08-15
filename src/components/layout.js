@@ -34,10 +34,10 @@ export default ({ children }) => {
               UX/UI
             </Link>
             <Link to="/CAD/" className = {style.CAD} style={linkStyle} activeStyle={linkActiveStyle}>
-              CAD
+              Physical 
             </Link>
             <Link to="/sketch/" className = {style.CAD} style={linkStyle} activeStyle={linkActiveStyle}>
-              Sketch
+              Explorations
             </Link>
           </div>
           <Link to="/about/" style={linkStyle} activeStyle={linkActiveStyle}>

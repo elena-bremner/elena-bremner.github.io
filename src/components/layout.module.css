@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono|Roboto:300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+ main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
 .copyright{
     color:gray;
     font-size:12px;
@@ -41,7 +45,7 @@
     position: fixed;
     z-index:99;
     font-size:12pt;
-   line-height: 3;
+    line-height: 3;
 }
 
 .work {

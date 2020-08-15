@@ -1,3 +1,4 @@
+
 import React from "react"
 import Work from "../components/work"
 import Styles from "./UX.module.css"
@@ -10,7 +11,7 @@ import { graphql } from "gatsby"
 export default ({data}) => (
   <Layout>
   <div className={Styles.intro}>
-    <p> Welcome to my UX/UI pieces </p>
+    <p> UX UI </p>
   </div>
 
   <div className={Styles.wrapper}> 

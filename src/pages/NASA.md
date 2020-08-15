@@ -28,4 +28,3 @@ content: "index"
 <div style="width:40%;float:right;padding-right:10%;">
  <img src="./NASA/Starboardside.png" > 
 </div>
-

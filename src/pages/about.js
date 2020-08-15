@@ -52,7 +52,8 @@ export default () => {
         childImageSharp {
 
           # Specify the image processing specifications right in the query.
-          fixed {
+          # width is giving error sometimes (gatsby bug)
+          fixed (width:350) {
             ...GatsbyImageSharpFixed
           }
         }
