@@ -5,8 +5,12 @@
   font-size:10px;
   color:gray;
 }
-.wrapper {
 
+.indexContainer{
+/*  background-color:pink;*/
+}
+
+.gridWrapper {
   height: 100%;
   width:90%;
   display: grid;
@@ -15,16 +19,23 @@
   grid-template-rows: repeat(6, min-content);
   grid-auto-flow: row;
   line-height: 0px;
-
- 
+  background-color:green;
 }
-.subwrapper{
+
+@media(max-width: 800px){
+    .gridWrapper {
+    grid-template-columns: repeat(1, 100%);
+ }
+}
+
+.squareWrapper{
 	margin-bottom: 0px;
 	vertical-align: bottom;
 	display:block;
 	float:left;
 	clear: both;
 	overflow:auto;
+  background-color: blue;
 
 }
 
@@ -44,6 +55,7 @@ font-family: 'Lato', sans-serif;
 .mark {
   background-color:#70FFCE;
 }
+
 
 
 
