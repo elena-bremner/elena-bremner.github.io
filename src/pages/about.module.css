@@ -4,38 +4,50 @@
 
 .hello {
     position: relative;
-    width: 100%; /* padding-left must be the same as sidebar width */
-    height: 0px; /* This could be anything, content should scroll vertical */
-    background: white;
-    box-sizing:border-box;
+/*    background-color: blue;*/
     font-size: 16pt;
     line-height: auto;
-    margin-bottom:100px;
     font-family: 'Lato', sans-serif;
-
-}
-
-.hello:hover {
-	color:#5AC3FF;
 }
 
 .introduction {
-    width: 100%; /* padding-left must be the same as sidebar width */
-    height: 1px; /* This could be anything, content should scroll vertical */
-    background: white;
+    background-color: white;
     box-sizing:border-box;
-    margin:0px;
     font-size: 12pt; 
-    margin-top:100px;
-    width:800px;
+    margin-top:20px;
+    margin-right: 5%;
+    width:65%;
     line-height: auto;
-    margin:center;
+/*    margin:center;
+*/    
     font-weight:lighter;
     font-family: 'Lato', sans-serif;
+  
 }
 
 .pic{
     float:right;
-    margin-right:100px;
+    margin-left:5%;
+    margin-right:5%;
+    background-color:pink;
+    width: 400px;
 
 }
+@media(max-width: 1000px){
+    .hello {
+      color:black;
+      background-color:none;
+    }
+    .pic {
+      position:relative;
+      float:left;
+      width:100%;
+      margin-left:0%;
+      margin-right:0%;
+    }
+    .introduction {
+        width:100%;
+    }
+}
+
+

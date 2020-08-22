@@ -5,6 +5,7 @@ import style from './layout.module.css'
 
 /* sidebar 
 * includes linke to each page + resume
+* wrapper contains grid
 */
 const linkStyle = {
   color: '#CACCCE',

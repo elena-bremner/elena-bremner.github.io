@@ -14,11 +14,11 @@ export default ({data}) => {
   let post = data.markdownRemark
   return (
     <Layout>
-    <div >
-      <p className={style.title}> {post.frontmatter.title} </p>
-      <p className={style.date}> {post.frontmatter.date} </p>
-      <p className={style.team}> {post.frontmatter.team} </p>
-      <p className={style.description}> {post.frontmatter.desc} </p>
+    <div className={style.markedownWrapper}>
+      <div className={style.title}> {post.frontmatter.title} </div>
+      <div className={style.date}> {post.frontmatter.date} </div>
+      <div className={style.team}> {post.frontmatter.team} </div>
+      <div className={style.description}> {post.frontmatter.desc} </div>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </div>
     </Layout>

@@ -116,7 +116,7 @@ TEAMMATES: Jennifer Xu, Jessica Hsiao, and Shuyuan Zheng
      </br>
     <a style = "text-decoration: underline; color:#3fa6ff; font-weight:bold;" href="#selfReflection">Jump to "self reflection"</a>
 </div>
-<div style = "width:60%; background-color:#dfe0df; padding-left:20%; padding-right:20%; margin:auto;">
+<div style = "width:100%; background-color:#dfe0df; padding-left:0%; padding-right:0%; margin:auto;">
     <img src="./pinPal/test2.png"/>
 </div>
 <div class = "Title">

@@ -8,6 +8,11 @@ import Img from "gatsby-image"
 /* this page is what you see in the home page 
 * including name image and link to each page
 */
+
+/* looping all nodes from md files */
+/* each node --> each md file */
+/* <work/> is a tage */
+
 export default ({data}) => {
   var current_date = new Date()
   var cday = current_date.getDay()
@@ -15,30 +20,28 @@ export default ({data}) => {
                     "Thursday", "Friday", "Saturday");
   return (
   <Layout>
-
-  <div className={Styles.intro}>
-    <p>Happy {weekday[cday]}!
-    I'm Elena   </p>
-   I study <a className = {Styles.mark}> industrial design </a> with a concentration in computation at the <a className = {Styles.mark}> Rhode Island School of Design</a> (RISD). 
-
-  </div>
-  
-<div className={Styles.wrapper}> 
-  {data.allMarkdownRemark.edges.map(({ node }) =>
-      <div key={node.id} className={Styles.subwrapper}>
-        <Work
-          name={node.frontmatter.title}
-          picture= {node.frontmatter.square.childImageSharp.fluid}
-          link={"work" + node.fields.slug}
-        />
+    <div className = {Styles.indexContainer}>
+      <div className={Styles.intro}>
+        <p>Happy {weekday[cday]}!
+        I'm Elena   </p>
+       I study <a className = {Styles.mark}> industrial design </a> with a concentration in computation at the <a className = {Styles.mark}> Rhode Island School of Design</a> (RISD). 
       </div>
-    )}
- </div>
-
- 
+      <div className={Styles.gridWrapper}> 
+        {data.allMarkdownRemark.edges.map(({ node }) =>
+            <div key={node.id} className={Styles.squareWrapper}>
+              <Work
+                name={node.frontmatter.title}
+                picture= {node.frontmatter.square.childImageSharp.fluid}
+                link={"work" + node.fields.slug}
+              />
+            </div>
+          )}
+       </div>
+   </div>
  </Layout>
 )
 }
+
 
 
 export const query = graphql`
