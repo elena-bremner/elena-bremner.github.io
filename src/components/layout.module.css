@@ -3,34 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 
-.copyright{
-    color:gray;
-    font-size:12px;
-  /*  font-family: 'Roboto Mono', monospace;*/
-    float:bottom;
-    position:bottom;
-    margin-top:400px;
-    font-family: 'Lato', sans-serif;
-
-  /* padding-top must be the same as header height */
-
-}
-
-.ElenaBremner {
-/*    font-family: 'Roboto Mono', monospace;*/
-    font-family: 'Lato', sans-serif;
-    color:#6E6E6E;
-    font-style:bold;
-    /*font-weight: bold #6E6E6E ;*/
-    padding-left:0%;
-    padding-top:0%;
-    padding-bottom:20%;
-    font-size:13pt;
-    line-height: 1.3;
-
-
-}
-
 .sidebar {
 /*    font-family: 'Roboto Mono', monospace;*/
     font-family: 'Lato', sans-serif;
@@ -46,31 +18,8 @@
     line-height: 3;
     grid-column: span 2;
     grid-row: span 2;
+    display:block;
 }
-
-
-.work {
-    font-family: 'Roboto Mono', monospace;
-    font-size:12pt;
-    position: fixed;
-    box-sizing:border-box;
-    z-index:99;
-    color:pink;
-}
-
-.UX{
-    font-family: 'Roboto Mono', monospace;
-    font-size:9pt;
-    display:none;
-    margin-left:12px;
-}
-.CAD{
-    font-family: 'Roboto Mono', monospace;
-    font-size:9pt;
-    display:none;
-    margin-left:12px;
-}
-
 .sidebar:hover .UX{
     display:block;
 }
@@ -84,32 +33,54 @@
 }
 
 .maincontent {
-    font-family: 'Roboto Mono', monospace;
+   font-family: 'Lato', sans-serif;
     position: relative;
     width: 100%;
     padding-left:16%; /* padding-left must be slightly bigger than sidebar width */
     height: 0px; /* This could be anything, content should scroll vertical */
-    background-color: green;
+    background-color: blue;
     box-sizing:border-box;
 }
-
-@media(max-width: 600px){
-    .sidebar {
-     width:26%;
-    z-index: 99;
-    font-size:10pt;
- }
-    .maincontent {
-    padding-left:33%;/* padding-left must be slightly bigger than sidebar width */
- }
-}
-/*#text span {
+.menu {
+  font-family: 'Lato', sans-serif;
+  background-color:white;
+  color: black;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  padding: 7px 14px;
+  float:right;
+  font-size:10pt;
+  border-radius: 0.9;
+  text-transform: lowercase;
   display:none;
-
 }
-#text span:target {
-  display:block;
-}*/
+
+
+@media(max-width: 1000px){
+    .sidebar {
+        z-index: 99;
+        font-size:10pt;
+        display:none;
+     }
+    .maincontent {
+        padding-left:0%;/* padding-left must be slightly bigger than sidebar width */
+     }
+     .menu{
+          display:block;
+     }
+     .menu:hover {
+      background-color: gray;
+     }
+
+    .menu:active + .sidebar {
+      width:30%;
+      display:block;
+    }
+      .menu:active + .maincontent {
+      width:30%;
+      filter: blur(4px);
+    }
+}
+
 #icons{
     text-decoration: none;
    color:blue;
