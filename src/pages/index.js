@@ -3,7 +3,6 @@ import Work from "../components/work"
 import Styles from "./index.module.css"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
-import Img from "gatsby-image"
 
 /* this page is what you see in the home page 
 * including name image and link to each page

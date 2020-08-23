@@ -19,12 +19,17 @@
   grid-template-rows: repeat(6, min-content);
   grid-auto-flow: row;
   line-height: 0px;
-  background-color:green;
+/*  background-color:green;*/
 }
 
 @media(max-width: 800px){
-    .gridWrapper {
-    grid-template-columns: repeat(1, 100%);
+.gridWrapper {
+  grid-template-columns: repeat(1, 100%);
+  width:100%;
+ }
+ .intro{
+  font-size:10pt;
+  margin-top:14%;
  }
 }
 
@@ -35,7 +40,7 @@
 	float:left;
 	clear: both;
 	overflow:auto;
-  background-color: blue;
+/*  background-color: blue;*/
 
 }
 

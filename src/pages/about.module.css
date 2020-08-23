@@ -37,6 +37,10 @@
     .hello {
       color:black;
       background-color:none;
+      padding-bottom: 5%;
+      font-size: 14pt;
+      font-weight: bold;
+
     }
     .pic {
       position:relative;
@@ -44,9 +48,11 @@
       width:100%;
       margin-left:0%;
       margin-right:0%;
+      margin-bottom: 10%;
     }
     .introduction {
         width:100%;
+        font-size: 10pt;
     }
 }
 

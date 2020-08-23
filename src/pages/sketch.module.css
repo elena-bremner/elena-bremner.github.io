@@ -1,21 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .wrapper {
-
-  height: 10%;
+  height:10%;
   width:80%;
   display: grid;
-  grid-gap: 0px;
+  grid-gap: 3%;
   grid-template-columns: repeat(2, 50%);
-  grid-template-rows: repeat(1, min-content);
+  grid-template-rows: repeat(2, min-content);
   grid-auto-flow: row;
-  line-height: 0px;
   margin:auto;
  
 }
 .subwrapper{
-    margin-bottom: 0px;
-    margin-right:50px;
+/*    margin-right:50px;*/
     vertical-align: bottom;
     display:block;
     float:right;
@@ -33,4 +30,11 @@ font-family: 'Lato', sans-serif;
 color: black;
 padding-bottom: 10%;
 font-weight: lighter;
+}
+
+@media(max-width: 800px){
+  .wrapper {
+  grid-template-columns: repeat(1, 100%);
+  width:100%;
+ }
 }

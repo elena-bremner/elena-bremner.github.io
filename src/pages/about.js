@@ -42,7 +42,7 @@ export default () => {
         My interest in UX/UI really began with my fascination with how to create a powerful experience through a 5-inch screen that can impact the daily life of a user. 
         A designer must think about each transition, flow and visual aspect of an interface.   
             <br></br><br></br>
-        As technology evolves, so will design. I often ask myself, “What would UIUX look like if screens are no longer the main sources of information?” 
+        As technology evolves, so will design. I often ask myself, “What would UX/UI look like if screens are no longer the main sources of information?” 
         Smart design is about solving problems for users and those problems will most likely be different in the decade ahead.
             <br></br><br></br>
         As a result, I’m always searching for new design sensibilities and  tools that I can use in my work. For the past two years, I’ve been taking computer science classes at Brown University, 
