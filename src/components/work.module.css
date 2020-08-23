@@ -6,6 +6,8 @@
     position: relative;
     width: 100%;
     height:auto;
+    height: 20%;
+
 }
 
 .image {
@@ -15,6 +17,8 @@
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+
+
 }
 
 .middle {
@@ -27,6 +31,8 @@
   -ms-transform: translate(-50%, -50%);
   text-align: center;
   width:70%;
+
+
 }
 
 .container:hover .image {
@@ -39,8 +45,23 @@
 
 .text {
   font-family: 'Lato', sans-serif;
-  background-color: none;
   color: #3d3d3d;
   font-size: 14px;
   text-align: center;
+  line-height: 1;
+
+}
+
+@media(max-width: 800px){
+  .middle {
+    opacity: 1.2;
+
+ }
+ .text {
+    color: black;
+    background-color:rgb(255,255,255,0.8);
+    font-size: 12px;
+    line-height: 1;
+ }
+
 }

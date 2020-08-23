@@ -20,7 +20,6 @@ export default ({ children }) => {
 
       <div className={style.container} >      
         <div className={style.sidebar}>
-      
           <div className={style.ElenaBremner}>
            Elena Bremner 
           </div>
@@ -55,9 +54,6 @@ export default ({ children }) => {
 
           <a href={resume} style={linkStyle}>Resume</a>
           <br/>
-          <div className = {style.copyright}>
-            <p> © BY ELENA BREMNER</p>
-          </div>
         </div>
         <div className={style.maincontent}>
           { children }
@@ -65,4 +61,5 @@ export default ({ children }) => {
       </div>
     ) 
 }
+ 
 

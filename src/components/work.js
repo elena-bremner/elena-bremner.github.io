@@ -11,9 +11,9 @@ const Work = props =>
         <div className={Styles.container}>
           <Img fluid={props.picture} className={Styles.image}/>
           <div className={Styles.middle}>
-            <div className={Styles.text}>
+            <span className={Styles.text}>
               {props.name}         
-            </div>
+            </span>
           </div>
         </div>
       </div>    
