@@ -20,7 +20,6 @@ class SidebarToggle extends React.Component {
     super(props);
     this.state = {
       isMenuButtonOn: false,
-      isMobile: window.innerWidth < 1025,
     };
     // This binding is necessary to make `this` work in the callback
     this.handleClick = this.handleClick.bind(this);
