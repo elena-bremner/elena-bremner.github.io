@@ -18,13 +18,7 @@
     line-height: 3;
     grid-column: span 2;
     grid-row: span 2;
-    display:block;
-}
-.sidebar:hover .UX{
-    display:block;
-}
-.sidebar:hover .CAD{
-    display:block;
+    display:block; 
 }
 
 .container {
@@ -38,50 +32,38 @@
     width: 100%;
     padding-left:16%; /* padding-left must be slightly bigger than sidebar width */
     height: 0px; /* This could be anything, content should scroll vertical */
-    background-color: blue;
     box-sizing:border-box;
 }
+
 .menu {
-  font-family: 'Lato', sans-serif;
-  background-color:white;
-  color: black;
-  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-  padding: 7px 14px;
-  float:right;
-  font-size:10pt;
-  border-radius: 0.9;
-  text-transform: lowercase;
-  display:none;
+    display: none;
+}
+.cancelIcon{
+    display: none;
 }
 
 
-@media(max-width: 1000px){
+@media(max-width: 1024px){
     .sidebar {
-        z-index: 99;
-        font-size:10pt;
-        display:none;
+        width: 40%;
+        padding-top:6%;
+        padding-left:0%;
+       /* -webkit-transition: all 0.25s;*/
+        background-color:white;
+       font-size: 14pt;
      }
     .maincontent {
         padding-left:0%;/* padding-left must be slightly bigger than sidebar width */
+        /*filter: blur(4px);*/
      }
-     .menu{
-          display:block;
-     }
-     .menu:hover {
-      background-color: gray;
-     }
-
-    .menu:active + .sidebar {
-      width:30%;
+    .menu{ 
+        display: block;
+        color: black;
+        margin-left:90%;
+    }
+    .cancelIcon {
+      margin-left:90%;
       display:block;
     }
-      .menu:active + .maincontent {
-      width:30%;
-      filter: blur(4px);
-    }
-}
-
-#icons{
-    text-decoration: none;
-   color:blue;
+     
 }

@@ -1,5 +1,5 @@
 ---
-title: "Visual Design"
+title: "Pacifier"
 date: "NOVEMBER, 2019 (6 WEEKS)"
 team: "Team: 1"
 desc: "This page is under construction. Come back soon!"

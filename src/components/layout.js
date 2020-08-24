@@ -1,11 +1,9 @@
 import React from 'react'
-import { Link } from "gatsby"
-import resume from './websiteResume.pdf'
 import style from './layout.module.css'
-import NavigationIcon from '@material-ui/icons/Navigation';
-import Fab from '@material-ui/core/Fab';
 import Button from "@material-ui/core/Button";
+import CloseOutlinedIcon from '@material-ui/icons/CloseOutlined';
 import { StylesProvider } from "@material-ui/core/styles";
+import MenuOutlinedIcon from '@material-ui/icons/MenuOutlined';
 import Sidebar from "./sidebar";
 
 
@@ -18,20 +16,77 @@ import Sidebar from "./sidebar";
 /**
 * StylesProvider is used to override the custom CSS over materialUI's CSS
 */
-export default ({ children }) => {
-    return (
-      <StylesProvider injectFirst>
-        <div className={style.container} > 
-          <Button className={style.menu}>Menu</Button> 
-            <div className={style.sidebar}>
-            <Sidebar/>
-            </div>
-            <div className={style.maincontent}>
-              { children }
-            </div>
+class SidebarToggle extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isMenuButtonOn: false,
+      isMobile: window.innerWidth < 1025,
+    };
+    // This binding is necessary to make `this` work in the callback
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleWindowResize = () => {
+    this.setState({ isMobile: window.innerWidth < 1025 });
+  }
+
+  componentDidMount() {
+    window.addEventListener('resize', this.handleWindowResize);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.handleWindowResize);
+  }
+
+  handleClick() {
+    this.setState(state => ({
+      isMenuButtonOn: !state.isMenuButtonOn
+    }));
+  }
+
+  render() {
+    console.log("isToggleOn");
+    console.log(this.state.isMenuButtonOn);
+    console.log("IsMobil?");
+    console.log(this.state.isMobile);
+    if (this.state.isMobile && !this.state.isMenuButtonOn) {
+      return(    
+        <div>
+          <MenuOutlinedIcon className={style.menu} onClick={this.handleClick}></MenuOutlinedIcon> 
+          <div className={style.maincontent}>
+            { this.props.children }
+          </div>
         </div>
-      </StylesProvider>
-    ) 
+      );
+    }
+
+    // else display SideBar
+    return (
+      <div>
+        <CloseOutlinedIcon className={style.cancelIcon} onClick={this.handleClick}></CloseOutlinedIcon> 
+        <div className={style.sidebar}>
+          <Sidebar/>
+        </div>
+        <div className={style.maincontent}>
+          { this.props.children }
+        </div>
+      </div>
+    );
+  }
+}
+
+
+export default ({ children }) => {
+  return (
+    <StylesProvider injectFirst>
+      <div className={style.container} > 
+        <SidebarToggle>
+          {children}
+        </SidebarToggle>
+      </div>
+    </StylesProvider>
+  ) 
 }
  
 

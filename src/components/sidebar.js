@@ -16,7 +16,7 @@ const linkActiveStyle = {
 const Sidebar = props =>
   <div>
     <div className={style.ElenaBremner}>
-      Elena Bremner 
+        Elena Bremner 
     </div>
     <div className = {style.work}>
       <Link to="/" style={linkStyle} activeStyle={linkActiveStyle}>
