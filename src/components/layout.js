@@ -1,6 +1,5 @@
 import React from 'react'
 import style from './layout.module.css'
-import Button from "@material-ui/core/Button";
 import CloseOutlinedIcon from '@material-ui/icons/CloseOutlined';
 import { StylesProvider } from "@material-ui/core/styles";
 import MenuOutlinedIcon from '@material-ui/icons/MenuOutlined';
@@ -32,6 +31,7 @@ class SidebarToggle extends React.Component {
   }
 
   componentDidMount() {
+    this.setState({ isMobile: window.innerWidth < 1025 });
     window.addEventListener('resize', this.handleWindowResize);
   }
 
