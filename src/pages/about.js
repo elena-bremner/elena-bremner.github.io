@@ -29,7 +29,7 @@ export default () => {
         <Img 
           fluid={data.file.childImageSharp.fluid}
           // fixed={data.file.childImageSharp.fixed}
-          alt="A corgi smiling happily"
+          alt="Elena's pic"
         />
       </div>
       <div className={Styles.introduction}> 
@@ -46,7 +46,7 @@ export default () => {
         Smart design is about solving problems for users and those problems will most likely be different in the decade ahead.
             <br></br><br></br>
         As a result, I’m always searching for new design sensibilities and  tools that I can use in my work. For the past two years, I’ve been taking computer science classes at Brown University, 
-        which has helped me widen my design language. Oddly enough, sometimes I feel the most inspired when I take myself out of the design bubble.
+        which has helped me widen my design language. 
         My journey as a designer is just beginning, but I’m excited by the possibilities ahead!
          <br></br><br></br><br></br>
         This website is coded by Elena and built with gatsby.js
