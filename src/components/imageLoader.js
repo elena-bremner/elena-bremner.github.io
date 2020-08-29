@@ -14,7 +14,7 @@ const ImageLoader = (props) => (
         images: allFile (
           filter: {
             extension: { regex: "/(jpg)|(png)|(jpeg)/" }
-            relativeDirectory: { eq: "pages/pinPal" }
+            relativeDirectory: { regex: "pages/" }
           }
         ){
           edges {

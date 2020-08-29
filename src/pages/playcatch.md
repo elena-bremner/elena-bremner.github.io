@@ -7,10 +7,11 @@ desc: "
       collaboratively keep a digital ball inside the screen. 
       Once the ball escapes the screen, they will click the ellipse to continue playing. 
       The game continues until they reach 10 points. "
-square: ./sketch/pop.png
+square: ./runwayML/pop.png
 order:
 worktype: "sketch"
 content: "notindex"
+useTemplate: true
 ---
 
 <style>

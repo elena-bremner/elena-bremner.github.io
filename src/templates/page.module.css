@@ -37,3 +37,16 @@
     font-size: 12pt;
     font-weight:bold;
 }
+
+/*@media(max-width: 1024px){
+    .title{
+    font-family: masqualero, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:14pt;
+    position:relative;
+    text-align: center;
+    margin-top:5%;
+    margin-bottom:2%;
+}
+}*/

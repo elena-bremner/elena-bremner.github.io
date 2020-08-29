@@ -17,7 +17,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
   const result = await graphql(`
     query {
-      allMarkdownRemark {
+      allMarkdownRemark (filter: {frontmatter: { useTemplate: {eq: true} } }){
         edges {
           node {
             fields {
@@ -35,7 +35,7 @@ exports.createPages = async ({ graphql, actions }) => {
   	var parts = node.fields.slug.split('/');
   	var project_name = parts.pop() || parts.pop(); 
       createPage({
-        path: "/work/" + project_name,
+        path: project_name,
         component: path.resolve(`./src/templates/page.js`),
         context: {
           // Data passed to context is available

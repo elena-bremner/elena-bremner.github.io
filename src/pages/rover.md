@@ -8,6 +8,7 @@ square: ./rover/cover.jpg
 order: 4
 worktype: "notux"
 content: "index"
+useTemplate: true
 ---
 
 <style>

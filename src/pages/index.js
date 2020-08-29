@@ -1,6 +1,6 @@
 import React from "react"
 import Work from "../components/work"
-import Styles from "./index.module.css"
+import style from "./index.module.css"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
 
@@ -19,19 +19,18 @@ export default ({data}) => {
                     "Thursday", "Friday", "Saturday");
   return (
   <Layout>
-    <div className = {Styles.indexContainer}>
-      <div className={Styles.intro}>
-        <p>Happy {weekday[cday]}!
-        I'm Elena   </p>
-       I study <a className = {Styles.mark}> industrial design </a> with a concentration in computation at the <a className = {Styles.mark}> Rhode Island School of Design</a> (RISD). 
+    <div className = {style.indexContainer}>
+      <div className={style.intro}>
+        <p>Happy {weekday[cday]}! </p>
+       I study <a className = {style.mark}> industrial design </a> with a concentration in computation at the <a className = {style.mark}> Rhode Island School of Design</a> (RISD). 
       </div>
-      <div className={Styles.gridWrapper}> 
+      <div className={style.gridWrapper}> 
         {data.allMarkdownRemark.edges.map(({ node }) =>
-            <div key={node.id} className={Styles.squareWrapper}>
+            <div key={node.id} className={style.squareWrapper}>
               <Work
                 name={node.frontmatter.title}
                 picture= {node.frontmatter.square.childImageSharp.fluid}
-                link={"work" + node.fields.slug}
+                link={node.fields.slug}
               />
             </div>
           )}

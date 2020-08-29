@@ -4,8 +4,9 @@ date: "DECEMBER, 2018 (3 WEEKS)"
 desc: ""
 square: ./godiva/cover.png
 order: 5
-worktype: "notux"
-content: "index"
+worktype: "physical"
+content: "notindex"
+useTemplate: true
 ---
 
 <style>

@@ -4,6 +4,8 @@ import CloseOutlinedIcon from '@material-ui/icons/CloseOutlined';
 import { StylesProvider } from "@material-ui/core/styles";
 import MenuOutlinedIcon from '@material-ui/icons/MenuOutlined';
 import Sidebar from "./sidebar";
+import ImageLoader from "../components/imageLoader"
+
 
 
 

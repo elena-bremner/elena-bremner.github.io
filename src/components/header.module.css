@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url("https://use.typekit.net/eii1uqx.css");
+
+:root{
+    --pageColor:#3fa6ff;
+    --margin:5%;
+}
+.title{
+    color:black;
+    font-family: masqualero, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:30pt;
+    position:relative;
+    text-align: center;
+    margin-top:5%;
+    margin-bottom:2%;
+}
+.info{
+    color:black;
+    font-family: europa, sans-serif;
+    text-align: center;
+    font-size:14pt;
+    color:gray;
+    position:relative;
+
+}
+.introImage{
+    width:100%;
+    margin:auto;
+    margin-right:5%;
+    position: relative;
+    /*margin-top:5%;*/
+}
+.oneliner{
+    font-family: europa, sans-serif;
+    text-align: center;
+    color:#463f45;
+    font-size:16pt;
+    position:relative;
+    font-style:italic;
+    margin-bottom:3%;
+    margin-top:3%;
+}
