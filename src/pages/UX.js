@@ -18,9 +18,9 @@ export default ({data}) => (
   {data.allMarkdownRemark.edges.map(({ node }) =>
       <div key={node.id} className={Styles.subwrapper}>
         <Work
-          name={node.frontmatter.title}
+          name={"node.frontmatter.title"}
           picture= {node.frontmatter.square.childImageSharp.fluid}
-          link={"/work" + node.fields.slug}
+          link={node.fields.slug}
         />
       </div>
     )}

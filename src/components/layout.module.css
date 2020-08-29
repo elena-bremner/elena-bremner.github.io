@@ -1,38 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono|Roboto:300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
+@import url("https://use.typekit.net/eii1uqx.css");
 
 .sidebar {
-/*    font-family: 'Roboto Mono', monospace;*/
     font-family: 'Lato', sans-serif;
+    font-size:12pt;
+/*    font-family: masqualero, sans-serif;
+    font-size:16pt;*/
     padding-top:0%; /* padding-top must be the same as header height */
     padding-left:2%;
-    width:15%;
+    width:20%;
     height:100%;
     background-color:white;
     box-sizing:border-box;
     position: fixed;
     z-index:99;
-    font-size:12pt;
     line-height: 3;
     grid-column: span 2;
     grid-row: span 2;
     display:block; 
+/*    background-color:pink;*/
 }
 
 .container {
     padding: 25px;
     margin: 0px;
+
 }
 
 .maincontent {
    font-family: 'Lato', sans-serif;
     position: relative;
     width: 100%;
-    padding-left:16%; /* padding-left must be slightly bigger than sidebar width */
+    padding-left:21%; /* padding-left must be slightly bigger than sidebar width */
     height: 0px; /* This could be anything, content should scroll vertical */
     box-sizing:border-box;
+    padding-top:3%;
+
 }
 
 .menu {
@@ -51,6 +56,7 @@
        /* -webkit-transition: all 0.25s;*/
         background-color:white;
        font-size: 14pt;
+
      }
     .maincontent {
         padding-left:0%;/* padding-left must be slightly bigger than sidebar width */

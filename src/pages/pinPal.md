@@ -7,6 +7,7 @@ square: ./pinPal/croppedPurp.png
 order: 1
 worktype: "ux"
 content: "index"
+useTemplate: false
 ---
 
 <style>
@@ -104,8 +105,8 @@ TEAMMATES: Jennifer Xu, Jessica Hsiao, and Shuyuan Zheng
 </b> -->
 <div style="font-family: 'IBM Plex Sans', sans-serif; width: 600px; line-height:2; margin-bottom:100px;">
     <b>Intro: </b> When you look around the streets, most people have their faces buried in their smartphone screens oblivous to the rich 
-    possibilities in their own neighborhood.</br><!-- </br> -->
-    My teammates and I designed an app to help explore their personal geography, a way to pin the shops, locales and spots with personal meaning in their community. </br><!-- </br> -->
+    possibilities in their own neighborhood.</br>
+    My teammates and I designed an app to help explore their personal geography, a way to pin the shops, locales and spots with personal meaning in their community. </br>
     What if you could knock your screen to pin your location 
     using GPS?
     </br>
@@ -160,7 +161,7 @@ Research
    not to depend on their phones for information while walking, as they view their phone as a root of distraction. 
 </div>
 <div style= " width:60%; padding-top:25px; margin:auto;  ">
-    <img src="./pinPal/usertesting.png"/>
+    <img src="./pinPal/persona.png"/>
 </div>
 <hr class="line">
 <div class = "subTitle">

@@ -3,11 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .hello {
+     /* font-family: 'Lato', sans-serif;*/
+    font-family: masqualero, sans-serif;
+    font-weight: 700;
     position: relative;
-/*    background-color: blue;*/
-    font-size: 16pt;
+    font-size: 18pt;
     line-height: auto;
-    font-family: 'Lato', sans-serif;
 }
 
 .introduction {
@@ -18,8 +19,7 @@
     margin-right: 5%;
     width:65%;
     line-height: auto;
-/*    margin:center;
-*/    
+    /*margin:center;*/
     font-weight:lighter;
     font-family: 'Lato', sans-serif;
   

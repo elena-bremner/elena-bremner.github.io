@@ -6,6 +6,7 @@ square: ./volar/coverImage.png
 order: 6
 worktype: "ux"
 content: "index"
+useTemplate: true
 ---
 
 <style>

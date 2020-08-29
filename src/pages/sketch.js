@@ -12,14 +12,13 @@ export default ({data}) => (
   <div className={Styles.intro}>
     <p> Explorations </p>
   </div>
-
   <div className={Styles.wrapper}> 
-  {data.allMarkdownRemark.edges.map(({ node }) =>
+    {data.allMarkdownRemark.edges.map(({ node }) =>
       <div key={node.id} className={Styles.subwrapper}>
         <Work
           name={node.frontmatter.title}
           picture= {node.frontmatter.square.childImageSharp.fluid}
-          link={"/work" + node.fields.slug}
+          link={node.fields.slug}
         />
       </div>
     )}
@@ -30,7 +29,7 @@ export default ({data}) => (
 
 export const query = graphql`
   query SQuery {
-          allMarkdownRemark (sort: { fields: [frontmatter___order], order: ASC }, filter: {frontmatter: { worktype: {eq: "sketch"} } } ) {
+    allMarkdownRemark (sort: { fields: [frontmatter___order], order: ASC }, filter: {frontmatter: { worktype: {eq: "sketch"} } } ) {
       totalCount
       edges {
         node {
@@ -55,6 +54,5 @@ export const query = graphql`
         }
       }
     }
-
   }
 `;

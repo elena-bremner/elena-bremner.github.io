@@ -1,7 +1,8 @@
 import React from "react";
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import style from "./page.module.css"
+// import ImageLoader from "../components/imageLoader"
+import Header from "../components/header";
 // import { Link } from "gatsby"
 
 
@@ -10,17 +11,24 @@ import style from "./page.module.css"
 * every page includes title, date, and description of work
 */
  /* displaying in each md file */
+    // <div className={style.markedownWrapper}>
+    //   <div className={style.title}> {post.frontmatter.title} </div>
+    //   <div className={style.date}> {post.frontmatter.date} </div>
+    //   <div className={style.team}> {post.frontmatter.team} </div>
+    //   <div className={style.description}> {post.frontmatter.desc} </div>
+    //   <div dangerouslySetInnerHTML={{ __html: post.html }} />
+    // </div>
 export default ({data}) => {
   let post = data.markdownRemark
   return (
     <Layout>
-    <div className={style.markedownWrapper}>
-      <div className={style.title}> {post.frontmatter.title} </div>
-      <div className={style.date}> {post.frontmatter.date} </div>
-      <div className={style.team}> {post.frontmatter.team} </div>
-      <div className={style.description}> {post.frontmatter.desc} </div>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
-    </div>
+
+     <Header
+          name  = {post.frontmatter.title}
+          date  = {post.frontmatter.date}
+          number  = {post.frontmatter.team}
+      />
+       <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </Layout>
   );
 };
@@ -35,7 +43,9 @@ export const query = graphql`
         date 
         desc
         team
+   
        
+      
       }
     }
   }

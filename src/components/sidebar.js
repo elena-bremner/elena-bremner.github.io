@@ -2,22 +2,25 @@ import React from "react";
 import style from "./sidebar.module.css";
 import { Link } from "gatsby"
 import resume from './websiteResume.pdf'
-
+import ImageLoader from "../components/imageLoader"
 
 
 const linkStyle = {
-  color: '#CACCCE',
+  color: 'black',
   textDecoration: 'none',
 }
 const linkActiveStyle = {
   color: "#70FFCE",  //5AC3FF
 }
 
+// <div className={style.ElenaBremner}>
+//     Elena Bremner 
+// </div>
 const Sidebar = props =>
   <div>
-    <div className={style.ElenaBremner}>
-        Elena Bremner 
-    </div>
+      <div>
+          <ImageLoader filename="pinPal/ElenaBremnerBold.png" className={style.ElenaBremner}/>
+      </div>
     <div className = {style.work}>
       <Link to="/" style={linkStyle} activeStyle={linkActiveStyle}>
         Work
@@ -25,7 +28,7 @@ const Sidebar = props =>
       <Link to="/UX/" className={style.optionalWork} style={linkStyle} activeStyle={linkActiveStyle}>
         UX/UI
       </Link>
-      <Link to="/CAD/" className={style.optionalWork} style={linkStyle} activeStyle={linkActiveStyle}>
+      <Link to="/physical/" className={style.optionalWork} style={linkStyle} activeStyle={linkActiveStyle}>
         Physical 
       </Link>
       <Link to="/sketch/" className={style.optionalWork} style={linkStyle} activeStyle={linkActiveStyle}>
@@ -42,6 +45,7 @@ const Sidebar = props =>
     <br/> 
       <a href={resume} style={linkStyle}>Resume</a>
     <br/>
-</div>
+  </div>
+
 
 export default Sidebar

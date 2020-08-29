@@ -7,4 +7,5 @@ square: ./pacifier/coverImageIpacfier.png
 order: 7
 worktype: "notux"
 content: "index"
+useTemplate: true
 ---

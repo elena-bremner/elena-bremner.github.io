@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-.contact { /*contact */
+.contact { 
     position: relative;
     width: 100%;
    /* padding-left:10%;*/ /* padding-left must be the same as sidebar width */ 
