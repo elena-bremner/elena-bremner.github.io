@@ -13,13 +13,13 @@ export default () => {
   return (
      /* Intro */
     <Layout>
-      <div>
-        <Header
-          name  = {"Pinpal"}
-          date  = {"November 2019 (8 weeks)"}
-          number  = {"Team: 4"}
-          oneliner  = {"Bringing back memorable experiences through collectable tokens."}
-        />
+      <Header
+        name  = {"Pinpal"}
+        date  = {"November 2019 (8 weeks)"}
+        number  = {"Team: 4"}
+        oneliner  = {"Bringing back memorable experiences through collectable tokens."}
+      />
+      <div className={style.wrapper}>
         <ImageLoader filename="pinPal/CI.png" className={style.introImage}/>
         <div className={style.section}> Intro </div>
         <div className={style.intro}> 
@@ -31,7 +31,7 @@ export default () => {
               with personal meaning in their community. <br></br>
               What if you could knock your screen to pin your location 
               using GPS? <br></br><br></br>
-              My role was _____<br></br><br></br>
+              My role was visual design and story telling. <br></br><br></br>
               You can jump to the final design <a href="#FD">here</a>
         </div>
         <div className={style.section}> Research </div>
@@ -80,9 +80,9 @@ export default () => {
             as they view their phone as a root of distraction.
         </p>
         <div className={style.subtitle}>UX Blueprint</div>
-            <ImageLoader filename="pinPal/blueprint.png" className={style.Himage}/>
+        <ImageLoader filename="pinPal/blueprint.png" className={style.Himage}/>
         <div className={style.section}> Ideation </div>
-            <hr></hr>
+        <hr></hr>
         <p className={style.paragraph}> 
             After we had a clear idea of the features we wanted to focus on, 
             we started creating paper mockups of our ideas. After several rounds 
@@ -91,13 +91,17 @@ export default () => {
         </p>
         <div className={style.subtitle}> Features </div>
         <ImageLoader filename="pinPal/icons.png" className={style.Himage}/>
-            <div className={style.conText}> Icons designed by Elena Bremnner </div>
+        <div className={style.conText}> Icons designed by Elena Bremnner </div>
         <div className={style.subtitle}> Process </div>
-          <table className={style.list}>
-            <th > 1. Wizard of Oz prototypes  </th>
-            <th > 2. Iteration  </th>
-            <th > 3. Refine </th>
-          </table>
+        <table className={style.list}>
+            <tbody>
+              <tr>
+                <th > 1. Wizard of Oz prototypes  </th>
+                <th > 2. Iteration  </th>
+                <th > 3. Refine </th>
+              </tr>
+            </tbody>
+        </table>
         <div className={style.section} id = "FD"> Final Design </div>
             <hr></hr>
         <div className={style.subtitle}> Notification </div>
@@ -105,6 +109,8 @@ export default () => {
             <ImageLoader filename="/pinPal/2.png" className={style.listImage}/>
             <ImageLoader filename="/pinPal/3.png" className={style.listImage}/>
         <div className={style.subtitle}> Maps </div>
+        
+        
             <ImageLoader filename="/pinPal/Maps.png" className={style.FDImage}/>
               <video controls autoplay loop className={style.FDVid}>
                 <source src={mapVideo1} type="video/mp4" />

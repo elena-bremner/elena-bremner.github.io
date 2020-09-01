@@ -5,9 +5,10 @@
 :root{
     --pageColor:#3fa6ff;
     --margin:5%;
+    --smallerText:20pt;
 }
 .title{
-    color:black;
+    
     font-family: masqualero, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -42,4 +43,12 @@
     font-style:italic;
     margin-bottom:3%;
     margin-top:3%;
+}
+@media(max-width: 1024px){
+    .oneliner {
+        font-size:12pt;
+    }
+    .info{
+        font-size:12pt;
+    }
 }

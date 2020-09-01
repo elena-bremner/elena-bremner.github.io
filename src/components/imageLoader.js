@@ -13,7 +13,7 @@ const ImageLoader = (props) => (
       query {
         images: allFile (
           filter: {
-            extension: { regex: "/(jpg)|(png)|(jpeg)/" }
+            extension: { regex: "/(jpg)|(png)|(jpeg)s/" }
             relativeDirectory: { regex: "pages/" }
           }
         ){

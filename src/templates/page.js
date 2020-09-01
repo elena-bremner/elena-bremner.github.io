@@ -44,8 +44,6 @@ export const query = graphql`
         desc
         team
    
-       
-      
       }
     }
   }

@@ -15,8 +15,6 @@
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
-
-
 }
 
 .middle {
@@ -29,8 +27,6 @@
   -ms-transform: translate(-50%, -50%);
   text-align: center;
   width:100%;
-
-
 }
 
 .container:hover .image {
@@ -42,9 +38,11 @@
 }
 
 .text {
-  font-family: 'Lato', sans-serif;
+  font-family: masqualero, sans-serif;
+  font-weight: 700;
+  /*font-family: 'Lato', sans-serif;*/
   color: #3d3d3d;
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
   line-height: 1;
 

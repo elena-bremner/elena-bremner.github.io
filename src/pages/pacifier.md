@@ -6,6 +6,6 @@ desc: "This page is under construction. Come back soon!"
 square: ./pacifier/coverImageIpacfier.png
 order: 7
 worktype: "notux"
-content: "index"
+content: "notindex"
 useTemplate: true
 ---

@@ -7,7 +7,7 @@
 }
 
 .title{
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: europa, sans-serif;
     color:black;
     font-size: 16pt;
     font-weight:bolder;
@@ -15,7 +15,7 @@
 }
 
 .description{
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: europa, sans-serif;
     color:black;
     font-size: 12pt;
     font-weight:medium;
@@ -26,13 +26,13 @@
 
 }
 .date{
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: europa, sans-serif;
     color:gray;
     font-size: 12pt;
     font-weight:bold;
 }
 .team{
-    font-family: 'IBM Plex Sans', sans-serif;
+   font-family: europa, sans-serif;
     color:gray;
     font-size: 12pt;
     font-weight:bold;
