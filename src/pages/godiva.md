@@ -3,9 +3,9 @@ title: "Rethinking Godiva Packaging"
 date: "DECEMBER, 2018 (3 WEEKS)"
 desc: ""
 square: ./godiva/cover.png
-order: 5
+order: 6
 worktype: "physical"
-content: "notindex"
+content: "index"
 useTemplate: true
 ---
 
@@ -23,7 +23,7 @@ useTemplate: true
       width: 35%;
   }
 </style>
-<div style="font-family: 'IBM Plex Sans', sans-serif; width: 600px; line-height:2; ">
+<div style=" margin:auto; text-align: center; font-family: europa, sans-serif;width: 50%; line-height:2; ">
    As part of a team project, we repackaged Godiva’s chocolate-covered strawberries.
    Thinking about efficient space usage, structure, and the unpackaging experience, we designed a hexagonal box that is more interactive and appropriate for the brand.
 </div>
