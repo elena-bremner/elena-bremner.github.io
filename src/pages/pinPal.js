@@ -24,7 +24,7 @@ export default () => {
         <div className={style.section}> Intro </div>
         <div className={style.intro}> 
               When you look around the streets, most people have their 
-              faces buried in their smartphone screens oblivous to the rich 
+              faces buried in their smartphone screens oblivious to the rich 
               possibilities in their own neighborhood.
               My teammates and I designed an app to help explore users' 
               personal geography, a way to pin the shops, locales and spots 
