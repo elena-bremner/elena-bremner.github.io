@@ -35,7 +35,6 @@ export default () => {
               You can jump to the final design <a href="#FD">here</a>
         </div>
         <div className={style.section}> Research </div>
-        <hr></hr>
         <p className={style.paragraph}> 
               According to our survey research, users on the move listen to music, 
               go on social media and use navigation tools. It’s as if they are on a
@@ -82,7 +81,6 @@ export default () => {
         <div className={style.subtitle}>UX Blueprint</div>
         <ImageLoader filename="pinPal/blueprint.png" className={style.Himage}/>
         <div className={style.section}> Ideation </div>
-        <hr></hr>
         <p className={style.paragraph}> 
             After we had a clear idea of the features we wanted to focus on, 
             we started creating paper mockups of our ideas. After several rounds 
@@ -103,7 +101,6 @@ export default () => {
             </tbody>
         </table>
         <div className={style.section} id = "FD"> Final Design </div>
-            <hr></hr>
         <div className={style.subtitle}> Notification </div>
             <ImageLoader filename="/pinPal/1.png" className={style.listImage}/>
             <ImageLoader filename="/pinPal/2.png" className={style.listImage}/>
@@ -121,7 +118,6 @@ export default () => {
         <div className={style.subtitle}> Activity Log </div>
             <ImageLoader filename="/pinPal/finaldesign2.png" className={style.FDImage}/>
         <div className={style.section}> Self Reflection </div>
-          <hr></hr>
         <p className={style.paragraph} > 
             How we retain information through screens is something that has perplexed me 
             for a while. While the ubiquity of smartphones is something that gives us 
