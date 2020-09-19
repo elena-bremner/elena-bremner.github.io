@@ -45,7 +45,8 @@ export default () => {
              the lockdown. </b>
              <br></br><br></br>
              This project was completed by Deeplocal’s summer 2020 interns, 
-             Roshan Benefo, Elena Bremner and Tommy O'Halloran
+             Roshan Benefo (Engineering), 
+             <br></br> Elena Bremner (Design) and Tommy O'Halloran (Design)
              <br></br><br></br>
              <b>My Role:</b> 3D assets designer, motion designer, and UI designer
         </div>
@@ -94,11 +95,24 @@ export default () => {
              messages and checking user status.
         </p>
         <ImageLoader filename="VirtualOffice/code"className={style.Himage}/>
-        <div className = {style.subtitle}> Online status </div>
-        <ImageLoader filename="VirtualOffice/LightsMock.png"className={style.introImage}/>
-        <div className = {style.subtitle}> High-fives </div>
+        <div className = {style.subtitle}> Company Activity </div>
+        <p className={style.paragraph}> 
+             Company activity is represented through slack enabled windows. 
+             The front windows turn on and off throughout the day to display 
+             the percentage of people active on slack. 
+        </p>
+        <ImageLoader filename="VirtualOffice/LightsMoc.png"className={style.introImage}/>
+        <div className = {style.subtitle}> Watch High-Fives High Fly </div>
+        <p className={style.paragraph}> 
+            When employees receive “high fives”, their names are projected on a 
+            banner to celebrate their achievements and hard work. 
+        </p>
         <ImageLoader filename="VirtualOffice/high5Mock.png"className={style.introImage}/>
-        <div className = {style.subtitle}> three.js </div>
+        <div className = {style.subtitle}> The Virtual World </div>
+        <p className={style.paragraph}> 
+             Check out the virtual world <a href= "https://virtualoffice-285701.ue.r.appspot.com/" >here</a>. 
+             Best seen on computer and mouse. 
+        </p>
         <video controls autoplay loop className={style.threeVid}>
             <source src={login} type="video/mp4"/>
         </video>
