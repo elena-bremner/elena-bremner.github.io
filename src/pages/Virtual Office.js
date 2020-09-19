@@ -33,7 +33,7 @@ export default () => {
           name  = {"Virtual Office"}
           date  = {"July 2020 (4 weeks)"}
           number  = {"Team: 3"}
-          oneliner  = {"Digital and Social activation that vizualizes company achievements, activity, and culture"}
+          oneliner  = {"Digital and Social activation that visualizes company achievements, activity, and culture"}
         />
         < ImageLoader filename="VirtualOffice/dayMode.png"className={style.introImage} />
         <div className={style.section}> Intro </div>
@@ -58,27 +58,33 @@ export default () => {
               Visualize office activity via whimsical animations.
           </p>
           <p className={style.paragraph}> 
-          Emulating company culture through curated colors and style, 
+          Simulating company culture through curated colors and style, 
           we created a visual aid that helps bring back the office energy 
           that has been lost during lockdowns in the age of the Covid pandemic. 
           3D models were created in Blender and 3Dmax and the user interface for 
           the website was coded in Javascript and CSS. 
           </p>
-          <div className = {style.subtitle}> Features </div>
-          <table className={style.list} >
-            <tbody>
-              <tr >
-                <th>Hover </th>
-                <th>Log-in </th>
-                <th>Timeline</th>
-              </tr>
-              <tr className={style.listText}>
-                <th> <ImageLoader filename="VirtualOffice/chalkBot_hover.png"/> </th>
-                <th> <ImageLoader filename="VirtualOffice/login.png"/> </th>
-                <th> <ImageLoader filename="VirtualOffice/timeline.png"/> </th>
-              </tr>
-            </tbody>
-        </table>
+          <div className = {style.subtitle}> UI/UX </div>
+              <div className = {style.name}>Hover </div>
+              <p className={style.paragraph}>
+                  Clients can uncover hidden easter eggs to learn more about the Deeplocal 
+                  culture and values.  
+              </p>
+              <ImageLoader filename="VirtualOffice/chalkBot_hover.png" className={style.HimageS}/>
+              <div className = {style.name}>Timeline</div>
+              <p className={style.paragraph}>
+                  To review past activity, employees can use the timeline 
+                  to see what happened throughout the day. 
+              </p>
+              <ImageLoader filename="VirtualOffice/timeline.png" className={style.HimageS}/> 
+              <div className = {style.name}>Login </div>
+              <p className={style.paragraph}>   
+                  With data collection comes privacy. Any feature polling private 
+                  company information will only be accessible to Deeplocal 
+                  employees through their gmail login. 
+             </p>
+              <ImageLoader filename="VirtualOffice/login.png" className={style.HimageXS}/> 
+
         <div className = {style.subtitle}> Exporting </div>
         <p className={style.paragraph}> 
             3D assets were exported as GLB files, which is a binary 
@@ -99,9 +105,9 @@ export default () => {
         <p className={style.paragraph}> 
              Company activity is represented through slack enabled windows. 
              The front windows turn on and off throughout the day to display 
-             the percentage of people active on slack. 
+             the percentage of employees active on slack. 
         </p>
-        <ImageLoader filename="VirtualOffice/LightsMoc.png"className={style.introImage}/>
+        <ImageLoader filename="VirtualOffice/LightsMock.png"className={style.introImage}/>
         <div className = {style.subtitle}> Watch High-Fives High Fly </div>
         <p className={style.paragraph}> 
             When employees receive “high fives”, their names are projected on a 
@@ -111,7 +117,7 @@ export default () => {
         <div className = {style.subtitle}> The Virtual World </div>
         <p className={style.paragraph}> 
              Check out the virtual world <a href= "https://virtualoffice-285701.ue.r.appspot.com/" >here</a>. 
-             Best seen on computer and mouse. 
+             Best seen on computer with mouse. 
         </p>
         <video controls autoplay loop className={style.threeVid}>
             <source src={login} type="video/mp4"/>
