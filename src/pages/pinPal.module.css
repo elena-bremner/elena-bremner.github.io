@@ -71,12 +71,13 @@
 .section{
     font-size:24pt;
     margin-top:5%;
-    margin-left:var(--margin);
-  /*  font-family: masqualero, sans-serif;*/
-/*    font-weight:700;*/
-/*    font-family: masqualero, sans-serif;
-    font-weight:700;*/
+    text-align: center;
+/*    margin-left:var(--margin);*/
+    font-family: masqualero, sans-serif;
+    font-weight:700;
+
 }
+
 .subtitle{
     margin-top:10%;
     font-size:16pt;
@@ -89,10 +90,10 @@
     font-size:14pt;
     width:50%;
     position:relative;
+    margin:auto;
     margin-top:3%;
     line-height:1.5;
-    margin-left:var(--margin);
-
+/*    margin-left:var(--margin);*/
 }
 .list{
     /*border-spacing:210px 0 ; */
@@ -105,7 +106,7 @@
     color:var(--pageColor);
 }
 .Himage{
-    width:50%;
+    width:80%;
     margin:auto;
     position: relative;
     margin-top:8%;
