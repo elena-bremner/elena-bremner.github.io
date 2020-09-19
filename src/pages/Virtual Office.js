@@ -88,7 +88,7 @@ export default () => {
         <div className = {style.subtitle}> Exporting </div>
         <p className={style.paragraph}> 
             3D assets were exported as GLB files, which is a binary 
-            format representation of 3D models making it easier to 
+            format representation of 3D models, making it easier to 
             implement in javascript. 
         </p>
         < ImageLoader filename="VirtualOffice/blender.png"className={style.Himage} />
@@ -117,7 +117,7 @@ export default () => {
         <div className = {style.subtitle}> The Virtual World </div>
         <p className={style.paragraph}> 
              Check out the virtual world <a href= "https://virtualoffice-285701.ue.r.appspot.com/" >here</a>. 
-             Best seen on computer with mouse. 
+             Best seen on computer with a mouse. 
         </p>
         <video controls autoplay loop className={style.threeVid}>
             <source src={login} type="video/mp4"/>
