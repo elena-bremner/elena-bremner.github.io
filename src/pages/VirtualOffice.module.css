@@ -99,6 +99,11 @@
     line-height:1.5;
 /*    margin-left:var(--margin);*/
 }
+.paragraph a{
+    text-decoration: none;
+    color:blue;
+    font-weight:bold;
+}
 .list{
     width:100%;
     border-spacing:15px 0 ; 
