@@ -16,7 +16,7 @@ export default () => {
           name  = {"Doodle Jump"}
           date  = {"December 2019 (2 WEEKS)"}
           number  = {""}
-          oneliner  = {"Explorations in object oriented programming with Java"}
+          oneliner  = {"Explorations in object-oriented programming with Java"}
         />
     <div className={style.section}> Intro </div>
     <div className={style.intro}>
@@ -53,7 +53,7 @@ export default () => {
     <p className={style.paragraph}> 
         The platforms are in the form of an arraylist in order to continually 
         index new platforms. The doodle class enables the program to remember 
-        doodle’s location throughout the game, which is vital to check if the doodle 
+        the character's location throughout the game, which is vital to check if the doodle 
         is bouncing or falling. 
     </p>
     <ImageLoader filename="doodleJump/doodle.png" className={style.HimageXS}/>

@@ -33,7 +33,7 @@ export default () => {
           name  = {"Virtual Office"}
           date  = {"July 2020 (4 weeks)"}
           number  = {"Team: 3"}
-          oneliner  = {"Digital and Social activation that visualizes company achievements, activity, and culture"}
+          oneliner  = {"Digital and social activation that visualizes company achievements, activity, and culture"}
         />
         < ImageLoader filename="VirtualOffice/dayMode.png"className={style.introImage} />
         <div className={style.section}> Intro </div>
@@ -46,7 +46,7 @@ export default () => {
              <br></br><br></br>
              This project was completed by Deeplocal’s summer 2020 interns, 
              Roshan Benefo (Engineering), 
-             <br></br> Elena Bremner (Design) and Tommy O'Halloran (Design)
+             <br></br> Elena Bremner (Design) and Tommy O'Halloran (Design).
              <br></br><br></br>
              <b>My Role:</b> 3D assets designer, motion designer, and UI designer
         </div>
@@ -110,7 +110,7 @@ export default () => {
         <ImageLoader filename="VirtualOffice/LightsMock.png"className={style.introImage}/>
         <div className = {style.subtitle}> Watch High-Fives High Fly </div>
         <p className={style.paragraph}> 
-            When employees receive “high fives”, their names are projected on a 
+            When employees receive “high fives,” their names are projected on a 
             banner to celebrate their achievements and hard work. 
         </p>
         <ImageLoader filename="VirtualOffice/high5Mock.png"className={style.introImage}/>

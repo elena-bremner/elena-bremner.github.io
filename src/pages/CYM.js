@@ -21,7 +21,7 @@ export default () => {
     <div className={style.intro}>
         Back in March 2019, amid the ever-growing debate 
         about the efficacy of facemasks during the Coronavirus 
-        crisis, Asian countries were quick to adapt widespread use of 
+        crisis, Asian countries were quick to adopt widespread use of 
         face coverings in public. Even before the crisis, wearing a mask 
         during the flu season was quite common in China, Japan, and South 
         Korea. Western countries, in contrast, have been slower to embrace 
