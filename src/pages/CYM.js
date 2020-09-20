@@ -42,8 +42,8 @@ export default () => {
     <div className={style.section}> Data Collection </div>
     <p className={style.paragraph}> 
         A total of 700 images were collected through Google search and Instagram 
-        craping. To ensure efficacy of the styleGAN model, I sorted images that 
-        were in direct view, and edited them to black and white. 
+        scraping. To ensure the efficacy of the styleGAN model, I sorted images that 
+        were in direct facial view, and edited them to black and white. 
     </p>
     <div className={style.subtitle}> 1918 Flu Data Set </div>
     <ImageLoader filename="runwayML/1918Grid.png" className={style.Himage}/>
@@ -52,8 +52,8 @@ export default () => {
     <div className={style.section}> Results </div>
     <p className={style.paragraph}> 
         The model produced about a few hundred results. 
-        I believed the ghost-like nature of these images perfectly 
-        captures the eeriness of this pandemic. 
+        I hope the ghost-like nature of these images  
+        capture the eeriness of this current pandemic. 
     </p>
     <ImageLoader filename="runwayML/grid.png" className={style.introImage}/>
     </Layout>
