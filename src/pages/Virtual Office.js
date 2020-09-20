@@ -44,9 +44,8 @@ export default () => {
              aid that would help bring back the office energy and a sense of community that have been lost during 
              the lockdown. </b>
              <br></br><br></br>
-             This project was completed by Deeplocal’s summer 2020 interns, 
-             Roshan Benefo (Engineering), 
-             <br></br> Elena Bremner (Design) and Tommy O'Halloran (Design).
+             This project was completed by Deeplocal’s 2020 interns, 
+              Elena Bremner (Design), Tommy O'Halloran (Design), and Roshan Benefo (Engineering).
              <br></br><br></br>
              <b>My Role:</b> 3D assets designer, motion designer, and UI designer
         </div>
