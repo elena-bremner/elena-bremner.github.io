@@ -4,7 +4,7 @@ date: "NOVEMBER, 2019 (6 WEEKS)"
 team: "Team: 4"
 desc: ""
 square: ./pinPal/croppedPurp.png
-order: 2
+order: 1
 worktype: "ux"
 content: "index"
 useTemplate: false

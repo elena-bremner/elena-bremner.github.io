@@ -5,7 +5,7 @@ desc: ""
 square: ./volar/coverImage.png
 order: 6
 worktype: "ux"
-content: "index"
+content: "notIndex"
 useTemplate: true
 ---
 
