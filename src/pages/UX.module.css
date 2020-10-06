@@ -2,11 +2,12 @@
 
 .wrapper {
   height:10%;
-  width:80%;
+  width:100%;
+/*  grid-gap: 10px 10px;*/
   display: grid;
-  grid-gap: 3%;
-  grid-template-columns: repeat(2, 50%);
-  grid-template-rows: repeat(2, min-content);
+
+  grid-template-columns: repeat(3, 30%);
+  grid-template-rows: repeat(3, min-content);
   grid-auto-flow: row;
   margin:auto;
  
@@ -17,6 +18,7 @@
   float:left;
   clear: both;
   overflow:auto;
+/*   margin-bottom:3%;*/
 
 }
 
