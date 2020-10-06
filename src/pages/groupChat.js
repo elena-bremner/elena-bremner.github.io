@@ -25,7 +25,7 @@ export default () => {
         </b>
                <br></br><br></br> 
         </div>
-
+        
     </Layout>
   )
 }
