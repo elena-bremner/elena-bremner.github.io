@@ -12,7 +12,7 @@ export default () => {
   return (
     <Layout>
         <Header
-          name  = {"Group Chat"}
+          name  = {"Google Design Challenge"}
           date  = {"January 2020 (1 WEEK)"}
           number  = {"Personal Project"}
           oneliner  = {"Coming soon..."}
@@ -25,7 +25,7 @@ export default () => {
         </b>
                <br></br><br></br> 
         </div>
-        
+
     </Layout>
   )
 }
