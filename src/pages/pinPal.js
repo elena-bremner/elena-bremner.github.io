@@ -45,7 +45,7 @@ export default () => {
         <p className={style.paragraph}> 
               According to our survey research, people on the move listen to music, 
               go on social media and use navigation tools. It’s as if they are on a
-              different planet <br></br><br></br>
+              different planet... <br></br><br></br>
         </p>
         <ImageLoader filename="pinPal/stats.jpg" className={style.HimageS}/>
         <div className={style.section}> Key Insights </div>
@@ -77,7 +77,7 @@ export default () => {
         <ImageLoader filename="pinPal/knocking.png" className={style.Vimage}/>
         <div className={style.conText}> Illustration by Shuyuan Zheng </div>
         <div className={style.subtitle}> Meet Roshan</div>
-        <ImageLoader filename="pinPal/diffres.png" className={style.Himage}/>
+        <ImageLoader filename="pinPal/persona.png" className={style.Himage}/>
 
         <div className={style.subtitle}>UX Blueprint</div>
         <ImageLoader filename="pinPal/blueprint.png" className={style.HimageS}/>
@@ -89,7 +89,7 @@ export default () => {
         </p>
         <ImageLoader filename="pinPal/paper2.jpg" className={style.Himage}/>
         <div className={style.subtitle}> Wireframes </div>
-        <ImageLoader filename="pinPal/wireframes.png" className={style.HimageS}/>
+        <ImageLoader filename="pinPal/wireframe.png" className={style.Himage}/>
         <div className={style.subtitle}> User-testing </div>
         <table className={style.list}>
             <tbody>
@@ -101,9 +101,15 @@ export default () => {
             </tbody>
         </table>
         <div  >
-            <ImageLoader filename="pinPal/paper.jpg" className={style.HimageRight}/>
-            <ImageLoader filename="pinPal/usertest.png" className={style.HimageLeft}/>
+        <ImageLoader filename="pinPal/usertest.png" className={style.Himage}/>
         </div>
+        <div className={style.subtitle}> Iterations </div>
+        <ImageLoader filename="pinPal/paper.jpg" className={style.Himage}/>
+        <ImageLoader filename="pinPal/layerColor.png" className={style.HimageXS}/>
+        <p className={style.paragraphLeft}> 
+            
+        </p>
+        <ImageLoader filename="pinPal/newPop.png" className={style.HimageXS}/>
         <div className={style.subtitle}> Boston </div>
         <p className={style.paragraph}> 
            After several rounds of user-testing, we took a trip to Boston to experience a 
