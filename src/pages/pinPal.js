@@ -32,7 +32,7 @@ export default () => {
               with personal meaning in their community. <br></br>
               What if you could knock your screen to pin your location 
               using GPS? <br></br><br></br>
-              My role was visual design and story telling. <br></br><br></br>
+              My role was visual design and storytelling. <br></br><br></br>
               You can jump to the final design <a href="#FD">here</a>
         </div>
         <div className={style.section}> Problem </div>
@@ -124,7 +124,7 @@ export default () => {
              Pinning specific locations or shops should be a quick process. 
              We looked into tab bars, buttons, and a toggle system determining 
              which interface would be best for the pinning feature. Participants 
-             preferred a simple tab bar on the side, with quick access. 
+             preferred a simple tab bar on the side with quick access. 
         </p>
         <ImageLoader filename="pinPal/layerColor.png" className={style.HimageXS}/>
         <div className={style.subtitle}> Boston </div>
