@@ -5,7 +5,7 @@
 
 :root{
     --pageColor:#3fa6ff;
-    --margin:10%;
+    --margin:17%;
 }
 .wrapper{
     width:100%;
@@ -115,7 +115,8 @@
 .conText{
     font-family: 'Lato', sans-serif;
     font-size:10pt;
-    text-align: center;
+    /*text-align: center;*/
+    margin-left:17%;
     color:blue;
     margin-top:2%;
 }
