@@ -19,8 +19,9 @@ export default () => {
         number  = {"Team: 4"}
         oneliner  = {"Bringing back memorable experiences through collectable tokens."}
       />
+      <ImageLoader filename="pinPal/introImage.png" className={style.introImage}/>
       <div className={style.wrapper}>
-        <ImageLoader filename="pinPal/CI.png" className={style.introImage}/>
+        
         <div className={style.section}> Intro </div>
         <div className={style.intro}> 
               When you look around the streets, most people have their 
@@ -47,7 +48,7 @@ export default () => {
               go on social media and use navigation tools. It’s as if they are on a
               different planet... <br></br><br></br>
         </p>
-        <ImageLoader filename="pinPal/stats.jpg" className={style.HimageS}/>
+        <ImageLoader filename="pinPal/stats.jpg" className={style.Himage}/>
         <div className={style.section}> Key Insights </div>
         <ImageLoader filename="pinPal/problemIcons.png" className={style.HimageXS}/>
         <div className={style.conText}> Icons designed by Elena Bremnner </div>
@@ -85,10 +86,17 @@ export default () => {
         <p className={style.paragraph}> 
             After we had a clear idea of which problems we wanted to focus on, 
             we started creating paper mockups of our ideas. This allowed us to get 
-            our combined thoughts down on paper in a quick manner. 
+            our combined thoughts down on paper fairly quickly. 
         </p>
         <ImageLoader filename="pinPal/paper2.jpg" className={style.Himage}/>
         <div className={style.subtitle}> Wireframes </div>
+        <p className={style.paragraph}> 
+            Wireframes were created to explore ways users interact with the screen while walking, with a focus on maps. 
+            Navigational tools can often end up convoluted, especially when there is live 
+            input from many users. Users should be able to quickly see the big picture, as well as view the map in detail.
+            Thus, making the map screens digestible on both 
+            a micro and macro level was vital. 
+        </p>
         <ImageLoader filename="pinPal/wireframe.png" className={style.Himage}/>
         <div className={style.subtitle}> User-testing </div>
         <table className={style.list}>
@@ -103,13 +111,22 @@ export default () => {
         <div  >
         <ImageLoader filename="pinPal/usertest.png" className={style.Himage}/>
         </div>
-        <div className={style.subtitle}> Iterations </div>
-        <ImageLoader filename="pinPal/paper.jpg" className={style.Himage}/>
-        <ImageLoader filename="pinPal/layerColor.png" className={style.HimageXS}/>
-        <p className={style.paragraphLeft}> 
-            
+        <div className={style.section}> Back to the Drawing Board </div>
+        <ImageLoader filename="pinPal/paper.jpg" className={style.HimageBW}/>
+        <p className={style.paragraph}> 
+            Based on the user-feedback, we learned that the layering of color made it 
+            easier to indicate which locations were desirable.  We expanded on that 
+            insight and made it possible to check multiple tabs concurrently as a 
+            filtering system. 
         </p>
         <ImageLoader filename="pinPal/newPop.png" className={style.HimageXS}/>
+                <p className={style.paragraph}> 
+             Pinning specific locations or shops should be a quick process. 
+             We looked into tab bars, buttons, and a toggle system determining 
+             which interface would be best for the pinning feature. Participants 
+             preferred a simple tab bar on the side, with quick access. 
+        </p>
+        <ImageLoader filename="pinPal/layerColor.png" className={style.HimageXS}/>
         <div className={style.subtitle}> Boston </div>
         <p className={style.paragraph}> 
            After several rounds of user-testing, we took a trip to Boston to experience a 
