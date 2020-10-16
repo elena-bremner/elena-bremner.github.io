@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./sidebar.module.css";
 import { Link } from "gatsby"
-import resume from './websiteResume.pdf'
+import resume from './resume.pdf'
 import ImageLoader from "../components/imageLoader"
 
 
