@@ -32,9 +32,6 @@ export default () => {
             piece with a minimum LED light reminder that allows the user to operate their mobile device without 
             having them out or in the pocket.
         </h1>
-      <Img className={Styles.poop}
-        fluid={data.file.childImageSharp.fluid}
-      /> 
 
     </div>
     </Layout>
