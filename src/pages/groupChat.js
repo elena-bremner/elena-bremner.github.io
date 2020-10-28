@@ -2,7 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import style from "./groupChat.module.css"
 import Layout from "../components/layout"
-import Img from "gatsby-image"
+
 import ImageLoader from "../components/imageLoader"
 import FruitBasket from "./groupChat/FruitBasket.mp4"
 import buddy from "./groupChat/buddy.mp4"
@@ -89,19 +89,19 @@ export default () => {
         <div className={style.section} id = "RS"> Research </div>
         <div className={style.subtitle}> Interviews </div>
         <p className={style.paragraph}> 
-          I interviewed students across different grades and majors to hear about how the 
+          I interviewed students across different grades and majors to hear about how they 
           initially adjusted to college life. I paid close attention to international and 
           transfer students to see how their stories differed. 
           <br></br> 
-          My questions were less mentor/mentee focused and centered around how students 
+          My questions were less mentor/mentee-focused and centered around how students 
           build relationships. 
         </p>
-        < ImageLoader filename="GroupChat/interview.jpg"className={style.Himage} />
+        < ImageLoader filename="GroupChat/interview.jpg"className={style.HimageS} />
         < ImageLoader filename="GroupChat/questions.png"className={style.Himage} />
         <div className={style.subtitle}> Key Insights </div>
         <p className={style.paragraph}> 
-              1.  <a> Proximity and consistency </a> is 
-              a big factor of building and maintaining relationships. New students 
+              1.  <a> Proximity and consistency </a> are 
+              big factor in building and maintaining relationships. New students 
               tend to me more intimidated to talk to older students. <a>They need an avenue 
               or excuse to reach out to older students. </a> 
               <br></br><br></br> 
@@ -132,7 +132,7 @@ export default () => {
         </p>
         <div className={style.section}> Hunch </div>
         <p className={style.paragraph}> 
-            My research suggests that interaction and experience is the best way to build a relationship. 
+            My research suggests that interaction and experience are the best way to build a relationship. 
             Therefore, I sought to create an experience where students can do just that. 
             <br></br> <br></br> 
             People will host or attend adventures and join a group of students with shared interests.
@@ -147,8 +147,8 @@ export default () => {
           < ImageLoader filename="GroupChat/users.png"className={style.Himage} />
         <div className={style.subtitle}> Sketching </div>
         <p className={style.paragraph}> 
-            My Ideation process usually starts off on paper. It allows me to quickly get 
-            my ideas down on paper. At this stage, I don’t restrict my design to practicality 
+            My ideation process usually starts off on paper. It allows me to quickly get 
+            my ideas down. At this stage, I don’t restrict my design to practicality 
             or feasibility. I then can assess and create wireframes to test and listen to user 
             feedback. 
         </p>
@@ -159,8 +159,8 @@ export default () => {
         <p className={style.paragraph}> 
           I began user-testing on students by contextualizing the project. 
           The participants went through the process of using the app with paper wireframes. 
-          I gained new perspectives on how gender and age plays a role in the inclination of 
-          reaching out to others. For instance, a 20 year old male student felt uncomfortable 
+          I gained new perspectives on how gender and age play a role in the inclination of 
+          reaching out to others. For instance, a 20-year-old male student felt uncomfortable 
           reaching out to girls in the fear of being too assertive. This was something I needed 
           to keep in mind for the final design.  
         </p>
