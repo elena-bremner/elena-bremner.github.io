@@ -33,7 +33,7 @@ export default () => {
             I created a mobile platform focusing on creating new connections 
             through hosting and attending extracurricular events. 
             <br></br><br></br> 
-            Click <a> here </a> to jump to my process. 
+            Click <a href="#RS">here</a> to jump to my process. 
 
         </div>
         <div className={style.section}> The Idea </div> 
@@ -86,7 +86,7 @@ export default () => {
           <video controls autoplay loop className={style.FDVid}>
                 <source src={cancel} type="video/mp4" />
         </video>
-        <div className={style.section}> Research </div>
+        <div className={style.section} id = "RS"> Research </div>
         <div className={style.subtitle}> Interviews </div>
         <p className={style.paragraph}> 
           I interviewed students across different grades and majors to hear about how the 
