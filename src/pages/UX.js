@@ -11,7 +11,7 @@ import { graphql } from "gatsby"
 export default ({data}) => (
   <Layout>
   <div className={Styles.intro}>
-    <p> UX UI </p>
+    <p> User Experience/User Interface Design </p>
   </div>
 
   <div className={Styles.wrapper}> 
