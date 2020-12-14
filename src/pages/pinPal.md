@@ -6,7 +6,7 @@ desc: ""
 square: ./pinPal/croppedPurp.png
 order: 4
 worktype: "ux"
-content: "index"
+content: "notIndex"
 useTemplate: false
 ---
 

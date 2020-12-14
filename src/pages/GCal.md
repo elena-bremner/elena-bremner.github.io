@@ -4,8 +4,8 @@ date: "SEPTEMBER, 2020 (1 WEEK)"
 team: "Team: 1"
 desc: ""
 square: ./GCal/cover.png
-order: 5
+order: 4
 worktype: "ux"
-content: "notIndex"
+content: "index"
 useTemplate: true
 ---
