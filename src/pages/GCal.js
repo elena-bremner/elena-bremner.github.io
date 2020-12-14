@@ -36,7 +36,8 @@ export default () => {
         <ImageLoader filename="GCal/feature2.png" className={style.Himage}/>
         <div className={style.section}> User-Testing </div>
         <div className={style.subtitle}> The Roommate Experiment </div>
-        <div className={style.paragraph}>Remote user testing </div>
+        <div className={style.paragraph}> Given the COVID-19 social distancing restrictions, I created a set of instructions for a take home experiment for some user-testing. 
+        Hannah, and her three roommates used this method for two weeks and answered daily questions on a google doc. </div>
         <ImageLoader filename="GCal/instructions.png" className={style.HimageS}/>
         <div className={style.section}> Key Insights </div>
         <ImageLoader filename="GCal/WFH.png" className={style.illus}/>
