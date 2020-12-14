@@ -42,8 +42,11 @@ export default () => {
         <div className={style.section}> Key Insights </div>
         <ImageLoader filename="GCal/WFH.png" className={style.illus}/>
          <div className={style.list}>1. With more awareness of each others’ schedules, Hannah finds herself reaching  out to her roommates during their free times. </div>
+         <div className={style.a}> "Hannah and I worked out on day 2 and day 5 when our calendars were free" - Roommate  </div>
          <div className={style.list}>2. Hannah and her roommates prefer not to associate time with tasks, and would prefer an overall planning and organization tool. </div>
+         <div className={style.a}> “We forgot to defrost the chicken last night which delayed our dinner” - Roommate  </div>
          <div className={style.list}>3. Hannah has a difficult time switching from play to work mode particularly after dinner time. </div>
+         <div className={style.a}> "I feel like I'm overspending my boundaries if I nudge them to be quiet during dinner hour" - Hannah  </div>
         <div className={style.section}> Key Takeaways </div>
         <ImageLoader filename="GCal/takeaways.png" className={style.Himage}/>
 
