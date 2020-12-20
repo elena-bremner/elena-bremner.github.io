@@ -24,7 +24,7 @@ export default () => {
   `)
   return (
     <Layout>
-      <div className={Styles.hello}>Hey!<br></br> I'm Elena.</div>
+      <div className={Styles.hello}><br></br></div>
       <div className={Styles.pic}>
         <Img 
           fluid={data.file.childImageSharp.fluid}

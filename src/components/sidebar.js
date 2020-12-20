@@ -13,14 +13,13 @@ const linkActiveStyle = {
   color: "#70FFCE",  //5AC3FF
 }
 
-// <div className={style.ElenaBremner}>
-//     Elena Bremner 
-// </div>
+
 const Sidebar = props =>
   <div>
-      <div>
-          <ImageLoader filename="pinPal/ElenaBremnerBold.png" className={style.ElenaBremner}/>
-      </div>
+
+    <div className={style.ElenaBremner}>
+        Elena Bremner 
+    </div>
     <div className = {style.work}>
       <Link to="/" style={linkStyle} activeStyle={linkActiveStyle}>
         Work
@@ -49,3 +48,6 @@ const Sidebar = props =>
 
 
 export default Sidebar
+      // <div>
+      //     <ImageLoader filename="pinPal/ElenaBremnerBold.png" className={style.ElenaBremner}/>
+      // </div>
