@@ -8,8 +8,10 @@
     --smallerText:20pt;
 }
 .title{
-    
-    font-family: masqualero, sans-serif;
+/*    
+    font-family: masqualero, sans-serif;*/
+/*     font-family: europa, sans-serif;*/
+     font-family: juniper-std, sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size:30pt;

@@ -44,6 +44,8 @@ const Sidebar = props =>
     <br/> 
       <a href={resume} style={linkStyle}>Resume</a>
     <br/>
+    <br/>
+
   </div>
 
 
@@ -51,3 +53,6 @@ export default Sidebar
       // <div>
       //     <ImageLoader filename="pinPal/ElenaBremnerBold.png" className={style.ElenaBremner}/>
       // </div>
+    // <div className={style.contact}>
+    //   ebremner@risd.edu
+    // </div>

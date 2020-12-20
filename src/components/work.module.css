@@ -38,9 +38,10 @@
 }
 
 .text {
-  font-family: masqualero, sans-serif;
-  font-weight: 700;
-  /*font-family: 'Lato', sans-serif;*/
+/*  font-family: masqualero, sans-serif;*/
+/*   font-family: juniper-std, sans-serif;*/
+  font-weight: 200;
+  font-family: 'Lato', sans-serif;
   color: #3d3d3d;
   font-size: 18px;
   text-align: center;
