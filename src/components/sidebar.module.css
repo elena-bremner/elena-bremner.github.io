@@ -1,7 +1,21 @@
+.background{
+    text-decoration: none;
+/*    z-index: 99;*/
+    position:absolute; bottom:0; left:0;
+    color:black;
+    margin-bottom: 15%;
+    margin-left:20%;
+    line-height: 2;
+    text-align: center;
+}
+a{
+    color:black;
+}
 
 
 .ElenaBremner{
     font-family: juniper-std, sans-serif;
+
     font-weight: 400;
     font-style: normal;
     font-size: 45pt;
@@ -11,31 +25,25 @@
 /*    position:absolute;*/
     padding-left:0%;
    /* margin-top:5%;*/
-    
 }
-.contact{
-    margin-top:80%;
-}
+
 .work {
     font-family: 'Lato', sans-serif;
     font-size:14pt;
-/*    font-family: masqualero, sans-serif;
-    font-size:16pt;*/
+    font-weight: 700;
     position: sticky;
     box-sizing:border-box;
     z-index:99;
-    color:pink;
     margin-top:20%;
-/*    font-color:pink;*/
+    margin-left:20%;
 
 }
 
 .optionalWork{
     font-family: 'Lato', sans-serif;
-    font-size:9pt;
+    font-size:10pt;
     display:none;
     margin-left:12px;
-
 }
 
 .work:hover .optionalWork{

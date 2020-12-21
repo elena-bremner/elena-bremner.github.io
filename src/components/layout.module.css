@@ -3,15 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url("https://use.typekit.net/eii1uqx.css");
 
+.all{
+    
+
+}
 .sidebar {
     font-family: 'Lato', sans-serif;
     font-size:12pt;
 /*    font-family: masqualero, sans-serif;
     font-size:16pt;*/
-    padding-top:0%; /* padding-top must be the same as header height */
+    padding-top:1%; /* padding-top must be the same as header height */
     padding-left:2%;
-    width:20%;
-    height:100%;
+    width:20%; /**/
+    height:100%;/**/
     background-color:white;
     box-sizing:border-box;
     position: fixed;
@@ -20,26 +24,27 @@
     grid-column: span 2;
     grid-row: span 2;
     display:block; 
-   /* background-color:blue;*/
+/*    background-color:blue;*/
+
+
 }
 
 .container {
-    padding: 25px;
-    margin: 0px;
-
+/*    padding: 25px;*/
+   
 }
 
 .maincontent {
    font-family: 'Lato', sans-serif;
     position: relative;
     width: 100%;
-    padding-left:21%; /* padding-left must be slightly bigger than sidebar width */
+    padding-left:20.5%; /*padding-left must be slightly bigger than sidebar width */
     height: 0px; /* This could be anything, content should scroll vertical */
     box-sizing:border-box;
-    padding-top:3%;
-
+    padding-top:5%;
+/*    padding-top:3%;*/
+/*    background-color:blue;*/
 }
-
 .menu {
     display: none;
 }

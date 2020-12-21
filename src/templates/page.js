@@ -23,7 +23,7 @@ export default ({data}) => {
   return (
     <Layout>
 
-     <Header
+     <Header 
           name  = {post.frontmatter.title}
           date  = {post.frontmatter.date}
           number  = {post.frontmatter.team}

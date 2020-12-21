@@ -5,6 +5,7 @@ import resume from './resume.pdf'
 import ImageLoader from "../components/imageLoader"
 
 
+
 const linkStyle = {
   color: 'black',
   textDecoration: 'none',
@@ -15,7 +16,7 @@ const linkActiveStyle = {
 
 
 const Sidebar = props =>
-  <div>
+  <div >
 
     <div className={style.ElenaBremner}>
         Elena Bremner 
@@ -34,19 +35,21 @@ const Sidebar = props =>
         Explorations
       </Link>
     </div>
-    <Link to="/about/" style={linkStyle} activeStyle={linkActiveStyle}>
+    <Link className = {style.work} to="/about/" style={linkStyle} activeStyle={linkActiveStyle}>
         About me
     </Link>
-    <br/>
-    <Link to="/contact/" style={linkStyle} activeStyle={linkActiveStyle}>
-      Contact
-    </Link>
-    <br/> 
-      <a href={resume} style={linkStyle}>Resume</a>
-    <br/>
-    <br/>
 
+    <br/> 
+      <a className = {style.work} href={resume} style={linkStyle}>Resume</a>
+    <div className = {style.background}>
+       ebremner@risd.edu
+       <br></br>
+       <a href = "https://www.linkedin.com/in/elena-bremner-76ab8514b/">Linkedln</a>
+       <br></br>
+       <a href = "https://github.com/elena-bremner/elena-bremner.github.io/tree/master-source">Github</a>
+    </div>
   </div>
+
 
 
 export default Sidebar
