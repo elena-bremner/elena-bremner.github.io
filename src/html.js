@@ -1,8 +1,10 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+
 export default function HTML(props) {
   return (
+   
     <html {...props.htmlAttributes}>
       <head>
         <meta charSet="utf-8" />
@@ -26,6 +28,7 @@ export default function HTML(props) {
         {props.postBodyComponents}
       </body>
     </html>
+
   )
 }
 
