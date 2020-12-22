@@ -3,10 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url("https://use.typekit.net/eii1uqx.css");
 
-.all{
-    
 
-}
 .sidebar {
     font-family: 'Lato', sans-serif;
     font-size:12pt;
@@ -16,7 +13,6 @@
     padding-left:2%;
     width:20%; /**/
     height:100%;/**/
-    background-color:white;
     box-sizing:border-box;
     position: fixed;
     z-index:99;
@@ -24,13 +20,11 @@
     grid-column: span 2;
     grid-row: span 2;
     display:block; 
-/*    background-color:blue;*/
-
-
+/*    background-image: linear-gradient(blue, pink);*/
 }
 
 .container {
-/*    padding: 25px;*/
+    padding: 0px;
    
 }
 
@@ -42,6 +36,7 @@
     height: 0px; /* This could be anything, content should scroll vertical */
     box-sizing:border-box;
     padding-top:5%;
+/*    background-color: pink;*/
 /*    padding-top:3%;*/
 /*    background-color:blue;*/
 }

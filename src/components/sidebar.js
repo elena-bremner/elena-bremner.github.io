@@ -16,7 +16,7 @@ const linkActiveStyle = {
 
 
 const Sidebar = props =>
-  <div >
+  <div  >
 
     <div className={style.ElenaBremner}>
         Elena Bremner 
@@ -41,8 +41,8 @@ const Sidebar = props =>
 
     <br/> 
       <a className = {style.work} href={resume} style={linkStyle}>Resume</a>
-    <div className = {style.background}>
-       ebremner@risd.edu
+    <div className = {style.contact}>
+      
        <br></br>
        <a href = "https://www.linkedin.com/in/elena-bremner-76ab8514b/">Linkedln</a>
        <br></br>
