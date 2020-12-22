@@ -7,6 +7,8 @@
     width: 100%;
     height:auto;
     height: 20%;
+    
+
 }
 
 .image {
@@ -16,6 +18,7 @@
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+
 
 }
 
@@ -29,11 +32,10 @@
   -ms-transform: translate(-50%, -50%);
   text-align: center;
   width:100%;
-
 }
 
 .container:hover .image {
-  opacity: 0.3;
+  opacity: 0.7;
 }
 
 .container:hover .middle {
@@ -43,12 +45,15 @@
 .text {
 /*  font-family: masqualero, sans-serif;*/
 /*   font-family: juniper-std, sans-serif;*/
-  font-weight: 200;
+/*  font-weight: 400;*/
   font-family: 'Lato', sans-serif;
-  color: #3d3d3d;
+/*  color: #3d3d3d;*/
   font-size: 18px;
   text-align: center;
   line-height: 1;
+/*  color: white;*/
+  font-weight:bold;
+
 
 }
 

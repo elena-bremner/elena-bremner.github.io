@@ -23,6 +23,11 @@ export default ({data}) => {
       <div className={style.intro}>
         <p>Happy {weekday[cday]}! </p>
        I study <a className = {style.mark}> industrial design </a> with a concentration in computation at the <a className = {style.mark}> Rhode Island School of Design</a>.
+       <br></br>
+       <br></br>
+       <br></br>
+
+       You can reach me at ebremner@risd.edu.
 
       </div>
       <div className={style.gridWrapper}> 
