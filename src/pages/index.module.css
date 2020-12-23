@@ -2,20 +2,21 @@
 
 
 .indexContainer{
-/*  padding-top:10%;*/
+  padding-top:10%;
 
 
 }
 
 .gridWrapper {
   height: 100%;
-  width:90%;
+  width:80%;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(3, 33.3%);
   grid-template-rows: repeat(6, min-content);
   grid-auto-flow: row;
-  line-height: 0px;
+  line-height: 10px;
+  margin:auto;
 
 
 /*  background-color:green;*/
@@ -53,7 +54,7 @@
 	overflow:auto;
   position: relative;
   top: 0;
-  border-radius: 2px;
+  border-radius: 15px;
 /*  transition: top ease 0.5s;*/
   transition: all .2s ease-in-out;
 
@@ -62,7 +63,7 @@
    box-shadow: 10px 10px 30px #C8C8C8;
    top: -10px;
 /*   transform: scale(1.05);*/
-   z-index: 99;
+/*   z-index: 99;*/
 
 }
 
@@ -81,7 +82,7 @@ font-weight: lighter;
 font-family: 'Lato', sans-serif;
 font-size:14pt;
 /*background-color:pink;*/
-/*margin-left:1%;*/
+margin-left:10%;
 
 }
 
