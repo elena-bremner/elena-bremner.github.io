@@ -18,11 +18,12 @@ const linkActiveStyle = {
 const Sidebar = props =>
   <div  >
 
-    <div className={style.ElenaBremner}>
+    <h className={style.ElenaBremner}>
         Elena Bremner 
-    </div>
-    <div className = {style.work}>
-      <Link to="/" style={linkStyle} activeStyle={linkActiveStyle}>
+    </h>
+    <h className = {style.work}>
+ 
+      <Link to="/"  style={linkStyle} activeStyle={linkActiveStyle} >
         Work
       </Link>
       <Link to="/UX/" className={style.optionalWork} style={linkStyle} activeStyle={linkActiveStyle}>
@@ -34,12 +35,10 @@ const Sidebar = props =>
       <Link to="/sketch/" className={style.optionalWork} style={linkStyle} activeStyle={linkActiveStyle}>
         Explorations
       </Link>
-    </div>
+    </h>
     <Link className = {style.work} to="/about/" style={linkStyle} activeStyle={linkActiveStyle}>
         About me
     </Link>
-
-    <br/> 
       <a className = {style.work} href={resume} style={linkStyle}>Resume</a>
     <div className = {style.contact}>
       
