@@ -16,37 +16,32 @@ const linkActiveStyle = {
 
 
 const Sidebar = props =>
-  <div  >
+  <div>
 
     <h className={style.ElenaBremner}>
         Elena Bremner 
     </h>
-    <h className = {style.work}>
- 
-      <Link to="/"  style={linkStyle} activeStyle={linkActiveStyle} >
-        Work
-      </Link>
-      <Link to="/UX/" className={style.optionalWork} style={linkStyle} activeStyle={linkActiveStyle}>
-        UX/UI
-      </Link>
-      <Link to="/physical/" className={style.optionalWork} style={linkStyle} activeStyle={linkActiveStyle}>
-        Physical 
-      </Link>
-      <Link to="/sketch/" className={style.optionalWork} style={linkStyle} activeStyle={linkActiveStyle}>
-        Explorations
-      </Link>
-    </h>
-    <Link className = {style.work} to="/about/" style={linkStyle} activeStyle={linkActiveStyle}>
-        About me
-    </Link>
+    <h className={style.shift}>
+        <a className = {style.work}>
+     
+          <Link to="/"  style={linkStyle} activeStyle={linkActiveStyle} >
+            Work
+          </Link>
+          <Link to="/UX/" className={style.optionalWork} style={linkStyle} activeStyle={linkActiveStyle}>
+            UX/UI
+          </Link>
+          <Link to="/physical/" className={style.optionalWork} style={linkStyle} activeStyle={linkActiveStyle}>
+            Physical 
+          </Link>
+          <Link to="/sketch/" className={style.optionalWork} style={linkStyle} activeStyle={linkActiveStyle}>
+            Explorations
+          </Link>
+        </a>
+        <Link className = {style.work} to="/about/" style={linkStyle} activeStyle={linkActiveStyle}>
+            About me
+        </Link>
       <a className = {style.work} href={resume} style={linkStyle}>Resume</a>
-    <div className = {style.contact}>
-      
-       <br></br>
-       <a href = "https://www.linkedin.com/in/elena-bremner-76ab8514b/">Linkedln</a>
-       <br></br>
-       <a href = "https://github.com/elena-bremner/elena-bremner.github.io/tree/master-source">Github</a>
-    </div>
+    </h>
   </div>
 
 
