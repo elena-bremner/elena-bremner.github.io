@@ -18,9 +18,6 @@ const linkActiveStyle = {
 const Sidebar = props =>
   <div>
 
-    <h className={style.ElenaBremner}>
-        Elena Bremner 
-    </h>
     <h className={style.shift}>
         <a className = {style.work}>
      
@@ -47,9 +44,10 @@ const Sidebar = props =>
 
 
 export default Sidebar
-      // <div>
-      //     <ImageLoader filename="pinPal/ElenaBremnerBold.png" className={style.ElenaBremner}/>
-      // </div>
-    // <div className={style.contact}>
-    //   ebremner@risd.edu
-    // </div>
+
+
+    /*
+    <h className={style.ElenaBremner}>
+        Elena Bremner 
+    </h>
+*/

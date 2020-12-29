@@ -25,14 +25,12 @@ export default ({data}) => {
   var weekday = new Array("Sunday", "Monday", "Tuesday", "Wednesday",
                     "Thursday", "Friday", "Saturday");
  
-
- 
-
-
   return (
-  
+
   <Layout >
-        <div className = {style.indexContainer}>
+  <SketchWrapper sketch={sketch} />
+     
+    <div className = {style.indexContainer}>
       <div className={style.intro}>
         <p>Happy {weekday[cday]}! </p>
        I study <a className = {style.mark}> industrial design </a> with a concentration in computation at the <a className = {style.mark}> Rhode Island School of Design</a>.
@@ -40,6 +38,7 @@ export default ({data}) => {
        <br></br>
        <br></br>
       </div>
+
 
       <div className = {style.contact}>
         <Link to="/"  >
@@ -49,8 +48,8 @@ export default ({data}) => {
         <a href = "https://www.linkedin.com/in/elena-bremner-76ab8514b/">Linkedln</a>
         <a href = "https://github.com/elena-bremner/elena-bremner.github.io/tree/master-source">Github</a>
       </div>
-       <SketchWrapper sketch={sketch}/>
       <div className={style.gridWrapper}> 
+
         {data.allMarkdownRemark.edges.map(({ node }) =>
             <div key={node.id} className={style.squareWrapper}>
               <Work
@@ -62,7 +61,9 @@ export default ({data}) => {
           )}
        </div>
    </div>
+   
  </Layout>
+
 )
 }
 
