@@ -36,13 +36,14 @@ export default function sketch(p) {
 
   // ~~~~~~ Initialize variables ~~~~~~~~~
 
-  var formResolution = 15
-  var stepSize = 3
-  var initRadius = 75
+  var formResolution = 10
+  var stepSize = 1
+  var initRadius = 40
   var centerX
   var centerY
   var x = []
   var y = []
+  let hi = 'Hey, Im Elena Bremner';
   
   var filled = false
   var freeze = false
@@ -50,12 +51,15 @@ export default function sketch(p) {
   // ~~~~~~ React lifecycle methods ~~~~~~
   p.preload = () => {
 
+  
+
   }
 
   // ~~~~~~ Setup ~~~~~~
   p.setup = () => {
     p.createCanvas(p.windowWidth, p.windowHeight)
 
+    p.textFont('jaf-lapture');
     // init shape
     centerX = p.width / 2
     centerY = p.height / 2
@@ -66,12 +70,14 @@ export default function sketch(p) {
     }
   
     p.stroke(0, 50)
-    p.strokeWeight(0.75)
+    p.strokeWeight(1)
     
   }
 
   // ~~~~~~ Draw ~~~~~~
   p.draw = () => {
+
+
   // floating towards mouse position
   centerX += (p.mouseX - centerX) * 0.08
   centerY += (p.mouseY - centerY) * 0.08
@@ -80,6 +86,14 @@ export default function sketch(p) {
   p.background(255)
   p.fill(0);
   p.ellipse(p.mouseX,p.mouseY,20,20);
+
+
+  p.fill(0);
+
+  p.textSize(64);
+  p.text(hi, p.windowWidth/2-(p.textWidth(hi)/2), p.windowHeight/2);
+
+
 
   // calculate new points
   for (var i = 0; i < formResolution; i++) {
@@ -112,6 +126,7 @@ export default function sketch(p) {
 
   // ~~~~~~ Other commonly used p5 methods
   p.mousePressed = () => {
+
   // init shape on mouse position
   centerX = p.mouseX
   centerY = p.mouseY
@@ -120,6 +135,7 @@ export default function sketch(p) {
     x[i] = p.cos(angle * i) * initRadius
     y[i] = p.sin(angle * i) * initRadius
   }
+
   }
 
   p.mouseReleased = () => {
