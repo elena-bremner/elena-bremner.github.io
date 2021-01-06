@@ -1,7 +1,7 @@
 ---
 title: "NASA Lunar Habitat Design"
 date: "March, 2020 (10 WEEKS)"
-desc: "Designed and presented a habitat design to NASA for the 2024 Artemis mission. Worked collaborately with six other designers with guidance from Michael Lye, NASA coordinator and RISD professor.  "
+desc: ""
 square: ./NASA/NASAcover.png
 order: 5
 worktype: "physical"

@@ -15,27 +15,17 @@ export default () => {
   return (
     <Layout>
         <Header
+
+          imageLoader = {< ImageLoader filename="GroupChat/introImg.png"className={style.introImage} />}
+          oneliner  = {"Connecting experienced and new students through extracurriculars"}
           name  = {"Google Design Challenge"}
           date  = {"January 2020 (1 WEEK)"}
           number  = {"Personal Project"}
-          oneliner  = {"Connecting experienced and new students through extracurriculars"}
+          role  = {"UI/UX strategy"}
+          p1 = {"I completed this project as a 1 week design challenge. The goal was to strengthen the school community by encouraging experienced students to connect with new students and help them adjust to campus life. "}
+          p2 ={"I researched and interviewed for the best way to connect students in a campus environment with the presence of intimidation and hierarchy. I created a mobile platform focusing on creating new connections through hosting and attending extracurricular events. "}
+      
         />
-        < ImageLoader filename="GroupChat/introImg.png"className={style.introImage} />
-        <div className={style.section}> Intro </div>
-        <div className={style.intro}> 
-
-            I completed this project as a 1 week design challenge. The goal was to 
-            strengthen the school community by encouraging experienced students to connect 
-            with new students and help them adjust to campus life. 
-            <br></br><br></br> 
-            I researched and interviewed for the best way to connect students in a campus 
-            environment with the presence of intimidation and hierarchy. 
-            I created a mobile platform focusing on creating new connections 
-            through hosting and attending extracurricular events. 
-            <br></br><br></br> 
-            Click <a href="#RS">here</a> to jump to my process. 
-
-        </div>
         <div className={style.section}> The Idea </div> 
          <p className={style.paragraph}> 
 

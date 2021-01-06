@@ -1,0 +1,10 @@
+/** 
+  This CSS is applied to the ENTIRE website 
+  This file is imported in gatsby-browser.js
+  -marie
+**/
+
+body {
+  margin: 0;
+/*  background-color: #f7f9fc;*/
+}

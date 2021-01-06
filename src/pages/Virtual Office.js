@@ -28,30 +28,19 @@ import high5 from "./VirtualOffice/high5.mp4"
 export default () => {
   return (
     <Layout>
-      <div c>
+      <div >
+        <video controls autoplay className={style.FDVid}>
+            <source src={full} type="video/mp4"/>
+        </video>
         <Header
           name  = {"Virtual Office"}
           date  = {"July 2020 (4 weeks)"}
-          number  = {"Team: 3"}
+          number  = {"Team: 3 Tommy O'Halloran (Design), and Roshan Benefo (Engineering) "}
           oneliner  = {"Digital and social activation that visualizes company achievements, activity, and culture"}
+          role  = {"3D assets designer, motion designer, and UI designer"}
+          p1 = {"  COVID-19 has compelled people to think about new and creative ways to continue workplace engagement and maintain a sense of community that is entirely online and physically distant. During my internship at Deeplocal, we accessed commonly used work platforms like Slack, and 15-five to trigger playful animations. The goal was to create a visual aid that would help bring back the office energy and a sense of community that have been lost during the lockdown. "}
         />
-        < ImageLoader filename="VirtualOffice/dayMode.png"className={style.introImage} />
-        <div className={style.section}> Intro </div>
-        <div className={style.intro}> 
-             COVID-19 has compelled people to think about new and creative ways to continue workplace engagement 
-             and maintain a sense of community that is entirely online and physically distant. During my internship at Deeplocal, 
-             we accessed commonly used work platforms like Slack, and 15-five to trigger playful animations. <b> The goal was to create a visual 
-             aid that would help bring back the office energy and a sense of community that have been lost during 
-             the lockdown. </b>
-             <br></br><br></br>
-             This project was completed by Deeplocal’s 2020 interns, 
-              Elena Bremner (Design), Tommy O'Halloran (Design), and Roshan Benefo (Engineering).
-             <br></br><br></br>
-             <b>My Role:</b> 3D assets designer, motion designer, and UI designer
-        </div>
-        <video controls autoplay loop className={style.FDVid}>
-            <source src={full} type="video/mp4"/>
-        </video>
+       < ImageLoader filename="VirtualOffice/dayMode.png"className={style.introImage} />
         <div className={style.section}> Design Process </div>
           <p className={style.oneliner}> 
               Visualize office activity via whimsical animations.

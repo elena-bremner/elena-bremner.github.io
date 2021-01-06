@@ -11,35 +11,42 @@ const linkStyle = {
   textDecoration: 'none',
 }
 const linkActiveStyle = {
-  color: "#70FFCE",  //5AC3FF
+  color: "gray",  //70FFCE
 }
 
 
 const Sidebar = props =>
-  <div>
-
+  <table>
     <h className={style.shift}>
-        <a className = {style.work}>
-     
-          <Link to="/"  style={linkStyle} activeStyle={linkActiveStyle} >
-            Work
-          </Link>
+        <span className = {style.work}>
+
+        <th>
           <Link to="/UX/" className={style.optionalWork} style={linkStyle} activeStyle={linkActiveStyle}>
             UX/UI
           </Link>
+        </th>
+        <th>
           <Link to="/physical/" className={style.optionalWork} style={linkStyle} activeStyle={linkActiveStyle}>
-            Physical 
+            PRODUCTS 
           </Link>
+        </th>
+        <th>
           <Link to="/sketch/" className={style.optionalWork} style={linkStyle} activeStyle={linkActiveStyle}>
-            Explorations
+            PLAY
           </Link>
-        </a>
+        </th>
+        <th>
+          <Link to="/"  style={linkStyle} activeStyle={linkActiveStyle} >
+            WORK
+          </Link>
+        </th>
+        </span>
         <Link className = {style.work} to="/about/" style={linkStyle} activeStyle={linkActiveStyle}>
-            About me
+            ABOUT ME
         </Link>
-      <a className = {style.work} href={resume} style={linkStyle}>Resume</a>
+      <a className = {style.work} href={resume} style={linkStyle}>RESUME</a>
     </h>
-  </div>
+  </table>
 
 
 
