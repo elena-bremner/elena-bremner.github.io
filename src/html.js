@@ -1,10 +1,10 @@
 import React from "react"
 import PropTypes from "prop-types"
+import LoaderSVG from './loader2.gif'
 
 
 export default function HTML(props) {
   return (
-   
     <html {...props.htmlAttributes}>
       <head>
         <meta charSet="utf-8" />
@@ -14,18 +14,32 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         {props.headComponents}
-
-
-
-
       </head>
-
-
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
-        <noscript key="noscript" id="gatsby-noscript">
-          This app works best with JavaScript enabled.
-        </noscript>
+        <div
+              key={`loader`}
+              id="___loader"
+              style={{
+                alignItems: "center",
+                backgroundColor: "#F2F2F2",
+                display: "flex",
+                justifyContent: "center",
+                position: "absolute",
+                left: 0,
+                top: 0,
+                right: 0,
+                bottom: 0,
+                zIndex: 100,
+              }}
+           >
+           <img 
+              src={LoaderSVG} 
+              alt="loading spinner" 
+              width="200" 
+              height="200"
+           />
+        </div>
         <div
           key={`body`}
           id="___gatsby"
@@ -34,7 +48,6 @@ export default function HTML(props) {
         {props.postBodyComponents}
       </body>
     </html>
-
   )
 }
 

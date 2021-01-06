@@ -1,7 +1,7 @@
 
 import React from "react"
 import Work from "../components/work"
-import Styles from "./UX.module.css"
+import Styles from "./index.module.css"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
 
@@ -10,13 +10,13 @@ import { graphql } from "gatsby"
 */
 export default ({data}) => (
   <Layout>
-  <div className={Styles.intro}>
+  <div >
     <p> User Experience/User Interface Design </p>
   </div>
 
-  <div className={Styles.wrapper}> 
+  <div className={Styles.gridWrapper}> 
   {data.allMarkdownRemark.edges.map(({ node }) =>
-      <div key={node.id} className={Styles.subwrapper}>
+      <div key={node.id} className={Styles.squareWrapper}>
         <Work
           name={node.frontmatter.title}
           picture= {node.frontmatter.square.childImageSharp.fluid}

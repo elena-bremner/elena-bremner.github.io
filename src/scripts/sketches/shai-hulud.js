@@ -38,12 +38,14 @@ export default function sketch(p) {
 
   var formResolution = 10
   var stepSize = 1
-  var initRadius = 40
+  var initRadius = 200
   var centerX
   var centerY
   var x = []
   var y = []
-  let hi = 'Hey, Im Elena Bremner';
+  let hi = "Hey, I'm Elena Bremner";
+  let Elena = "Elena"
+  let Bremner = "Bremner"
   
   var filled = false
   var freeze = false
@@ -70,23 +72,24 @@ export default function sketch(p) {
     }
   
     p.stroke(0, 50)
-    p.strokeWeight(1)
+    p.strokeWeight(2)
     
   }
 
   // ~~~~~~ Draw ~~~~~~
   p.draw = () => {
 
-
+  p.background(255,255,255);
   // floating towards mouse position
-  centerX += (p.mouseX - centerX) * 0.08
-  centerY += (p.mouseY - centerY) * 0.08
+  // centerX += (p.mouseX - centerX) * 0.08
+  // centerY += (p.mouseY - centerY) * 0.08
 
   //elena's code
-  p.background(255)
-  p.fill(0);
+  p.push()
+  p.noStroke();
+  p.fill(0,0,0);
   p.ellipse(p.mouseX,p.mouseY,20,20);
-
+  p.pop(0);
 
   p.fill(0);
 
@@ -109,19 +112,19 @@ export default function sketch(p) {
     p.noFill()
   }
 
-  p.beginShape()
-  // first controlpoint
-  p.curveVertex(x[formResolution - 1] + centerX, y[formResolution - 1] + centerY)
+  // p.beginShape()
+  // // first controlpoint
+  // p.curveVertex(x[formResolution - 1] + centerX, y[formResolution - 1] + centerY)
 
-  // only these points are drawn
-  for (var j = 0; j < formResolution; j++) {
-    p.curveVertex(x[j] + centerX, y[j] + centerY)
-  }
-  p.curveVertex(x[0] + centerX, y[0] + centerY)
+  // // only these points are drawn
+  // for (var j = 0; j < formResolution; j++) {
+  //   p.curveVertex(x[j] + centerX, y[j] + centerY)
+  // }
+  // p.curveVertex(x[0] + centerX, y[0] + centerY)
 
-  // end controlpoint
-  p.curveVertex(x[1] + centerX, y[1] + centerY)
-  p.endShape()
+  // // end controlpoint
+  // p.curveVertex(x[1] + centerX, y[1] + centerY)
+  // p.endShape()
   }
 
   // ~~~~~~ Other commonly used p5 methods
@@ -138,8 +141,10 @@ export default function sketch(p) {
 
   }
 
-  p.mouseReleased = () => {
+  p.mouseClicked = (hi) => {
 
+    // p.fill(255,0,255);
+    // ellipse(300,300,100,100);
   }
 
   p.keyPressed = () => {

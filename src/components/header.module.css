@@ -7,46 +7,71 @@
     --margin:5%;
     --smallerText:20pt;
 }
+
 .title{
-/*    
-    font-family: masqualero, sans-serif;*/
-/*     font-family: europa, sans-serif;*/
-     font-family: jaf-lapture, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size:30pt;
+    font-family: jaf-lapture, sans-serif;
+    font-weight: 600;
+    font-size:32pt;
     position:relative;
-    text-align: center;
+/*    margin-left:17%;*/
     margin-top:5%;
     margin-bottom:2%;
-    color:#4f4f4f;
+    color:#384853;
+    padding-left:14%;
 }
-.info{
+.section{
+    font-weight: bold;
     color:black;
-    font-family: europa, sans-serif;
-    text-align: center;
-    font-size:14pt;
-    color:gray;
-    position:relative;
+}
 
+.table{
+    color:#344854;
+    font-family: europa, sans-serif;
+/*    text-align: center;*/
+    font-size:14pt;
+/*    margin-left:17%;*/
+    position:relative;
+/*    padding:14%;*/
+    text-align: left;
+    float:right;
+    top:-10%;
+    width:40%;
+    border-spacing: 20px;
+/*    padding-right:14%;*/
+}
+.paragraph{
+    color:#344854;
+
+    font-family: europa, sans-serif;
+/*    text-align: center;*/
+    font-size:18px;
+    line-height: 28px;
+    letter-spacing: .5px;
+/*    margin-left:17%;*/
+    position:relative;
+    padding-left:14%;
+    text-align: left;
+    width:40%;
 }
 .introImage{
     width:100%;
     margin:auto;
-    margin-right:5%;
+ 
     position: relative;
     /*margin-top:5%;*/
 }
 .oneliner{
     font-family: europa, sans-serif;
-    text-align: center;
-    color:#463f45;
-    font-size:16pt;
+    color:#6b7b8a;
+    font-size: 25px;
     position:relative;
     font-style:italic;
     margin-bottom:3%;
     margin-top:3%;
+    padding-left:14%;
+    letter-spacing: .5px;
 }
+
 @media(max-width: 1024px){
     .oneliner {
         font-size:12pt;

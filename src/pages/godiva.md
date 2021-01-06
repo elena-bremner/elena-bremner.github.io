@@ -23,6 +23,7 @@ useTemplate: true
       width: 35%;
   }
 </style>
+
 <div style=" margin:auto; text-align: center; font-family: europa, sans-serif;width: 50%; line-height:2; ">
    As part of a team project, we repackaged Godiva’s chocolate-covered strawberries.
    Thinking about efficient space usage, structure, and the unpackaging experience, we designed a hexagonal box that is more interactive and appropriate for the brand.
