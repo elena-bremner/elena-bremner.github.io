@@ -26,9 +26,10 @@ function fallbackCopyTextToClipboard(text) {
     var successful = document.execCommand('copy');
     var msg = successful ? 'successful' : 'unsuccessful';
     console.log('Fallback: Copying text command was ' + msg);
-  } catch (err) {
-    console.error('Fallback: Oops, unable to copy', err);
-  }
+  } 
+    catch (err) {
+      console.error('Fallback: Oops, unable to copy', err);
+    }
 
   document.body.removeChild(textArea);
 };
@@ -44,6 +45,7 @@ function copyTextToClipboard(text) {
   }, function(err) {
     console.error('Async: Could not copy text: ', err);
   });
+  alert("Elena's email copied to dashboard 💾");
 };
 
 
@@ -91,6 +93,7 @@ export default ({data}) => {
             <div key={node.id} className={style.squareWrapper}>
               <Work
                 name={node.frontmatter.title}
+                date={node.frontmatter.date}
                 picture= {node.frontmatter.square.childImageSharp.fluid}
                 link={node.fields.slug}
               />
@@ -115,6 +118,7 @@ export const query = graphql`
           id
           frontmatter {
             title
+            date
             square{
               childImageSharp {
                 fluid(maxWidth: 1000) {

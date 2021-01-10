@@ -42,7 +42,7 @@ const Sidebar = props =>
         </th>
         </span>
         <Link className = {style.work} to="/about/" style={linkStyle} activeStyle={linkActiveStyle}>
-            ABOUT ME
+            ME
         </Link>
       <a className = {style.work} href={resume} style={linkStyle}>RESUME</a>
     </h>
