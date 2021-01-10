@@ -18,29 +18,6 @@ export default function HTML(props) {
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
         <div
-              key={`loader`}
-              id="___loader"
-              style={{
-                alignItems: "center",
-                backgroundColor: "#F2F2F2",
-                display: "flex",
-                justifyContent: "center",
-                position: "absolute",
-                left: 0,
-                top: 0,
-                right: 0,
-                bottom: 0,
-                zIndex: 100,
-              }}
-           >
-           <img 
-              src={LoaderSVG} 
-              alt="loading spinner" 
-              width="200" 
-              height="200"
-           />
-        </div>
-        <div
           key={`body`}
           id="___gatsby"
           dangerouslySetInnerHTML={{ __html: props.body }}
@@ -59,3 +36,31 @@ HTML.propTypes = {
   body: PropTypes.string,
   postBodyComponents: PropTypes.array,
 }
+
+
+
+/**
+        <div
+              key={`loader`}
+              id="___loader"
+              style={{
+                alignItems: "center",
+                backgroundColor: "#F2F2F2",
+                display: "flex",
+                justifyContent: "center",
+                position: "absolute",
+                left: 0,
+                top: 0,
+                right: 0,
+                bottom: 0,
+                zIndex: 100,
+              }}
+           >
+           <img 
+              src={LoaderSVG} 
+              alt="loading spinner" 
+              width="300" 
+              height="200"
+           />
+        </div>
+        **/

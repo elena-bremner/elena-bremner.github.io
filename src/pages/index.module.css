@@ -3,11 +3,6 @@
 @import url("https://use.typekit.net/lsk0fkh.css");
 
 
-.hi{
-  font-size: 32pt;
-  text-align: center;
-  margin-left: 50%;
-}
 .indexContainer{
     margin: 0;
     padding: 0;
@@ -33,23 +28,22 @@ margin:auto;
 
 }
 .contact{
-    text-decoration: none;
-    color:black;
     line-height: 2;
     position:absolute;
     top: 900%;
     left:36%;
     font-size:14pt;
     
-
 }
 
 .contact a{
+  letter-spacing: 1px;
   padding:40px;
+  text-decoration: none;
 }
 
-.contact:hover a{
-  color:gray;
+.contact a:hover {
+  color:#6b7b8a;
 }
 
 
@@ -73,24 +67,24 @@ margin:auto;
 /*  background-color:green;*/
 }
 .squareWrapper{
-  margin-bottom: 0px;
   vertical-align: bottom;
   display:block;
   float:left;
   clear: both;
   overflow:auto;
   position: relative;
-  top: 0;
-  border-radius: 5px;
-/*  transition: top ease 0.5s;*/
-  transition: all .2s ease-in-out;
-
+  border-radius: 10px;
+/*  transition: all 1s ease-in;
+  transition: all 0.2s ease-out;*/
+  transition: all .2s cubic-bezier(.25,.46,.45,.94);
+  box-shadow: 0 20px 20px 0 rgba(0,0,0,.03);
 }
 .squareWrapper:hover{
-   box-shadow: 10px 10px 30px #C8C8C8;
-   top: -10px;
-  color:rgb(255,0,0);opacity:0.8;
-  background-color: black;
+/*   box-shadow: 10px 10px 30px #C8C8C8;*/
+
+  box-shadow: 0 20px 20px 0 rgba(0,0,0,.07);
+  transform: translate(0px, -20px);
+/*  background-color: black;*/
 
 }
 

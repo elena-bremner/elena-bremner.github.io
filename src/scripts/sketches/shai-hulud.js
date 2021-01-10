@@ -88,7 +88,7 @@ export default function sketch(p) {
   p.push()
   p.noStroke();
   p.fill(0,0,0);
-  p.ellipse(p.mouseX,p.mouseY,20,20);
+  // p.ellipse(p.mouseX,p.mouseY,20,20);
   p.pop(0);
 
   p.fill(0);
