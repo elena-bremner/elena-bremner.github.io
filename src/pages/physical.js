@@ -9,11 +9,11 @@ import { graphql } from "gatsby"
 */
 export default ({data}) => (
   <Layout>
-  <div>
-    <p>Physical</p>
+  <div className={Styles.title}>
+    <p>Products</p>
   </div>
 
-  <div className={Styles.gridWrapper}> 
+  <div className={Styles.gridWrapper2}> 
   {data.allMarkdownRemark.edges.map(({ node }) =>
       <div key={node.id} className={Styles.squareWrapper}>
         <Work

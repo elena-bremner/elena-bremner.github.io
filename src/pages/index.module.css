@@ -2,7 +2,24 @@
 @import url("https://use.typekit.net/tbu4cqd.css");
 @import url("https://use.typekit.net/lsk0fkh.css");
 
-
+/*for subcategories*/
+.title{
+  font-family: 'Lato', sans-serif;
+  color: #384853;
+  text-transform: uppercase;
+  font-weight:bold;
+  padding-left:10%;
+  font-size:14pt;
+  
+}
+.name{
+  font-family: 'jaf-lapture';
+  text-align:left;
+  margin:auto;
+  font-size:42pt;
+  width:40%;
+  padding-top: 10%;
+}
 .indexContainer{
     margin: 0;
     padding: 0;
@@ -10,27 +27,26 @@
 }
 
 .intro {
-color: black;
-font-weight: lighter;
-font-family: 'jaf-lapture';
-position:absolute;
-top: 680%;
-left:30%;
-font-size:16pt;
-width:40%;
-line-height: 2;
-/*background-color:pink;*/
-/*margin-left:10%;*/
-text-align:left;
+  color: black;
+  font-weight: lighter;
+  font-family: 'jaf-lapture';
+  position:absolute;
+  top: 480%;
+  left:30%;
+  font-size:16pt;
+  width:40%;
+  line-height: 2;
+
+  /*background-color:pink;*/
+  /*margin-left:10%;*/
+  text-align:left;
 margin:auto;
-
-
 
 }
 .contact{
     line-height: 2;
     position:absolute;
-    top: 900%;
+    top: 660%;
     left:36%;
     font-size:14pt;
     
@@ -47,8 +63,8 @@ margin:auto;
 }
 
 
-.gridWrapper {
-  padding-top:10%;
+.gridWrapper2 {
+  padding-top:5%;
   height: 100%;
   width:80%;
   display: grid;
@@ -61,9 +77,23 @@ margin:auto;
 
   grid-column: 3 / span 2;
   grid-row: third-line / 4;
+/*  background-color:green;*/
+}
 
+.gridWrapper {
+  padding-top:30%;
+  height: 100%;
+  width:80%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: repeat(6, min-content);
+  grid-auto-flow: row;
+  line-height: 10px;
+  margin:auto;
 
-
+  grid-column: 3 / span 2;
+  grid-row: third-line / 4;
 /*  background-color:green;*/
 }
 .squareWrapper{

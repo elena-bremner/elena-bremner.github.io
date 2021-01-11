@@ -77,7 +77,9 @@ export default ({data}) => {
   return (
 
   <Layout className={style.indexContainer} >
-
+      <div className={style.name}>
+         Hey, I'm Elena Bremner
+      </div>
       <div className={style.intro}>
          4th year industrial designer with a concentration in computation at the <a href = "https://www.risd.edu/">Rhode Island School of Design. </a>
       </div>
