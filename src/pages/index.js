@@ -4,9 +4,9 @@ import style from "./index.module.css"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
 import { Link } from "gatsby"
-import Sketch from "react-p5";
-import SketchWrapper from '../components/sketchWrapper'
-import sketch from '../scripts/sketches/shai-hulud.js'
+// import Sketch from "react-p5";
+// import SketchWrapper from '../components/sketchWrapper'
+// import sketch from '../scripts/sketches/shai-hulud.js'
 
 
 function fallbackCopyTextToClipboard(text) {
@@ -42,10 +42,10 @@ function copyTextToClipboard(text) {
   }
   navigator.clipboard.writeText(text).then(function() {
     console.log('Async: Copying to clipboard was successful!');
+    alert("Elena's email copied to dashboard 💾");
   }, function(err) {
     console.error('Async: Could not copy text: ', err);
   });
-  alert("Elena's email copied to dashboard 💾");
 };
 
 
@@ -71,12 +71,13 @@ export default ({data}) => {
   //   el.select()
   //   document.execCommand("copy")
   // }
+      // <SketchWrapper sketch={sketch}/> 
 
        
   return (
 
   <Layout className={style.indexContainer} >
-    <SketchWrapper sketch={sketch}/> 
+
       <div className={style.intro}>
          4th year industrial designer with a concentration in computation at the <a href = "https://www.risd.edu/">Rhode Island School of Design. </a>
       </div>
@@ -84,8 +85,8 @@ export default ({data}) => {
         <a onClick={() => {copyTextToClipboard("ebremner@risd.edu");}}>
            email
         </a>
-        <a href = "https://www.linkedin.com/in/elena-bremner-76ab8514b/">Linkedln</a>
-        <a href = "https://github.com/elena-bremner/elena-bremner.github.io/tree/master-source">Github</a>
+        <a href = "https://www.linkedin.com/in/elena-bremner-76ab8514b/" target="_blank" >Linkedln</a>
+        <a href = "https://github.com/elena-bremner/elena-bremner.github.io/tree/master-source" target="_blank">Github</a>
       </div>
 
       <div className={style.gridWrapper}> 
