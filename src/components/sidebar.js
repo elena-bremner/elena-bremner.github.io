@@ -19,7 +19,6 @@ const Sidebar = props =>
   <table>
     <h className={style.shift}>
         <span className = {style.work}>
-
         <th>
           <Link to="/UX/" className={style.optionalWork} style={linkStyle} activeStyle={linkActiveStyle}>
             UX/UI
