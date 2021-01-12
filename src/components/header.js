@@ -3,38 +3,45 @@ import style from './header.module.css'
 import ImageLoader from "../components/imageLoader"
 import Img from "gatsby-image"
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+
+
+
 const Header = props =>
+
 <div> 
+
     <div> {props.imageLoader}</div>
-    <div className={style.title}> {props.name} </div>
-    <div className={style.oneliner}> {props.oneliner}</div>
+    <div  className={style.title} data-aos="fade-up"> {props.name} </div>
+    <div  className={style.oneliner} data-aos="fade-up"> {props.oneliner}</div>
+    <div  className={style.grid} data-aos="fade-up">
 
-    <table className={style.table} >
-      <tr>
-        <th>Duration</th>
-        <td>{props.date}</td>
-      </tr>
-      <tr>
-        <th>Type</th>
-        <td>{props.number}</td>
-      </tr>
-      <tr>
-        <th>Role</th>
-        <td>{props.role}</td>
-      </tr>
-    </table>
-
-    <div className={style.paragraph}> 
-        <span> {props.p1} </span> 
-        <br></br>
-        <br></br>
-        <span> {props.p2} </span> 
-        <br></br>
-        <br></br>
-        <span> {props.p3} </span> 
+        <div className={style.paragraph}> 
+            <span> {props.p1} </span> 
+            <br></br>
+            <br></br>
+            <span> {props.p2} </span> 
+            <br></br>
+            <br></br>
+            <span> {props.p3} </span> 
+        </div>
+        <table className={style.table} >
+          <tr>
+            <th>Duration</th>
+            <td>{props.date}</td>
+          </tr>
+          <tr>
+            <th>Type</th>
+            <td>{props.number}</td>
+          </tr>
+          <tr>
+            <th>Role</th>
+            <td>{props.role}</td>
+          </tr>
+        </table>
     </div>
-
-
 
 </div>
 

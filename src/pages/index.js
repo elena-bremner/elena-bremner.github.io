@@ -8,6 +8,10 @@ import { Link } from "gatsby"
 // import SketchWrapper from '../components/sketchWrapper'
 // import sketch from '../scripts/sketches/shai-hulud.js'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+
 
 function fallbackCopyTextToClipboard(text) {
   var textArea = document.createElement("textarea");
@@ -77,13 +81,13 @@ export default ({data}) => {
   return (
 
   <Layout className={style.indexContainer} >
-      <div className={style.name}>
+      <div className={style.name} data-aos="fade-down">
          Hey, I'm Elena Bremner
       </div>
-      <div className={style.intro}>
+      <div className={style.intro} data-aos="fade-up" >
          4th year industrial designer with a concentration in computation at the <a href = "https://www.risd.edu/">Rhode Island School of Design. </a>
       </div>
-      <div className = {style.contact}>
+      <div className = {style.contact} data-aos="fade-up">
         <a onClick={() => {copyTextToClipboard("ebremner@risd.edu");}}>
            email
         </a>
@@ -91,9 +95,9 @@ export default ({data}) => {
         <a href = "https://github.com/elena-bremner/elena-bremner.github.io/tree/master-source" target="_blank">Github</a>
       </div>
 
-      <div className={style.gridWrapper}> 
+      <div className={style.gridWrapper} > 
           {data.allMarkdownRemark.edges.map(({ node }) =>
-            <div key={node.id} className={style.squareWrapper}>
+            <div key={node.id} className={style.squareWrapper} >
               <Work
                 name={node.frontmatter.title}
                 date={node.frontmatter.date}
