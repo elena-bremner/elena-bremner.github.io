@@ -16,7 +16,7 @@ export default () => {
           name  = {"Google Management"}
           date  = {"September 2020 (1 WEEK)"}
           number  = {"Personal Project"}
-          oneliner  = {"as"}
+          oneliner  = {""}
           role  = {"Researcher, User-Testing, and UI designer"}
           p1 = {"With the majority of the U.S. population working from home, respecting each other’s space and being aware of each other’s schedules has become more vital than ever. Mynute annoyances like worrying about your toddler accidentally interrupting, or housemates not following protocol can take a toll on your productivity. Sharing schedules, and verbal communications are effective. However, when these methods fail, nuanced messages like closing the door or wearing headphones are sometimes not enough. Hannah’s main concern is not being too aggressive or repetitive with her housemates and finding a way to open up discussion in midst of roommate trouble."}
         />

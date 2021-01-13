@@ -55,7 +55,7 @@ class SidebarToggle extends React.Component {
       return(    
         <div>
           <MenuOutlinedIcon className={style.menu} onClick={this.handleClick}></MenuOutlinedIcon> 
-          <div className={style.maincontent}>
+          <div className={style.maincontent} >
             { this.props.children }
           </div>
         </div>
@@ -66,7 +66,7 @@ class SidebarToggle extends React.Component {
     return (
       <div>
         <CloseOutlinedIcon className={style.cancelIcon} onClick={this.handleClick}></CloseOutlinedIcon> 
-        <div className={style.sidebar} >
+        <div className={style.sidebar} data-aos="fade-right" data-aos-duration="1000" >
           <Sidebar/>
         </div>
         <div className={style.maincontent}>
