@@ -18,14 +18,14 @@
     color:#4285f4;
 }
 .Himage{
-    width:90%;
+    width:70%;
     margin:auto;
     position: relative;
     margin-top:3%;
 
 }
 .HimageS{
-    width:50%;
+    width:30%;
     margin:auto;
     position: relative;
     margin-top:3%;
@@ -41,7 +41,6 @@
 }
 .subtitle{
     font-size:16pt;
-    margin-left:var(--margin);
     margin:auto;
     font-weight:bold;
     margin-top:5%;
@@ -52,9 +51,10 @@
 .section{
     font-size:24pt;
     margin-top:5%;
-    text-align: center;
-/*    margin-left:var(--margin);*/
-    font-family: masqualero, sans-serif;
+    text-align: left;
+    margin-left:12%;
+    font-family: sans-serif;
+/*    font-family: masqualero, sans-serif;*/
     font-weight:700;
     color:#4f4f4f;
 }

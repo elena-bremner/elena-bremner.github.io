@@ -68,26 +68,20 @@ export default ({data}) => {
                     "Thursday", "Friday", "Saturday");
 
 
-
-   // <p>Happy {weekday[cday]}! </p> // put this inside layout if you want it back
-  // var copyCodeToClipboard = () => {
-  //   const el = this.textArea
-  //   el.select()
-  //   document.execCommand("copy")
-  // }
       // <SketchWrapper sketch={sketch}/> 
 
        
   return (
 
   <Layout className={style.indexContainer} >
-      <div className={style.name} data-aos="fade-down">
+      <div className={style.name} data-aos="fade-up" >
          Hey, I'm Elena Bremner
       </div>
-      <div className={style.intro} data-aos="fade-up" >
+      <div className={style.intro} data-aos="fade-up"  data-aos-delay="100">
          4th year industrial designer with a concentration in computation at the <a href = "https://www.risd.edu/">Rhode Island School of Design. </a>
       </div>
-      <div className = {style.contact} data-aos="fade-up">
+
+      <div className = {style.contact} data-aos="fade-up" data-aos-delay="200">
         <a onClick={() => {copyTextToClipboard("ebremner@risd.edu");}}>
            email
         </a>
