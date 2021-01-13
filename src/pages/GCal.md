@@ -1,7 +1,7 @@
 ---
 title: "Google Management"
 date: "SEPTEMBER, 2020 (1 WEEK)"
-team: "Team: 1"
+team: ""
 desc: ""
 square: ./GCal/cover.png
 order: 3
