@@ -66,7 +66,7 @@ class SidebarToggle extends React.Component {
     return (
       <div>
         <CloseOutlinedIcon className={style.cancelIcon} onClick={this.handleClick}></CloseOutlinedIcon> 
-        <div className={style.sidebar}>
+        <div className={style.sidebar} >
           <Sidebar/>
         </div>
         <div className={style.maincontent}>
