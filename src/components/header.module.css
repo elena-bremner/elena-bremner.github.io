@@ -13,14 +13,16 @@
 
 .title{
 /*    font-family: jaf-lapture, sans-serif;*/
-    font-family: 'Lato', sans-serif;
+   /* font-family: 'Lato', sans-serif;*/
+    font-family: sans-serif;
     font-weight: 600;
     font-size:32pt;
     position:relative;
 /*    margin-left:17%;*/
     margin-top:5%;
     margin-bottom:2%;
-    color:#384853;
+  /*  color:#384853;*/
+    color:black;
     padding-left:14%;
 
 
@@ -53,7 +55,8 @@
 
 .table{
     color:#344854;
-    font-family: 'Lato', sans-serif;
+/*    font-family: 'Lato', sans-serif;*/
+    font-family: sans-serif;
     font-size:18px;
     text-align: left;
     border-spacing: 20px;
@@ -70,7 +73,8 @@
 .paragraph{
     color:#344854;
 /*    font-family: europa, sans-serif;*/
-    font-family: 'Lato', sans-serif;
+/*    font-family: 'Lato', sans-serif;*/
+    font-family: sans-serif;
 /*    text-align: center;*/
     font-size:18px;
     line-height: 28px;
@@ -82,16 +86,19 @@
 /*    width:40%;*/
 }
 .introImage{
-    width:100%;
-    margin:auto;
- 
-    position: relative;
+    width: 100%; /* width of container */
+    height: 700px; /* height of container */
+    overflow:hidden;
+    object-position: left bottom;
+/*    object-fit: cover;*/
+  /*  position: relative;*/
     /*margin-top:5%;*/
 }
 .oneliner{
-    font-family: 'Lato', sans-serif;
+/*    font-family: 'Lato', sans-serif;*/
+    font-family: sans-serif;
     color:#6b7b8a;
-    font-size: 25px;
+    font-size: 22px;
     position:relative;
     font-style:italic;
     margin-bottom:3%;

@@ -49,7 +49,7 @@ export default () => {
         which has helped me widen my design language. 
         My journey as a designer is just beginning, but I’m excited by the possibilities ahead!
          <br></br><br></br><br></br>
-        This website is coded by Elena and built with gatsby.js
+        <b>This website is coded by Elena.</b>
       </div>
     </Layout>
   )

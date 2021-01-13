@@ -14,7 +14,7 @@
 }
 .name{
   font-family: 'jaf-lapture';
-  text-align:left;
+  text-align:center;
   margin:auto;
   font-size:42pt;
   width:40%;
@@ -32,7 +32,7 @@
   font-family: 'jaf-lapture';
   position:absolute;
   top: 480%;
-  left:30%;
+  left:32%;
   font-size:16pt;
   width:40%;
   line-height: 2;
