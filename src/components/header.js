@@ -13,7 +13,7 @@ const Header = props =>
 
 <div> 
 
-    <div className={style.introImage}> {props.imageLoader}</div>
+    <div className={style.introImage} data-aos="fade-up" data-aos-duration="1000"> {props.imageLoader}  </div>
     <div  className={style.title} data-aos="fade-up"> {props.name} </div>
     <div  className={style.oneliner} data-aos="fade-up"> {props.oneliner}</div>
     <div  className={style.grid} data-aos="fade-up">
@@ -38,7 +38,7 @@ const Header = props =>
           </tr>
           <tr>
             <th>Role</th>
-            <td>{props.role}</td>
+            <td className={style.role}>{props.role}</td>
           </tr>
         </table>
     </div>

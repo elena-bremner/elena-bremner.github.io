@@ -32,6 +32,9 @@ export default () => {
           alt="Elena's pic"
         />
       </div>
+      <div className={Styles.name}>
+      Hi there,
+      </div>
       <div className={Styles.introduction}> 
         I am an Industrial designer originally from Tokyo, Japan.  
             <br></br><br></br>
@@ -49,7 +52,7 @@ export default () => {
         which has helped me widen my design language. 
         My journey as a designer is just beginning, but I’m excited by the possibilities ahead!
          <br></br><br></br><br></br>
-        <b>This website is coded by Elena.</b>
+        <b>This website is coded by Elena. <br></br><br></br> I'm still learning! so, please let me know of any improvements I can make!</b>
       </div>
     </Layout>
   )
