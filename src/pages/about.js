@@ -52,7 +52,7 @@ export default () => {
         which has helped me widen my design language. 
         My journey as a designer is just beginning, but I’m excited by the possibilities ahead!
          <br></br><br></br><br></br>
-        <b>This website is coded by Elena. <br></br><br></br> I'm still learning! so, please let me know of any improvements I can make!</b>
+        <b>This website is coded by Elena.</b>
       </div>
     </Layout>
   )

@@ -18,7 +18,8 @@ export default () => {
           number  = {"Personal Project"}
           oneliner  = {""}
           role  = {"UX/UI, User-Testing, Visual Design"}
-          p1 = {"With the majority of the U.S. population working from home, respecting each other’s space and being aware of each other’s schedules has become more vital than ever. Minute annoyances like worrying about your toddler accidentally interrupting or housemates not following protocol can take a toll on your productivity. Sharing schedules and verbal communications are effective. However, when these methods fail, nuanced messages like closing the door or wearing headphones are sometimes not enough. Hannah’s main concern is not being too aggressive or repetitive with her housemates and finding a way to open up discussion in midst of roommate trouble."}
+          p1 = {"With the majority of the U.S. population working from home, respecting each other’s space and being aware of each other’s schedules has become more vital than ever. Minute annoyances like worrying about your toddler accidentally interrupting or housemates not following protocol can take a toll on your productivity. Sharing schedules and verbal communications are effective. However, when these methods fail, nuanced messages like closing the door or wearing headphones are sometimes not enough. "}
+          p2 ={"The users' main concern is not being too aggressive or repetitive with her housemates and finding a way to open up discussion in midst of roommate trouble."}
         />
         <div className={style.margin}>
         

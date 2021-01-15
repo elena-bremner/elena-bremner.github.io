@@ -46,20 +46,11 @@ function copyTextToClipboard(text) {
   }
   navigator.clipboard.writeText(text).then(function() {
     console.log('Async: Copying to clipboard was successful!');
-    alert("Elena's email copied to dashboard 💾");
+    alert("Elena's email copied to clipboard 💾");
   }, function(err) {
     console.error('Async: Could not copy text: ', err);
   });
 };
-
-
-/* this page is what you see in the home page 
-* including name image and link to each page
-*/
-
-/* looping all nodes from md files */
-/* each node --> each md file */
-/* <work/> is a tage */
 
 export default ({data}) => {
   var current_date = new Date()
