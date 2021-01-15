@@ -16,7 +16,7 @@ export default () => {
     <Layout>
         <Header
 
-          imageLoader = {< ImageLoader filename="GroupChat/introImg.png" />}
+          imageLoader = {< ImageLoader filename="GroupChat/introImage2.png" />}
           oneliner  = {"Connecting experienced and new students through extracurriculars"}
           name  = {"Google Design Challenge"}
           date  = {"January 2020 (1 WEEK)"}

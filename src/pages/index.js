@@ -74,11 +74,11 @@ export default ({data}) => {
   return (
 
   <Layout className={style.indexContainer} >
-      <div className={style.name} data-aos="fade-up" >
+      <div className={style.name} data-aos="fade-up"  >
          Hey, I'm Elena Bremner
       </div>
       <div className={style.intro} data-aos="fade-up"  data-aos-delay="100">
-         4th year industrial designer with a concentration in computation at the <a href = "https://www.risd.edu/">Rhode Island School of Design. </a>
+         4th year industrial designer with a concentration in computation at the <a href = "https://www.risd.edu/"target="_blank" >Rhode Island School of Design. </a>
       </div>
 
       <div className = {style.contact} data-aos="fade-up" data-aos-delay="200">

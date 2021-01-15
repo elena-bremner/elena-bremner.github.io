@@ -45,11 +45,14 @@ margin:auto;
 }
 .contact{
     line-height: 2;
-    position:absolute;
     top: 660%;
-    left:36%;
+    left:37%;
     font-size:14pt;
-    
+    display: flex;
+    margin: 0;
+    position: absolute;
+
+
 }
 
 .contact a{
