@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 @import url("https://use.typekit.net/eii1uqx.css");
 
-:root{
-    --pageColor:#3fa6ff;
-    --margin:5%;
+.margin{
+    padding-left:14%;
+    padding-right:14%;
 }
 .wrapper{
     width:100%;
@@ -23,8 +23,8 @@
 }
 .info{
     color:black;
-    font-family: europa, sans-serif;
-    text-align: center;
+    font-family: Lato, sans-serif;
+    text-align: left;
     font-size:14pt;
     color:gray;
     position:relative;
@@ -32,20 +32,22 @@
 }
 .introImage{
     width:100%;
-    margin:auto;
-    margin-right:5%;
-    margin-bottom:10%;
+/*    margin:auto;*/
+    padding-bottom:30px;
+    padding-top:30px;
     position: relative;
     /*margin-top:5%;*/
 }
 .oneliner{
-    font-family: europa, sans-serif;
-    text-align: center;
+    font-family: Lato, sans-serif;
+    text-align: left;
 /*    margin:auto;*/
-    margin-top:5%;
     color:#463f45;
-    font-size:16pt;
-    font-style:italic;
+/*    font-size:16pt;
+    font-style:italic;*/
+    font-size: 20pt;
+    line-height: 24px;
+    font-style: normal;
 }
 .intro{
     color:black;
@@ -69,38 +71,37 @@
 
 }
 
-.section{
-    font-size:24pt;
-    margin-top:5%;
-    text-align: center;
-/*    margin-left:var(--margin);*/
-    font-family: masqualero, sans-serif;
-    font-weight:700;
-    color:#4f4f4f;
-
-}
 
 .subtitle{
-  /*  margin-top:10%;*/
+    font-size: 30px;
+    color:#595959;
+    padding-top:60px;
+    padding-bottom:24px;
+}
+
+.section{
     font-size:16pt;
-    margin-left:var(--margin);
-    margin:auto;
-    font-weight:bold;
-/*    text-align: center;*/
-    margin-top:5%;
-    margin-bottom:5%;
-    margin-left:14%;
+    margin-top:120px;
+    text-align: left;
+    font-family: sans-serif;
+/*    font-family: masqualero, sans-serif;*/
+    font-weight:700;
+    color:#4f4f4f;
+    text-transform: uppercase;
 }
 .paragraph{
-    color:black;
+    color:#344854;
     font-family: 'Lato', sans-serif;
-    font-size:14pt;
-    width:50%;
+    font-size:16px;
+    width:100%;
     position:relative;
-    margin:auto;
-    margin-top:3%;
     line-height:1.5;
-/*    margin-left:var(--margin);*/
+    text-align: left;
+    margin-bottom: 60px;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: .5px;
 }
 .paragraph a{
     text-decoration: none;
@@ -121,10 +122,10 @@
  /*   margin-left:var(--margin);*/
 }
 .Himage{
-    width:70%;
-    margin:auto;
+    width:100%;
+/*    margin:auto;*/
     position: relative;
-    margin-top:8%;
+/*    padding-bottom:120px;*/
 }
 .HimageS{
     width:50%;
@@ -147,6 +148,7 @@
 }
 .FDVid{
     width:100%;
+    padding-bottom:120px;
    
 }
 .threeVid {

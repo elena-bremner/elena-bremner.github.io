@@ -7,7 +7,7 @@ desc: "Human exploration rover challenge is an annual competition held by NASA. 
 square: ./rover/cover.jpg
 order: 6
 worktype: "notux"
-content: "index"
+content: "notIndex"
 useTemplate: true
 ---
 
