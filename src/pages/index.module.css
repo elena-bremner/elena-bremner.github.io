@@ -14,11 +14,11 @@
 }
 .name{
   font-family: 'jaf-lapture';
-  text-align:left;
+  text-align:center;
   margin:auto;
   font-size:42pt;
   width:40%;
-  padding-top: 10%;
+  padding-top: 13%;
   padding-bottom: 60px;
 }
 .indexContainer{
@@ -35,10 +35,11 @@
 /*  top: 480%;*/
 /*  left:32%;*/
   font-size:16pt;
-  width:40%;
+  width:80%;
   line-height: 2;
-  text-align:left;
+  text-align:center;
   margin:auto;
+
 }
 .introSnipet {
   color: black;
@@ -50,19 +51,22 @@
   font-size:12pt;
   width:100%;
   line-height: 2;
-  text-align:left;
+  text-align:center;
   margin-top:24px;
 }
 
 .contact{
     line-height: 2;
-    top: 660%;
-    left:37%;
-    font-size:14pt;
-    display: flex;
-    margin: 0;
-    position: absolute;
-
+/*    top: 660%;*/
+/*    left:37%;*/
+  margin-top:60px;
+  position:relative;
+  width:100%;
+  line-height: 2;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size:14pt;
+/*    position: absolute;*/
 
 }
 
@@ -95,7 +99,7 @@
 }
 
 .gridWrapper {
-  padding-top:30%;
+  padding-top:20%;
   height: 100%;
   width:80%;
   display: grid;
