@@ -7,5 +7,5 @@ square: ./GCal/cover.png
 order: 3
 worktype: "ux"
 content: "index"
-useTemplate: true
+useTemplate: false
 ---
