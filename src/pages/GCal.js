@@ -58,7 +58,7 @@ export default () => {
                       <div className={style.list}> More mindful of eachothers' habits. </div>
                     </div>
                 </div>
-                <div className={style.grid2}>
+                <div className={style.grid}>
                     <div className={style.box}>
                       <ImageLoader filename="GCal/mindful.png" className={style.HimageXS}/>
                       <div className={style.list}> More mindful of eachothers' work styles. </div>

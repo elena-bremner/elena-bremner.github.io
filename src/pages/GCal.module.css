@@ -21,9 +21,19 @@
 }
 .Himage{
     width:100%;
-    position: relative;
-    margin-bottom: 32px;
+    position: absolute;
+    margin-top:60px;
+    margin-bottom:60px;
 /*    margin-bottom: 30px;*/
+}
+.laptopShape{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width:100%;
+    box-shadow: 20px 20px 60px #c5c5c5,
+             -20px -20px 60px #fbfbfb;
+    border-radius: 24px;
+/*    border: 1px solid #555;*/
 }
 .HimageS{
     margin-top: 60px;
@@ -32,11 +42,14 @@
     box-shadow: 0 20px 20px 0 rgba(0,0,0,.1);
     border-radius: 10px;
 }
+.callout{
+    width:100%;
+    margin-top:60px;
+    margin-bottom:60px;
+
+}
 .box{
     grid-row: 6 / 7;
-/*    grid-column: 9/13;*/
-/*    height: 250px;*/
-
     display: flex;
 /*    justify-content: center;*/
     align-items: center;
@@ -45,6 +58,18 @@
 .gridWrapper{
   
     padding-bottom:60px;
+}
+.gridSquare{
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      grid-template-rows: 1fr 1fr ;
+      grid-gap: 10px;
+}
+.gridVert{
+      display: grid;
+/*      grid-template-columns: 1fr 1fr ;*/
+      grid-template-rows: 2fr 2fr ;
+      grid-gap: 10px;
 }
 .grid2{
     position: static;
@@ -70,44 +95,99 @@
 /*    position: absolute;*/
     justify-content: center;
     align-items: center;
-
+}
+.current{
+    width:70%;
+/*    position: absolute;*/
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: 2px solid  #bd081c;;
+}
+.currentB{
+    width:100%;
+/*    position: absolute;*/
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: 2px solid  #bd081c;;
+}
+.descImage{
+    width:70%;
+/*    position: absolute;*/
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    box-shadow: 0 20px 20px 0 rgba(0,0,0,.1);
 }
 .subtitle{
-    font-size: 30px;
+    font-size: 36px;
 /*    font-weight:bold;*/
-    color:#595959;
+    color: #384853;
 /*    text-transform: uppercase;*/
-/*    word-spacing: 5px;*/
-    padding-top:60px;
-    padding-bottom:32px;
+    word-spacing: 5px;
+/*    margin-top:15px;*/
+/*    padding-bottom:32px;*/
+    margin-bottom: 20px;
+    line-height: 60px;
 }
 
 .section{
-    font-size:24pt;
-    margin-top:5%;
+    font-size:21px;
+    margin-top:140px;
+    line-height: 20px;
     text-align: left;
     font-family: sans-serif;
 /*    font-family: masqualero, sans-serif;*/
     font-weight:700;
-    color:#4f4f4f;
+    color: #6b7b8a;
     text-transform: uppercase;
-    padding:16px;
+    letter-spacing: 1.5px;
 }
-
-.paragraph{
-    color:#344854;
-    font-family: 'Lato', sans-serif;
-    font-size:16px;
+.descHeadline{
+    margin-bottom: 20px;
+    color: #6b7b8a;
+    font-size: 28px;
+    line-height: 53px;
+    font-weight: 200;
+}
+.descWrapper{
+    margin:auto;
+    width:60%;
+}
+.descWrapper2{
+    margin:auto;
     width:100%;
-    position:relative;
-    line-height:1.5;
-    text-align: left;
-    margin-bottom: 60px;
-    font-size: 18px;
+}
+.desc{
+
+    color: #344854;
+    font-size: 17px;
     line-height: 27px;
     font-weight: 400;
     letter-spacing: .5px;
 
+}
+.paragraph{
+    color:#344854;
+    font-family: 'Lato', sans-serif;
+    font-size:16px;
+    width:80%;
+    position:relative;
+    line-height:1.5;
+    text-align: left;
+ /*   margin-bottom: 60px;*/
+/*    margin-top: 12px;*/
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    letter-spacing: .5px;
 
 }
 
@@ -132,6 +212,38 @@
     grid-template-rows: auto;
 
 }
+
+ol {
+  
+    padding-inline-start: 0px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    overflow: hidden;
+    width:100%;
+    counter-reset: item;
+  
+}
+li{
+    margin-top:10px;
+    max-width: 90%;
+    color:#595959;
+/*    color:#bd081c;*/
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    float:left;
+    padding-left: 11px;
+    display: block; 
+}
+
+
+ol li:before {
+    content: counter(item) ". ";
+    counter-increment: item;
+    color: #bd081c;
+    font-weight: bold;
+    }
+
 .a {
     margin-bottom: 24px;
     max-width: 1225px;

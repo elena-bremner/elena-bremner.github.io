@@ -101,6 +101,7 @@ export default () => {
             banner to celebrate their achievements and hard work. 
         </p>
         <ImageLoader filename="VirtualOffice/high5Mock.png"className={style.introImage}/>
+        <div className = {style.section}> Final Output</div>
         <div className = {style.subtitle}> The Virtual World </div>
         <p className={style.paragraph}> 
              Check out the virtual world <a href= "https://virtualoffice-285701.ue.r.appspot.com/" >here</a>. 

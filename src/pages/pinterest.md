@@ -3,9 +3,9 @@ title: "Pinterest Redesign"
 date: "SEPTEMBER, 2020 (1 WEEK)"
 team: ""
 desc: ""
-square: ./pinterest/cover.png
-order: 2
+square: ./pinterest/w.png
+order: 4
 worktype: "ux"
-content: "notIndex"
-useTemplate: true
+content: "index"
+useTemplate: false
 ---
