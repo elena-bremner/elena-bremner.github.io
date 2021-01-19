@@ -1,6 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import style from "./GCal.module.css"
+import style from "./featured-styles.module.css"
 import Layout from "../components/layout"
 import Img from "gatsby-image"
 import ImageLoader from "../components/imageLoader"
@@ -12,7 +12,7 @@ export default () => {
   return (
     <Layout>
         <Header
-          imageLoader = {< ImageLoader filename="pinterest/background.png"/>}
+          imageLoader = {< ImageLoader filename="pinterest/background2.png"/>}
           name  = {"Pinterest Redesign"}
           date  = {"October 2020 (1 week )"}
           number  = {"Kleiner Perkins Design Challenge (Finalist)"}
@@ -67,6 +67,9 @@ export default () => {
             <div className={style.subtitle}> Changes to Expedite Discovery </div>
             <div className={style.grid2} >
                 <div className={style.descWrapper} >
+                    <div className={style.descHeadline}>
+                          New Indicators
+                    </div>
                     <div className={style.desc} >
                       Indicating  pins that are unrelated to your board is important to optimize discovery.
                       The eye icon indicates pins you have already seen before to limit unneeded revisits. 
@@ -144,12 +147,16 @@ export default () => {
                     </div>
                 </div>
                 <ImageLoader filename="pinterest/pinS.png" className={style.laptopShape}/>
+                <div>
+                    <div className={style.subtitle}>
+                      End Note
+                    </div>
+                    <div className={style.desc}>
+                      Tools used include: Sketch, pen and paper. <br></br> Thank you for reading through. I would greatly appreciate any feedback. 
+                    </div>
+                </div>
+                <ImageLoader filename="pinterest/sketch.png" className={style.laptopShape}/>
         </div>
-
-
-
-
-
     </Layout>
   )
 }

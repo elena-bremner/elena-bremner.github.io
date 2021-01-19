@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import Img from "gatsby-image"
 import ImageLoader from "../components/imageLoader"
 import Header from "../components/header";
-import style from "./GCal.module.css"
+import style from "./featured-styles.module.css"
 
 
 export default () => {

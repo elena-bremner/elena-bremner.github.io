@@ -6,14 +6,10 @@ square: ./VirtualOffice/CI.png
 order: 1
 worktype: "notux"
 content: "index"
-useTemplate: true
+useTemplate: false
 ---
 <style>
 
 </style>
 
-<div >
-    <img src = "./VirtualOffice/dayMode.png" > 
-
-</div>
 

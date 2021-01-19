@@ -1,6 +1,10 @@
+
+
+
 .margin{
     padding-left:14%;
     padding-right:14%;
+    padding-bottom: 4%;
 }
 .intro{
     color:black;
@@ -165,6 +169,12 @@
     margin:auto;
     width:100%;
 }
+.descWrapper3{
+    margin:auto;
+    width:100%;
+    padding-left:24%;
+    font-size:14px;
+}
 .desc{
 
     color: #344854;
@@ -272,8 +282,20 @@ ol li:before {
 /*    margin-left:var(--margin);*/
 }
 .illus{
-    width:90%;
+    width:100%;
     margin-top:60px;
 /*    margin:auto;*/
 
+}
+.FDVid{
+    width:100%;
+    padding-bottom:120px;
+   
+}
+.threeVid {
+    width:70%;
+    display: block;
+    margin: 0 auto;
+    margin-top:5%;
+    
 }

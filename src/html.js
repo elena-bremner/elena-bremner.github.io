@@ -7,7 +7,8 @@ export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"  />
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta
