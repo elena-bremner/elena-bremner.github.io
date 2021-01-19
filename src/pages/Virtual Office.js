@@ -1,6 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import style from "./VirtualOffice.module.css"
+import style from "./featured-styles.module.css"
 import Layout from "../components/layout"
 import Img from "gatsby-image"
 import ImageLoader from "../components/imageLoader"
@@ -12,18 +12,6 @@ import high5 from "./VirtualOffice/high5.mp4"
 
 
 
-        // <div className={style.section}> Intro </div>
-        // <div className={style.intro}> 
-        //       copy <br></br>
-        //       copy  <br></br><br></br>
-        //       My role was _____<br></br><br></br>
-        //       You can jump to the final design <a href="#FD">here</a>
-        // </div>
-        // <div className={style.section}> Our Ask </div>
-        // <hr></hr>
-        // <p className={style.paragraph}> 
-        //       Copy
-        // </p>
 
 export default () => {
   return (
@@ -52,19 +40,19 @@ export default () => {
           the website was coded in Javascript and CSS. 
           </p>
           <div className = {style.subtitle}> UI/UX </div>
-              <div className = {style.name}>Hover </div>
+              <div className = {style.descHeadline}>Hover </div>
               <p className={style.paragraph}>
                   Clients can uncover hidden easter eggs to learn more about the Deeplocal 
                   culture and values.  
               </p>
               <ImageLoader filename="VirtualOffice/chalkBot_hover.png" className={style.HimageS}/>
-              <div className = {style.name}>Timeline</div>
+              <div className = {style.descHeadline}>Timeline</div>
               <p className={style.paragraph}>
                   To review past activity, employees can use the timeline 
                   to see what happened throughout the day. 
               </p>
               <ImageLoader filename="VirtualOffice/timeline.png" className={style.HimageS}/> 
-              <div className = {style.name}>Login </div>
+              <div className = {style.descHeadline}>Login </div>
               <p className={style.paragraph}>   
                   With data collection comes privacy. Any feature polling private 
                   company information will only be accessible to Deeplocal 
@@ -80,7 +68,7 @@ export default () => {
         </p>
         < ImageLoader filename="VirtualOffice/blender.png"className={style.Himage} />
          <div className={style.section}> Engineering Process </div>
-        <p className={style.oneliner}> 
+        <p className={style.desc}> 
              API driven dynamic WebGL render in Three.js
         </p>
         <p className={style.paragraph}> 

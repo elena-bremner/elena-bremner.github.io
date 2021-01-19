@@ -1,6 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import style from "./GCal.module.css"
+import style from "./featured-styles.module.css"
 import Layout from "../components/layout"
 import Img from "gatsby-image"
 import ImageLoader from "../components/imageLoader"
@@ -44,7 +44,10 @@ export default () => {
                    <div className={style.list}>Hannah has a difficult time switching from play to work mode particularly after dinner time. </div>
                    <div className={style.a}> "I feel like I'm overspending my boundaries if I nudge them to be quiet during dinner hour" - Hannah  </div>
               </div>
+              <div>
                   <ImageLoader filename="GCal/WFH.png" className={style.illus}/>
+                  <span className={style.descWrapper3}>Drawn by Elena (Me)</span>
+              </div>
             </div>
             <div className={style.subtitle}> Key Takeaways </div>
             <div className={style.gridWrapper}>
@@ -58,7 +61,7 @@ export default () => {
                       <div className={style.list}> More mindful of eachothers' habits. </div>
                     </div>
                 </div>
-                <div className={style.grid}>
+                <div className={style.grid2}>
                     <div className={style.box}>
                       <ImageLoader filename="GCal/mindful.png" className={style.HimageXS}/>
                       <div className={style.list}> More mindful of eachothers' work styles. </div>
