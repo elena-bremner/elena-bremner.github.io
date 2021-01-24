@@ -17,9 +17,9 @@ export default () => {
         <Header
           imageLoader = {< ImageLoader filename="pinterest/background2.png"/>}
           name  = {"Pinterest Redesign"}
-          date  = {"October 2020 (1 week )"}
-          number  = {"Kleiner Perkins Design Challenge (Finalist)"}
-          oneliner  = {""}
+          date  = {"October 2020 (3 days)"}
+          number  = {" (Finalist)"}
+          link  = {"Kleiner Perkins Design Challenge"}
           role  = {"UX/UI, Visual Design"}
           p1 = {"Pinterest has had an immense impact on my design process, particularly when I'm seeking creative inspiration. It’s an awesome portal for visual discovery of all sorts of things that make life interesting. So it is with a sense of deep admiration for the company’s design practices that I take up this challenge. In my redesign proposal, I sought to declutter the overall interface and put a greater emphasis on expediting the discovery process of the Pinterest home page."}
         />
