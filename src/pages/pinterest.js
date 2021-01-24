@@ -6,6 +6,9 @@ import Img from "gatsby-image"
 import ImageLoader from "../components/imageLoader"
 import Header from "../components/header";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
 // <ImageLoader filename="GCal/icon.png" className={style.HimageXS}/>
 
 export default () => {
@@ -65,7 +68,7 @@ export default () => {
             </div>
             <ImageLoader filename="pinterest/home.png" className={style.laptopShape}/>
             <div className={style.subtitle}> Changes to Expedite Discovery </div>
-            <div className={style.grid2} >
+            <div className={style.grid2} data-aos="fade-up" >
                 <div className={style.descWrapper} >
                     <div className={style.descHeadline}>
                           New Indicators
@@ -77,7 +80,7 @@ export default () => {
                 </div>
                     <ImageLoader filename="pinterest/explore1.png" className={style.HimageS}/>
             </div>
-            <div className={style.grid2}>
+            <div className={style.grid2} data-aos="fade-up">
                 <ImageLoader filename="pinterest/explore2.png" className={style.HimageS}/>
                 <div className={style.descWrapper} >
                     <div className={style.descHeadline}>
@@ -92,7 +95,7 @@ export default () => {
             <div className={style.paragraph}> 
               In the current design, the drop-down board option changes based on Pinterest’s assumption of where the selected pin fits best with the users’ boards. This can often slow down the process when the assumption is flawed.
             </div>
-            <div className={style.grid2}>
+            <div className={style.grid2} data-aos="fade-up">
                   <ImageLoader filename="pinterest/current.png" className={style.current}/>
                   <div className={style.descWrapper} >
                       <div className={style.descHeadline}>
@@ -103,7 +106,7 @@ export default () => {
                       </div>
                   </div>  
             </div> 
-              <div className={style.grid2}>
+              <div className={style.grid2} data-aos="fade-up">
                   <div className={style.descWrapper} >
                       <div className={style.desc} >
                           <div className={style.descHeadline}>
@@ -118,7 +121,7 @@ export default () => {
             <div className={style.paragraph}> 
               Discovery through related content is what makes Pinterest so special. The inspired content feature allows users to quickly access potential pins to their boards. 
             </div>
-            <div className={style.grid}>
+            <div className={style.grid} data-aos="fade-up">
                 <ImageLoader filename="pinterest/discover.png" className={style.laptopShape}/>
                 <div className={style.descWrapper2} >
                   <div className={style.descHeadline}>
@@ -129,7 +132,7 @@ export default () => {
                   </div>
                 </div>  
             </div>
-                <div>
+                <div data-aos="fade-up">
                     <div className={style.descHeadline}>
                       Current Design
                     </div>
@@ -137,8 +140,8 @@ export default () => {
                       When a pin is selected, information on how another user pinned this board is displayed. This information is irrelevant to the user.
                     </div>
                 </div>  
-                <ImageLoader filename="pinterest/currentPinS.png" className={style.currentB}/>
-                <div>
+                <ImageLoader filename="pinterest/currentPinS.png" className={style.currentB} />
+                <div data-aos="fade-up">
                     <div className={style.descHeadline}>
                       Related Boards
                     </div>
@@ -146,8 +149,8 @@ export default () => {
                       Instead, other related boards should be linked and displayed for further exploration.
                     </div>
                 </div>
-                <ImageLoader filename="pinterest/pinS.png" className={style.laptopShape}/>
-                <div>
+                <ImageLoader filename="pinterest/pinS.png" className={style.laptopShape}/ >
+                <div data-aos="fade-up">
                     <div className={style.subtitle}>
                       End Note
                     </div>
@@ -155,7 +158,7 @@ export default () => {
                       Tools used include: Sketch, pen and paper. <br></br> Thank you for reading through. I would greatly appreciate any feedback. 
                     </div>
                 </div>
-                <ImageLoader filename="pinterest/sketch.png" className={style.laptopShape}/>
+                <ImageLoader filename="pinterest/sketch.png" className={style.laptopShape} data-aos="fade-up"/>
         </div>
     </Layout>
   )

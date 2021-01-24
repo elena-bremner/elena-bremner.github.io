@@ -3,10 +3,10 @@ title: "Rethinking Godiva Packaging"
 date: "DECEMBER, 2018 (3 WEEKS)"
 desc: ""
 square: ./godiva/cover.png
-order: 7
+order: 8
 worktype: "physical"
 content: "index"
-useTemplate: true
+useTemplate: false
 ---
 
 <style>
