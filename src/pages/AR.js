@@ -11,7 +11,7 @@ import orange from './AR/orange.gif'
 import touch from './AR/touch.gif'
 
 
-// import phone from "./AR/phone_view.mp4"
+import phone from "./AR/phone_view.mp4"
 // import main from "./AR/main_vid.mp4"
 
 
@@ -45,7 +45,7 @@ export default () => {
             </div>
             <div className={style.grid2} data-aos="fade-up" >
                 <div className={style.vidWrapper} >
-               <video controls autoplay loop className={style.largeVid}>
+                <video controls autoplay loop className={style.largeVid}>
                         <source src={phone} type="video/mp4" />
                  </video>
                 </div>
