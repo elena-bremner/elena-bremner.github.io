@@ -10,9 +10,12 @@ import purp from './AR/purp.gif'
 import orange from './AR/orange.gif'
 import touch from './AR/touch.gif'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 import phone from "./AR/phone_view.mp4"
-// import main from "./AR/main_vid.mp4"
+import main from "./AR/main_vid.mp4"
 
 
 
@@ -40,7 +43,9 @@ export default () => {
                     </div>  
                 </div>
                 <div className={style.vidWrapper} >
-
+                    <video controls autoplay loop className={style.largeVid}>
+                        <source src={main} type="video/mp4" />
+                    </video>
                 </div>
             </div>
             <div className={style.grid2} data-aos="fade-up" >
@@ -59,13 +64,13 @@ export default () => {
                 </div>
             </div>
             <div className={style.section}> Features </div>
-            <div className={style.subtitle}>
+            <div className={style.subtitle} data-aos="fade-up">
                 AR Trackers
             </div>
-            <div className={style.desc} >
+            <div className={style.desc}  data-aos="fade-up">
                 I used three detectors (coded with c#) to spawn my blob friends: <b>plane detection</b>, <b>image tracker</b>, and <b>touch detection.</b> 
             </div> 
-            <div className={style.vidWrapper}> 
+            <div className={style.vidWrapper} data-aos="fade-up"> 
                 <div className={style.grid3}>
                     <div> 
                         <div className={style.descHeadline}> Image Tracker </div>
