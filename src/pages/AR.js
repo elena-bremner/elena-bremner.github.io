@@ -45,7 +45,9 @@ export default () => {
             </div>
             <div className={style.grid2} data-aos="fade-up" >
                 <div className={style.vidWrapper} >
-   
+               <video controls autoplay loop className={style.largeVid}>
+                        <source src={phone} type="video/mp4" />
+                 </video>
                 </div>
                 <div className={style.descWrapper} >
                     <div className={style.descHeadline}>
