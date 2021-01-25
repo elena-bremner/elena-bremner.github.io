@@ -29,7 +29,7 @@ export default () => {
           number  = {"For fun"}
           oneliner  = {""}
           role  = {"AR, 3D Modeling"}
-          p1 = {"Due to public health and social measures by the novel CoronaVirus, I spent most of my fall semester at home. While these restrictions are dire, I can’t help feel down about the classic college parties I’m missing out on. Hence, I decided to take matters into my own hands. I made my own friends, and my own party with the magic of Augmented Reality. "}
+          p1 = {"Due to public health and social measures put in place by the novel CoronaVirus, I spent most of my fall semester at home. While these restrictions are dire, I can’t help feel down about the lively college parties I’m missing out on. I decided to take matters into my own hands. With the magic of Augmented Reality, I created my own party and had a blast with new friends (yeah, without masks!). "}
         />
         <div className={style.margin}>
             <div className={style.section}> Video </div>
@@ -91,14 +91,14 @@ export default () => {
                 Character Design
             </div>
             <div className={style.desc}>
-                Tools used include: Sketch, pen and paper. <br></br> Thank you for reading through. I would greatly appreciate any feedback. 
+                I modeled and animated the characters in Blender and exported them into Unity. 
             </div>
             <img src={blend} className={style.HimageS}/>
             <div className={style.descHeadline}>
                 Programming with C#
             </div>
             <div className={style.desc} >
-                 something about how this is the final output. I wanted to create a party at home. Strip it down to real parties. 
+                 
             </div>  
             <ImageLoader filename="AR/code.png" className={style.Himage}/>
             <div className={style.desc} >
