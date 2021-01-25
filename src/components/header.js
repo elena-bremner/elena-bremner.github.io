@@ -35,7 +35,7 @@ const Header = props =>
           <tr>
             <th>Type</th>
             <td>
-              <a href="https://fellows.kleinerperkins.com/" target="_blank" >{props.link}</a> 
+              <a href="https://fellows.kleinerperkins.com/" target="_blank" l>{props.link}</a> 
               {props.number}
             </td>
           </tr>
