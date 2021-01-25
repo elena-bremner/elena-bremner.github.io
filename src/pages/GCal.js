@@ -1,4 +1,4 @@
-gridWrapperimport React from "react"
+import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import style from "./featured-styles.module.css"
 import Layout from "../components/layout"
