@@ -68,7 +68,7 @@ export default () => {
             </div>
             <ImageLoader filename="pinterest/home.png" className={style.laptopShape}/>
             <div className={style.subtitle}> Changes to Expedite Discovery </div>
-            <div className={style.grid2} data-aos="fade-up" >
+            <div className={style.grid2} data-aos="fade-up"  >
                 <div className={style.descWrapper} >
                     <div className={style.descHeadline}>
                           New Indicators

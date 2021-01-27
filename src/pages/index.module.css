@@ -4,12 +4,24 @@
 
  
 /*for subcategories*/
+.hero{
+  position: fixed;
+  padding-top:120px;
+  width: 100vw;
+  height: 150vh;
+  padding-bottom: 1000px;
+  overflow: "hidden",
+
+
+/*  opacity:10%;
+*/}
+
 .title{
   font-family: 'Lato', sans-serif;
   color: #384853;
   text-transform: uppercase;
   font-weight:bold;
-  padding-left:10%;
+/*  padding-left:10%;*/
   font-size:14pt;
   
 }
@@ -19,25 +31,20 @@
   margin:auto;
   font-size:42pt;
   width:40%;
-  padding-top: 13%;
+/*  padding-top: 13%;*/
   padding-bottom: 60px;
+  z-index: 10;
 }
 
-.indexContainer{
-    margin: 0;
-    padding: 0;
-/*    background-color: #f7f9fc;*/
-}
 
 .intro {
-  color: $primary-color;
   font-weight: lighter;
   font-family: 'jaf-lapture';
   position:relative;
 /*  top: 480%;*/
 /*  left:32%;*/
   font-size:16pt;
-  width:80%;
+/*  width:80%;*/
   line-height: 2;
   text-align:center;
   margin:auto;
@@ -101,7 +108,9 @@
 }
 
 .gridWrapper {
-  padding-top:20%;
+/*  background-color:blue;*/
+  box-shadow: 0 20px 20px 0 rgba(0,0,0,.03);
+  padding-top:640px;
   height: 100%;
   width:80%;
   display: grid;
@@ -117,6 +126,7 @@
 /*  background-color:green;*/
 }
 .squareWrapper{
+
   vertical-align: bottom;
   display:block;
   float:left;

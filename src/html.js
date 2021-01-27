@@ -29,6 +29,7 @@ export default function HTML(props) {
         <script>
           AOS.init();
         </script>
+  
       </body>
     </html>
   )

@@ -1,15 +1,21 @@
 module.exports = {
 
   plugins: [
-	{
+    
+      
+	 {
 
+    
       resolve: `gatsby-plugin-styled-components`,
       options: {
         // Add any options here
       },
     },
+
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -18,9 +24,9 @@ module.exports = {
       },
     },
     {
-    resolve: `gatsby-transformer-remark`,
-    options: {
-      plugins: [
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
         {
           resolve: "gatsby-remark-copy-linked-files",
           options: {
