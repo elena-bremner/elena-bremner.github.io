@@ -15,7 +15,7 @@ import 'aos/dist/aos.css';
 
 
 import phone from "./AR/phone_view.mp4"
-import main from "./AR/main_vid.mp4"
+import main from "./AR/all_vid.mp4"
 
 
 
