@@ -69,14 +69,14 @@ export default ({data}) => {
 
   <Layout  >
     <div className={style.hero} >
-      <div className={style.name}  data-aos="fade" data-aos-mirror="true" data-aos-offset="10" >
+      <div className={style.name}  data-aos="fade-up" data-aos-mirror="true" data-aos-offset="10"  >
          Hey, I'm Elena Bremner
       </div>
-      <div className={style.intro} data-aos="fade" data-aos-mirror="true" data-aos-offset="200" >
+      <div className={style.intro} data-aos="fade-up" data-aos-mirror="true" data-aos-offset="200"  >
          4th year industrial designer with a concentration in computation at the <a href = "https://www.risd.edu/"target="_blank" >Rhode Island School of Design. </a>
         <div className={style.introSnipet}>I currently work as a UI/UX intern at <a href="https://www.about.pangea.app/"target="_blank"> Pangea.app</a>, a YCombinator funded startup.</div>
       </div>
-      <div className = {style.contact} data-aos="fade" data-aos-mirror="true" data-aos-offset="300">
+      <div className = {style.contact} data-aos="fade" data-aos-mirror="true" data-aos-offset="300" >
             <a onClick={() => {copyTextToClipboard("ebremner@risd.edu");}}>
                email
             </a>
@@ -84,6 +84,7 @@ export default ({data}) => {
             <a href = "https://github.com/elena-bremner/elena-bremner.github.io/tree/master-source" target="_blank">Github</a>
         </div>
     </div>
+
     <div className={style.gridWrapper} > 
           {data.allMarkdownRemark.edges.map(({ node }) =>
             <div key={node.id} className={style.squareWrapper} >
@@ -95,7 +96,8 @@ export default ({data}) => {
               />
             </div>
           )}
-      </div>
+    </div>
+
  
  </Layout>
 

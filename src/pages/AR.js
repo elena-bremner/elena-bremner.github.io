@@ -43,14 +43,14 @@ export default () => {
                     </div>  
                 </div>
                 <div className={style.vidWrapper} >
-                    <video controls autoplay loop className={style.largeVid}>
+                    <video controls autoplay loop className={style.largeVid} preload="meta">
                         <source src={main} type="video/mp4" />
                     </video>
                 </div>
             </div>
             <div className={style.grid2} data-aos="fade-up" >
                 <div className={style.vidWrapper} >
-                <video controls autoplay loop className={style.largeVid}>
+                <video controls autoplay loop className={style.largeVid} preload="meta">
                         <source src={phone} type="video/mp4" />
                  </video>
                 </div>
