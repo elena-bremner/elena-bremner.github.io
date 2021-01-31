@@ -5,8 +5,8 @@ desc: ""
 square: ./NASA/NASAcover.png
 order: 7
 worktype: "physical"
-content: "index"
-useTemplate: true
+content: "notIndex"
+useTemplate: false
 ---
 
 <style>

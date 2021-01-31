@@ -19,23 +19,23 @@ const Header = props =>
     <div  className={style.grid} data-aos="fade-up" >
 
         <div className={style.paragraph}> 
-            <span> {props.p1} </span> 
+            <span > {props.p1} </span> 
             <br></br>
             <br></br>
-            <span> {props.p2} </span> 
+            <span > {props.p2} </span> 
             <br></br>
             <br></br>
-            <span> {props.p3} </span> 
+            <span className={style.answer}> {props.p3} </span> 
         </div>
         <table className={style.table} data-aos="fade-up"  data-aos-delay="100">
           <tr>
             <th>Duration</th>
-            <td>{props.date}</td>
+            <td className={style.answer}>{props.date}</td>
           </tr>
           <tr>
             <th>Type</th>
-            <td>
-              <a href="https://fellows.kleinerperkins.com/" target="_blank" l>{props.link}</a> 
+            <td className={style.answer}>
+              <a  className={style.answer} href="https://fellows.kleinerperkins.com/" target="_blank" l>{props.link}</a> 
               {props.number}
             </td>
           </tr>

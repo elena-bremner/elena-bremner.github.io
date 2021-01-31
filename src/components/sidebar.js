@@ -11,7 +11,7 @@ const linkStyle = {
   textDecoration: 'none',
 }
 const linkActiveStyle = {
-  color: "gray",  //70FFCE
+  color: "#0047AB",  //70FFCE
 }
 
 
