@@ -74,14 +74,14 @@ export default ({data}) => {
       </div>
       <div className={style.intro} data-aos="fade-up" data-aos-mirror="true" data-aos-offset="200"  >
          4th year industrial designer with a concentration in computation at the <a href = "https://www.risd.edu/"target="_blank" >Rhode Island School of Design. </a>
-        <div className={style.introSnipet}>I currently work as a UI/UX intern at <a href="https://www.about.pangea.app/"target="_blank"> Pangea.app</a>, a YCombinator funded startup.</div>
+        <div >I currently work as a UI/UX intern at <a href="https://www.about.pangea.app/"target="_blank"> Pangea.app</a>, a YCombinator funded startup.</div>
       </div>
       <div className = {style.contact} data-aos="fade" data-aos-mirror="true" data-aos-offset="300" >
             <a onClick={() => {copyTextToClipboard("ebremner@risd.edu");}}>
-               email
+               Email
             </a>
             <a href = "https://www.linkedin.com/in/elena-bremner-76ab8514b/" target="_blank" >Linkedln</a>
-            <a href = "https://github.com/elena-bremner/elena-bremner.github.io/tree/master-source" target="_blank">Github</a>
+            <a href = "https://github.com/elena-bremner/elena-bremner.github.io/tree/master-source" target="_blank">GitHub</a>
         </div>
     </div>
 
@@ -89,10 +89,12 @@ export default ({data}) => {
           {data.allMarkdownRemark.edges.map(({ node }) =>
             <div key={node.id} className={style.squareWrapper} >
               <Work
+                tag={node.frontmatter.tag}
                 name={node.frontmatter.title}
                 date={node.frontmatter.date}
                 picture= {node.frontmatter.square.childImageSharp.fluid}
                 link={node.fields.slug}
+
               />
             </div>
           )}
@@ -114,7 +116,9 @@ export const query = graphql`
         node {
           id
           frontmatter {
+            tag
             title
+            worktype
             date
             square{
               childImageSharp {

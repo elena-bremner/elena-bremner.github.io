@@ -5,8 +5,9 @@ desc: ""
 square: ./godiva/cover.png
 order: 8
 worktype: "physical"
-content: "index"
+content: "notIndex"
 useTemplate: false
+tag: "Product"
 ---
 
 <style>

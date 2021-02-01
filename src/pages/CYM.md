@@ -7,6 +7,7 @@ order: 1
 worktype: "sketch"
 content: "notindex"
 useTemplate: true
+tag: "Machine Learning"
 ---
 
 <style>

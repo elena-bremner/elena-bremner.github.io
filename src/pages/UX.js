@@ -10,14 +10,17 @@ import { graphql } from "gatsby"
 */
 export default ({data}) => (
   <Layout>
-  <div className={Styles.title}>
-    <p> UX/UI Design </p>
+  <div className={Styles.margin}>
+    <div className={Styles.title}>
+      <p> UX/UI Design </p>
+    </div>
   </div>
 
   <div className={Styles.gridWrapper2}> 
   {data.allMarkdownRemark.edges.map(({ node }) =>
       <div key={node.id} className={Styles.squareWrapper}>
         <Work
+          tag={node.frontmatter.tag}
           name={node.frontmatter.title}
           picture= {node.frontmatter.square.childImageSharp.fluid}
           link={node.fields.slug}
@@ -46,7 +49,9 @@ export const query = graphql`
               }
             }
             worktype
+            tag
             title
+
       
             order
           }

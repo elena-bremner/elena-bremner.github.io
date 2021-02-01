@@ -4,6 +4,10 @@
 
  
 /*for subcategories*/
+.margin{
+  padding-left: 10%;
+  padding-top: 30px;
+}
 .hero{
   position: fixed;
   padding-top:120px;

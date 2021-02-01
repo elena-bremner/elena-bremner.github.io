@@ -11,11 +11,18 @@ const Work = props =>
         <div className={Styles.container}>
           <Img fluid={props.picture} className={Styles.image}/>
           <div className={Styles.middle}>
-            <div className={Styles.text}>
-              {props.name}    
-            </div>
-            <div className={Styles.dateText}>
-              {props.date}               
+           <div className={Styles.grid}>
+              <div>
+                <div className={Styles.text}>
+                  {props.name}    
+                </div>
+                <div className={Styles.dateText}>
+                  {props.date}              
+                </div>
+              </div>
+              <div className={Styles.tag}>
+                {props.tag}              
+              </div>
             </div>
           </div>
         </div>

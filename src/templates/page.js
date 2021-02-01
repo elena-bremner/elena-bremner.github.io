@@ -1,7 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-// import ImageLoader from "../components/imageLoader"
 import Header from "../components/header";
 // import { Link } from "gatsby"
 
@@ -27,6 +26,8 @@ export default ({data}) => {
           name  = {post.frontmatter.title}
           date  = {post.frontmatter.date}
           number  = {post.frontmatter.team}
+
+
       />
        <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </Layout>
@@ -40,10 +41,10 @@ export const query = graphql`
       html
       frontmatter {
         title
+
         date 
         desc
         team
-   
       }
     }
   }
