@@ -10,7 +10,6 @@ const Work = props =>
       <div>
         <div className={Styles.container}>
           <Img fluid={props.picture} className={Styles.image}/>
-     
            <div className={Styles.grid}>
               <div>
                   <div className={Styles.text}>
