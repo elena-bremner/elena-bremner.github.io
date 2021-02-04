@@ -3,7 +3,7 @@
 
 
 .grid{
-      position: static;
+      position: relative;
     display: -ms-grid;
     display: grid;
   /*  max-width: 1225px;*/
@@ -23,7 +23,7 @@
     padding-right:24px;
     padding-top:32px;
     padding-bottom:32px;
-    width:88%;
+    width:23vw;
     margin:0%;
 }
 .container {

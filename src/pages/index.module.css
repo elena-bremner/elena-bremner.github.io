@@ -112,7 +112,7 @@
 .gridWrapper {
 /*  background-color:blue;*/
 /*  box-shadow: 0 20px 20px 0 rgba(0,0,0,.03);*/
-  padding-top:580px;
+  margin-top:580px;
   height: 100%;
   width:80%;
   display: grid;
@@ -121,11 +121,15 @@
   grid-template-rows: repeat(6, min-content);
   grid-auto-flow: row;
   line-height: 10px;
-  margin:auto;
+
+  padding-left:10%;
+  padding-right:10%;
+  justify-content: center;
+  align-self: center;
 
   grid-column: 3 / span 2;
   grid-row: third-line / 4;
-/*  background-color:green;*/
+  background-color:green;
 }
 .squareWrapper{
 
@@ -133,7 +137,7 @@
   display:block;
   float:left;
   clear: both;
-  overflow:auto;
+  overflow:none;
   position: relative;
   border-radius: 10px;
 /*  transition: all 1s ease-in;
