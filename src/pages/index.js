@@ -74,7 +74,7 @@ export default ({data}) => {
       </div>
       <div className={style.intro} data-aos="fade-up" data-aos-mirror="true" data-aos-offset="200"  >
          4th year industrial designer with a concentration in computation at the <a href = "https://www.risd.edu/"target="_blank" >Rhode Island School of Design. </a>
-        <div >I currently work as a UI/UX intern at <a href="https://www.about.pangea.app/"target="_blank"> Pangea.app</a>, a YCombinator funded startup.</div>
+        <div >I currently work as a UI/UX intern at <a href="https://www.about.pangea.app/"target="_blank"> Pangea.app</a></div>
       </div>
       <div className = {style.contact} data-aos="fade" data-aos-mirror="true" data-aos-offset="300" >
             <a onClick={() => {copyTextToClipboard("ebremner@risd.edu");}}>
