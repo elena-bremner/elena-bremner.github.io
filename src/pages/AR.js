@@ -23,7 +23,7 @@ export default () => {
   return (
     <Layout>
         <Header
-          imageLoader = {< ImageLoader filename="AR/background.png"/>}
+          imageLoader = {< ImageLoader filename="AR/background.jpg"/>}
           name  = {"House Party"}
           date  = {"November 2020 (1 month )"}
           number  = {"For fun"}
