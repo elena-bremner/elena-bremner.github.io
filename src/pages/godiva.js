@@ -11,7 +11,7 @@ export default () => {
   return (
     <Layout>
         <Header
-          imageLoader = {<ImageLoader filename="godiva/image.png" />}
+          imageLoader = {<ImageLoader filename="godiva/image.jpg" />}
           name  = {"Rethinking Godiva"}
           date  = {"December 2018 (1 month)"}
           number  = {"Collaboration with Jiaju Ma and Anya Liu "}

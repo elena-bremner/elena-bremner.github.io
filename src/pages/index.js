@@ -70,7 +70,7 @@ export default ({data}) => {
   <Layout  >
     <div className={style.hero} >
       <div className={style.name}  data-aos="fade-up" data-aos-mirror="true" data-aos-offset="10"  >
-         Hey, I'm Elena Bremner
+         Hey, I'm <Link to="/about/" className={style.link} > Elena Bremner </Link>
       </div>
       <div className={style.intro} data-aos="fade-up" data-aos-mirror="true" data-aos-offset="200"  >
          4th year industrial designer with a concentration in computation at the <a href = "https://www.risd.edu/"target="_blank" >Rhode Island School of Design. </a>

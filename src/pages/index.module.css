@@ -36,6 +36,10 @@
 /*  padding-top: 13%;*/
   padding-bottom: 60px;
   z-index: 10;
+
+}
+.link{
+  text-decoration: none;
 }
 
 

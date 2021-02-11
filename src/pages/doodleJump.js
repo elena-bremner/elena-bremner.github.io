@@ -13,6 +13,7 @@ export default () => {
   return (
     <Layout>
         <Header
+          imageLoader = {< ImageLoader filename="doodleJump/cover.png" />}
           name  = {"Doodle Jump"}
           date  = {"December 2019 (2 WEEKS)"}
           number  = {"CS0150 Midterm"}
