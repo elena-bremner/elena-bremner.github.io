@@ -6,7 +6,7 @@ square: ./runwayML/RunwayML_cover.jpg
 order: 1
 worktype: "sketch"
 content: "notindex"
-useTemplate: true
+useTemplate: false
 tag: "Machine Learning"
 ---
 

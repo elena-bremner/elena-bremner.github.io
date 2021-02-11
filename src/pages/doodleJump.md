@@ -6,7 +6,7 @@ square: ./doodleJump/cover.png
 order: 3
 worktype: "sketch"
 content: "notIndex"
-useTemplate: true
+useTemplate: false
 tag: "Code"
 
 ---
