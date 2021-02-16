@@ -132,12 +132,8 @@
 }
 .subtitle{
     font-size: 36px;
-/*    font-weight:bold;*/
     color: #384853;
-/*    text-transform: uppercase;*/
     word-spacing: 5px;
-/*    margin-top:15px;*/
-/*    padding-bottom:32px;*/
     margin-bottom: 20px;
     line-height: 60px;
 }
@@ -148,7 +144,6 @@
     line-height: 20px;
     text-align: left;
     font-family: sans-serif;
-/*    font-family: masqualero, sans-serif;*/
     font-weight:700;
     color: #6b7b8a;
     text-transform: uppercase;
@@ -177,13 +172,11 @@
 }
 
 .desc{
-
     color: #344854;
     font-size: 17px;
     line-height: 27px;
     font-weight: 400;
     letter-spacing: .5px;
-
 }
 .paragraph{
     color:#344854;
@@ -193,8 +186,6 @@
     position:relative;
     line-height:1.5;
     text-align: left;
- /*   margin-bottom: 60px;*/
-/*    margin-top: 12px;*/
     font-size: 18px;
     line-height: 27px;
     font-weight: 400;

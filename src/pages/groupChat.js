@@ -4,12 +4,13 @@ import style from "./groupChat.module.css"
 import Layout from "../components/layout"
 
 import ImageLoader from "../components/imageLoader"
-import FruitBasket from "./groupChat/FruitBasket.mp4"
 import buddy from "./groupChat/buddy.mp4"
 import cancel from "./groupChat/cancel.mp4"
+import FB from './groupChat/fruitbasket.gif'
+import Buddy from './groupChat/buddy.gif'
+import Cancel from './groupChat/cancel.gif'
+
 import Header from "../components/header";
-
-
 
 export default () => {
   return (
@@ -40,43 +41,43 @@ export default () => {
 
            </p>
            < ImageLoader filename="GroupChat/prop.png"className={style.HimageXS} />
-          <div className={style.subtitle}> Fruit Basket </div>
-           <p className={style.paragraph}> 
-
-            Users will only be able to view the guest list after they have joined 
-            the adventure to allow integration with users from other grades and majors.
-            <br></br><br></br> 
-            They will be added to the group chat along with other guests attending the 
-            event, where they can discuss any further plans on the adventure.
-
-           </p>
-          <video controls autoplay loop className={style.FDVid}>
-                  <source src={FruitBasket} type="video/mp4" />
-          </video>
-           <div className={style.subtitle}> Buddy System </div>
-           <p className={style.paragraph}> 
-
-            Joining a group of new people may be unnerving for students, 
-            especially those who are introverted. The sharing feature allow students 
-            to share and invite a friend to the adventure to mitigate some of the intimidation.
-
-           </p>
-          <video controls autoplay loop className={style.FDVid}>
-                  <source src={buddy} type="video/mp4" />
-          </video>
-            <div className={style.subtitle}> Accountability </div>
-            <p className={style.paragraph}> 
-
-             We want people to be mindful when joining the adventures. Therefore, 
-             when there is less than 3 hours to the start of an event, users must 
-             message the hosts to be removed from the adventure. With 3 hour canceling 
-             limits, it advises users to have more accountability when adding the event 
-             to their schedule. 
-
-           </p>
-            <video controls autoplay loop className={style.FDVid}>
-                  <source src={cancel} type="video/mp4" />
-          </video>
+          <div className={style.grid2}  >
+            <div className={style.descWrapper} >
+              <div className={style.descHeadline}> Fruit Basket </div>
+              <div className={style.desc}> 
+                  Users will only be able to view the guest list after they have joined 
+                  the adventure to allow integration with users from other grades and majors.
+                  <br></br><br></br> 
+                  They will be added to the group chat along with other guests attending the 
+                  event, where they can discuss any further plans on the adventure.
+              </div>  
+            </div>
+            <img src={FB} className={style.FDVid}/>  
+          </div>
+          <div className={style.grid2}  >
+            <img src={Buddy} className={style.FDVid}/>  
+            <div className={style.descWrapper} >
+              <div className={style.descHeadline}> Buddy System </div>
+              <div className={style.desc}> 
+                Joining a group of new people may be unnerving for students, 
+                especially those who are introverted. The sharing feature allow students 
+                to share and invite a friend to the adventure to mitigate some of the intimidation.
+              </div>  
+            </div>
+          </div> 
+          <div className={style.grid2} >
+            <div className={style.descWrapper} >
+              <div className={style.descHeadline}> Accountability </div>
+              <div className={style.desc}> 
+                We want people to be mindful when joining the adventures. Therefore, 
+                when there is less than 3 hours to the start of an event, users must 
+                message the hosts to be removed from the adventure. With 3 hour canceling 
+                limits, it advises users to have more accountability when adding the event 
+                to their schedule. 
+              </div>  
+            </div>
+            <img src={Cancel} className={style.FDVid}/>  
+          </div>     
           <div className={style.section} id = "RS"> Research </div>
           <div className={style.subtitle}> Interviews </div>
           <p className={style.paragraph}> 

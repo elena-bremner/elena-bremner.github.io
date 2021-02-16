@@ -11,7 +11,7 @@ const linkStyle = {
   textDecoration: 'none',
 }
 const linkActiveStyle = {
-  color: "#A4D6FF",  //70FFCE
+  color: "#6b7b8a", borderBottom: '3px solid #6b7b8a',  //
 }
 
 

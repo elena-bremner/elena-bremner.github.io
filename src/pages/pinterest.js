@@ -50,7 +50,7 @@ export default () => {
                 discoveries in the most efficient way. 
             </div>
             <ol className={style.list}>
-                <li> The changes in board setting slow down the users’ information discovery process and forces users to multi-task.</li>
+                <li> The changes in board setting slow down the users’ information discovery process and forces users to multitask.</li>
                 <li> There are three buttons that lead to the same weblink for the pin’s source. That is redundant. </li>
                 <li> The burger menu is scattered inconsistently around the home page, creating a messy and confusing navigation.</li>
             </ol>
@@ -91,7 +91,7 @@ export default () => {
                     </div>
                 </div>  
             </div> 
-            <div className={style.subtitle}> Discourage Multi-Tasking </div>
+            <div className={style.subtitle}> Discourage Multitasking </div>
             <div className={style.paragraph}> 
               In the current design, the drop-down board option changes based on Pinterest’s assumption of where the selected pin fits best with the users’ boards. This can often slow down the process when the assumption is flawed.
             </div>
