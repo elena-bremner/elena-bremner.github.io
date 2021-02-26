@@ -33,7 +33,7 @@
 /*    height:auto;*/
 /*    height: 20%;*/
     backdrop-filter: blur(8px);
-    display: inline-block
+    display: inline-block;
 }
 .tag{
   font-size:14px;
@@ -63,7 +63,10 @@
 /*  height: auto;*/
   transition: .5s ease;
   backface-visibility: hidden;
+
   border-radius: 10px;
+/*  box-shadow:  20px 20px 40px rgba(255,0,0,.03),
+             -20px -20px 40px #ffffff;*/
 }
 
 

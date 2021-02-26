@@ -4,8 +4,6 @@ import style from "./groupChat.module.css"
 import Layout from "../components/layout"
 
 import ImageLoader from "../components/imageLoader"
-import buddy from "./groupChat/buddy.mp4"
-import cancel from "./groupChat/cancel.mp4"
 import FB from './groupChat/fruitbasket.gif'
 import Buddy from './groupChat/buddy.gif'
 import Cancel from './groupChat/cancel.gif'
