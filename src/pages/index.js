@@ -73,9 +73,8 @@ export default ({data}) => {
          Hey, I'm <Link to="/about/" className={style.link} > Elena Bremner </Link>
       </div>
       <div className={style.intro} data-aos="fade-up" data-aos-mirror="true" data-aos-offset="200"  >
-         4th year industrial designer with a concentration in computation at the <a href = "https://www.risd.edu/"target="_blank" >Rhode Island School of Design. </a>
-        <div >I currently work as a UI/UX designer at <a href="https://www.about.pangea.app/"target="_blank"> Pangea.app</a>. 
-        I will be joining the <a href ="https://fellows.kleinerperkins.com/" target="_blank">Kleiner Perkins</a> 2021 Cohort this coming summer.</div>
+         Fourth-year industrial designer with a concentration in computation at the <a href = "https://www.risd.edu/"target="_blank" >Rhode Island School of Design</a>.
+        <div>I currently work as a UI/UX designer at <a href="https://www.about.pangea.app/"target="_blank"> Pangea.app</a> and I'll be a 2021 <a href ="https://fellows.kleinerperkins.com/" target="_blank">Kleiner Perkins</a> Design Fellow this summer!</div>
         <div ></div>
       </div>
       <div className = {style.contact} data-aos="fade" data-aos-mirror="true" data-aos-offset="300" >
