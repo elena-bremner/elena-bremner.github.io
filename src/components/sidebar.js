@@ -11,41 +11,45 @@ const linkStyle = {
   textDecoration: 'none',
 }
 const linkActiveStyle = {
-  color: "#6b7b8a", borderBottom: '3px solid #6b7b8a',  //
+  color: "black", borderBottom: '3px solid black',  
 }
 
 
+
 const Sidebar = props =>
-  <table>
-    <h className={style.shift} >
-        <span className = {style.work}>
-        <th>
-          <Link to="/UX/" className={style.optionalWork} style={linkStyle} activeStyle={linkActiveStyle}>
-            UX/UI
-          </Link>
-        </th>
-        <th>
-          <Link to="/physical/" className={style.optionalWork} style={linkStyle} activeStyle={linkActiveStyle}>
-            PRODUCTS 
-          </Link>
-        </th>
-        <th>
-          <Link to="/sketch/" className={style.optionalWork} style={linkStyle} activeStyle={linkActiveStyle}>
-            PLAY
-          </Link>
-        </th>
-        <th>
-          <Link to="/"  style={linkStyle} activeStyle={linkActiveStyle} >
-            WORK
-          </Link>
-        </th>
-        </span>
-        <Link className = {style.work} to="/about/" style={linkStyle} activeStyle={linkActiveStyle}>
-            ME
-        </Link>
-      <a className = {style.work} href={resume} style={linkStyle}>RESUME</a>
-    </h>
-  </table>
+  <div className = {style.gridWrapper}>
+        <div className = {style.grid}>
+
+              <Link to="/UX/" style={linkStyle}>
+                 <span className={style.optionalWork} > UX/UI </span>
+              </Link>
+
+
+              <Link to="/physical/"  style={linkStyle} >
+                <span className={style.optionalWork}  >PRODUCTS</span>
+              </Link>
+
+              <Link to="/sketch/" style={linkStyle} >
+                <span className={style.optionalWork} > PLAY </span>
+              </Link>
+              <div className = {style.work}>
+                <Link to="/" style={linkStyle}  >
+                  <span > WORK </span>
+                </Link>
+              </div>
+        </div>
+        <div className = {style.grid}>
+
+          <div className = {style.work}>
+            <Link to="/about/" style={linkStyle} >
+              <span> ME </span>
+            </Link>
+          </div>
+          <div className = {style.work}>
+              <a href={resume} style={linkStyle}><span> RESUME </span></a>
+          </div>
+        </div>
+  </div>
 
 
 
