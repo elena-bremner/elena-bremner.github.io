@@ -9,9 +9,11 @@ import ImageLoader from "../components/imageLoader"
 const linkStyle = {
   color: 'black',
   textDecoration: 'none',
+  
 }
 const linkActiveStyle = {
-  color: "black", borderBottom: '3px solid black',  
+  color: "black", 
+  borderBottom: '3px solid black',  
 }
 
 
@@ -19,34 +21,30 @@ const linkActiveStyle = {
 const Sidebar = props =>
   <div className = {style.gridWrapper}>
         <div className = {style.grid}>
-
-              <Link to="/UX/" style={linkStyle}>
-                 <span className={style.optionalWork} > UX/UI </span>
+              <Link to="/UX/" style={linkStyle} className={style.optionalWork}  >
+                 <span > UX/UI </span>
+              </Link>
+              <Link to="/physical/"  style={linkStyle}  className={style.optionalWork}  >
+                <span>PRODUCTS</span>
               </Link>
 
-
-              <Link to="/physical/"  style={linkStyle} >
-                <span className={style.optionalWork}  >PRODUCTS</span>
-              </Link>
-
-              <Link to="/sketch/" style={linkStyle} >
-                <span className={style.optionalWork} > PLAY </span>
+              <Link to="/sketch/" style={linkStyle} className={style.optionalWork}   >
+                <span> PLAY </span>
               </Link>
               <div className = {style.work}>
-                <Link to="/" style={linkStyle}  >
+                <Link to="/" style={linkStyle} activeStyle={linkActiveStyle}  >
                   <span > WORK </span>
                 </Link>
               </div>
         </div>
         <div className = {style.grid}>
-
           <div className = {style.work}>
-            <Link to="/about/" style={linkStyle} >
-              <span> ME </span>
+            <Link to="/about/" style={linkStyle} activeStyle={linkActiveStyle} >
+              <span > ME </span>
             </Link>
           </div>
-          <div className = {style.work}>
-              <a href={resume} style={linkStyle}><span> RESUME </span></a>
+          <div className = {style.work} >
+              <a href={resume} style={linkStyle} activeStyle={linkActiveStyle}><span> RESUME </span></a>
           </div>
         </div>
   </div>

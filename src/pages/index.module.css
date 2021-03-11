@@ -45,7 +45,9 @@
 .link:hover.link{
   color:#6b7b8a;;
 }
-
+.intro a:hover{
+  color:#6b7b8a;
+}
 .intro {
   font-weight: lighter;
   font-family: 'jaf-lapture';
@@ -93,9 +95,7 @@
   padding:40px;
   text-decoration: none;
 }
-.intro a:hover{
-  color:#6b7b8a;
-}
+
 
 .contact a:hover {
   color:#6b7b8a;

@@ -77,7 +77,7 @@ export default ({data}) => {
         <div>I currently work as a UI/UX designer at <a href="https://www.about.pangea.app/"target="_blank"> Pangea.app</a> and I'll be a 2021 <a href ="https://fellows.kleinerperkins.com/" target="_blank">Kleiner Perkins</a> Design Fellow this summer!</div>
         <div ></div>
       </div>
-      <div className = {style.contact} data-aos="fade" data-aos-mirror="true" data-aos-offset="300" >
+      <div className = {style.contact} data-aos="fade" data-aos-mirror="true" data-aos-offset="200" >
             <a onClick={() => {copyTextToClipboard("ebremner@risd.edu");}}>
                Email
             </a>

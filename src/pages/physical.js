@@ -11,7 +11,7 @@ export default ({data}) => (
   <Layout>
   <div className={Styles.margin}>
     <div className={Styles.title}>
-      <p>Products</p>
+      <p>PHYSICAL Products</p>
     </div>
   </div>
 
