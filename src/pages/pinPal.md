@@ -5,7 +5,7 @@ team: "Team: 4"
 desc: ""
 square: ./pinPal/croppedPurp.png
 order: 4
-worktype: "ux"
+worktype: "no"
 content: "notIndex"
 useTemplate: false
 tag: "UX/UI"

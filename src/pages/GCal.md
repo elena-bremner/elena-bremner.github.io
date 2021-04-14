@@ -6,7 +6,7 @@ desc: ""
 square: ./GCal/cover.jpg
 order: 4
 worktype: "ux"
-content: "index"
+content: "notIndex"
 useTemplate: false
 tag: "UX/UI"
 ---
