@@ -41,13 +41,13 @@
   padding-right:8px;
   padding-top:8px;
   padding-bottom:8px;
-  background-color:#f6f7fa80;
+  background-color:#f9f7fa;
   border-width: 2px;
   width:auto;
-  border-style: solid;
-  border-radius: 20px;
-  border-color: #6b7b8a80;
-  color:#6b7b8a80;
+/*  border-style: solid;*/
+  border-radius: 4px;
+
+  color:#6b7b8a;
 
   display: inline-block;
   text-align: center;
@@ -64,7 +64,7 @@
   transition: .5s ease;
   backface-visibility: hidden;
 
-  border-radius: 10px;
+  border-radius: 0px;
 /*  box-shadow:  20px 20px 40px rgba(255,0,0,.03),
              -20px -20px 40px #ffffff;*/
 }

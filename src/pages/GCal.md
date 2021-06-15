@@ -4,9 +4,9 @@ date: "SEPTEMBER, 2020 (1 WEEK)"
 team: ""
 desc: ""
 square: ./GCal/cover.jpg
-order: 4
+order: 5
 worktype: "ux"
-content: "notIndex"
+content: "index"
 useTemplate: false
 tag: "UX/UI"
 ---

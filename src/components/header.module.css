@@ -21,7 +21,7 @@
 /*    margin-left:17%;*/
     margin-bottom:24px;
   /*  color:#384853;*/
-    color:black;
+    color:#232838;
     padding-left:14%;
     padding-top:140px;
 }
@@ -47,9 +47,12 @@
     -ms-grid-rows: auto;
     grid-template-rows: auto;
     padding-bottom:120px;
+
+
 }
 .table{
     color:#344854;
+     background-color: #6b7b8a05;
 /*    font-family: 'Lato', sans-serif;*/
     font-family: sans-serif;
     font-size:18px;
@@ -95,7 +98,8 @@
     line-height: 28px;
     letter-spacing: .5px;
     text-align: left;
-/*    width:40%;*/
+    justify-items: center;
+    align-self: center;
 }
 
 .introImage{
