@@ -190,11 +190,8 @@ export default () => {
             </div>
             <ImageLoader filename="middleGround/second.png"/>
             <div className = {style.section}> Pitch </div>
-            <div className = {style.vidWrapper}>
-                <video controls autoplay loop className={style.HimageM}>
-                    <source src={pitch} type="video/mp4"/>
-                </video>
-            </div>
+            <div className = {style.spacer}> </div>
+                <div className = {style.desc}> Click <a href="https://www.youtube.com/watch?v=3_x1ZgcJY98" target="_blank">here</a> for the full presentation.  </div>
             <div className = {style.section}> Feedback </div>
               <div className = {style.grid3}>
                 <div>

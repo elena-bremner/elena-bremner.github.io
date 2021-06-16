@@ -76,7 +76,7 @@ export default ({data}) => {
           <div className={style.intro} data-aos="fade-up" data-aos-mirror="true" data-aos-offset="200"  >
              User experience designer currently a <a href ="https://fellows.kleinerperkins.com/" target="_blank">Kleiner Perkins fellow</a> while working at <a href="https://www.interos.ai/"target="_blank"> Interos</a> 
              <div className={style.experience}>
-                <div> Past work experience: 3M, Deeplocal, and <a href="https://www.about.pangea.app/"target="_blank"> Pangea.app</a> </div>
+                <div> Previously at 3M, Deeplocal, and <a href="https://www.about.pangea.app/"target="_blank"> Pangea.app</a> </div>
             </div>
           </div>
       </div>
