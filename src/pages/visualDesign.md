@@ -5,7 +5,7 @@ desc: "FILL"
 square: ./visualDesign/cover.png
 order: 6
 worktype: "sketch"
-content: "notIndex"
+content: "Index"
 useTemplate: false
 tag: "Visual Design"
 ---
