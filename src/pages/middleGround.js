@@ -21,7 +21,7 @@ export default () => {
             imageLoader = {<ImageLoader filename="middleGround/hero.jpg" />}
             name  = {"Adobe X Twitch Creative Jam"}
             date  = {"March 2021 (1 week)"}
-            number  = {"Amber Li and Elena Bremner (me)"}
+            number  = {"Amber Li and I"}
             role  = {"UX/UI - Presenter - User Researcher "}
             p1 = {"In April of 2021, our team participated and placed second out of 400+ teams in Adobe’s creative jam sponsored by Twitch. The brief was to create a web app that enables communities to help each other connect the dots between multiple sources"}
         />
