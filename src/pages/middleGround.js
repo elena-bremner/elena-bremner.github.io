@@ -9,7 +9,7 @@ import onb from "./middleGround/onboarding.mp4"
 import made4u from "./middleGround/home_madeForU.mp4"
 import join from "./middleGround/home_joinDisc.mp4"
 import weekly from "./middleGround/movements_weeklyConvo.mp4"
-import pitch from "./middleGround/3minpres.mp4"
+
 
 
 
