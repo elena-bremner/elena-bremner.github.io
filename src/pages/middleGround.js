@@ -32,7 +32,7 @@ export default () => {
                     <div className = {style.line}> </div>
                 </div>
                 <div className={style.paragraph}> 
-                  The adobe creative jam is an event where students create solutions to a challenge proposed by Adobe. Creative solutions are judged and reviewed by a panel by experts in the field. In this case our design was scored by one Adobe designer and two twitch designers. 
+                  The adobe creative jam is an event where students create solutions to a challenge proposed by Adobe. Creative solutions are judged and reviewed by a panel by experts in the field. In this case our design was scored by one Adobe designer and two Twitch designers. 
                 </div>
 
                 <div className={style.colorBackground}>

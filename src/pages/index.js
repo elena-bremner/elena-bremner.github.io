@@ -70,13 +70,13 @@ export default ({data}) => {
   <Layout  >
     <div className={style.hero} >
       <div className={style.name}  data-aos="fade-up" data-aos-mirror="true" data-aos-offset="10"  >
-         Hey, I'm <Link to="/about/" className={style.link} > Elena Bremner </Link>
+         <Link to="/about/" className={style.link} > Elena Bremner </Link> is a product designer.
       </div>
       <div className={style.introWrapper}>
           <div className={style.intro} data-aos="fade-up" data-aos-mirror="true" data-aos-offset="200"  >
-             User experience designer currently a <a href ="https://fellows.kleinerperkins.com/" target="_blank">Kleiner Perkins fellow</a> while working at <a href="https://www.interos.ai/"target="_blank"> Interos</a> 
+             Currently a <a href ="https://fellows.kleinerperkins.com/" target="_blank">Kleiner Perkins fellow</a> while working at <a href="https://www.interos.ai/"target="_blank"> Interos</a>. 
              <div className={style.experience}>
-                <div> Previously at 3M, Deeplocal, and <a href="https://www.about.pangea.app/"target="_blank"> Pangea.app</a> </div>
+                <div> Previously at <a href="https://www.3m.com/"target="_blank"> 3M</a>, <a href="https://www.deeplocal.com/"target="_blank"> Deeplocal</a>, and <a href="https://www.about.pangea.app/"target="_blank"> Pangea.app</a>. </div>
             </div>
           </div>
       </div>

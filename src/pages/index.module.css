@@ -2,6 +2,9 @@
 @import url("https://use.typekit.net/tbu4cqd.css");
 @import url("https://use.typekit.net/lsk0fkh.css");
 
+@import url("https://use.typekit.net/szt4hzl.css");
+
+
  
 /*for subcategories*/
 .margin{
@@ -30,13 +33,16 @@
 }
 .name{
   font-family: 'jaf-lapture';
+/*  font-family: brandon-grotesque, sans-serif;*/
   text-align:center;
-  margin:auto;
+/*  margin:auto;*/
   font-size:42pt;
   width:100%;
 /*  padding-top: 13%;*/
-  padding-bottom: 60px;
+  padding-bottom: 48px;
+  padding-top: 48px;
   z-index: 10;
+
 
 }
 .link{
@@ -51,7 +57,8 @@
 }
 .intro {
   font-weight: lighter;
-  font-family: 'jaf-lapture';
+  /*font-family: 'jaf-lapture';*/
+  font-family: brandon-grotesque, sans-serif;
   position:relative;
 /*  top: 480%;*/
 /*  left:32%;*/
@@ -65,7 +72,8 @@
 .experience{
    text-align:center;
    font-size:14pt;
-   font-family: 'jaf-lapture';
+   /*font-family: 'jaf-lapture';*/
+   font-family: brandon-grotesque, sans-serif;
 
 }
 
