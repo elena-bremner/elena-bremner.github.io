@@ -37,7 +37,7 @@ export default () => {
               Hi there,
               </div>
               <div className={Styles.introduction}> 
-              <div className={Styles.oneliner}> Product designer originally from Tokyo, Japan. </div>  
+              <div className={Styles.oneliner}> I'm a product designer originally from Tokyo, Japan. </div>  
                     <br></br>
                 Motivated to design experiences for users that outlive digital screens. As technology evolves, 
                 so will design. I often ask myself, “What would UX/UI look like if screens are no longer the main 
