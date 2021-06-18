@@ -6,27 +6,33 @@
 .name{
   font-family: 'jaf-lapture';
   font-size:28pt;
+  padding-top:48px;
 }
 
 .margin{
-    padding-left:14%;
-    padding-right:14%;
+    padding-left:18%;
+    padding-right:18%;
     padding-bottom: 60px;
     padding-top: 60px;
+}
+.oneliner{
+  font-size: 24px; 
 }
 
 .introduction {
     background-color: white;
     box-sizing:border-box;
-    font-size: 16px; 
-    margin-top:20px;
+    font-size: 18px; 
+    margin-top:16px;
     width:100%;
-    line-height: auto;
+/*    line-height: auto;*/
     /*margin:center;*/
     font-weight:lighter;
-    font-family: 'Lato', sans-serif;
+      font-family: brandon-grotesque, sans-serif;
     line-height:1.5;
+
 }
+
 
 .pic{
     width: 400px;
@@ -35,14 +41,14 @@
     position: static;
     display: -ms-grid;
     display: grid;
-    max-width: 1225px;
+    max-width: 100%;
     -webkit-box-align: stretch;
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
     grid-auto-columns: 1fr;
-    grid-column-gap: 24px;
-    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 64px;
+    grid-template-columns: 1fr 2fr;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
 }

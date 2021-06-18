@@ -37,14 +37,17 @@ export default () => {
               Hi there,
               </div>
               <div className={Styles.introduction}> 
-                I am a product designer originally from Tokyo, Japan.  
-                    <br></br><br></br>
+              <div className={Styles.oneliner}> Product designer originally from Tokyo, Japan. </div>  
+                    <br></br>
                 Motivated to design experiences for users that outlive digital screens. As technology evolves, 
                 so will design. I often ask myself, “What would UX/UI look like if screens are no longer the main 
-                sources of information?” Good design is about solving problems for users and those problems will most 
+                sources of information?” 
+                <br></br>
+                Good design is about solving problems for users and those problems will most 
                 likely be different in the decade ahead.
                     <br></br><br></br>
-                <div>University: Rhode Island School of Design 21'</div>
+                <div>Rhode Island School of Design 21'</div>
+                <br></br>
                 <b>This website is coded by Elena.</b>
               </div>
           </div>

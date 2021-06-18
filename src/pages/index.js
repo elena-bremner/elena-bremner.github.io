@@ -81,7 +81,7 @@ export default ({data}) => {
           </div>
       </div>
       <div className = {style.contact} data-aos="fade" data-aos-mirror="true" data-aos-offset="200" >
-            <a onClick={() => {copyTextToClipboard("ebremner@risd.edu");}}>
+            <a onClick={() => {copyTextToClipboard("elenabremner@gmail.com");}}>
                Email
             </a>
             <a href = "https://www.linkedin.com/in/elena-bremner-76ab8514b/" target="_blank" >Linkedln</a>
