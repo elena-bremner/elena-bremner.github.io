@@ -3,10 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url("https://use.typekit.net/vnv4usw.css");
 
+
 .name{
   font-family: 'jaf-lapture';
   font-size:28pt;
-  padding-top:48px;
+
+  color:white;
+/*  padding-top:48px;*/
 }
 
 .margin{
@@ -14,23 +17,31 @@
     padding-right:18%;
     padding-bottom: 60px;
     padding-top: 60px;
+    background-color: black;
 }
 .oneliner{
   font-size: 24px; 
 }
 
+.wrapper{
+  padding-top:60px;
+}
 .introduction {
-    background-color: white;
+    color:#97a7a9;
     box-sizing:border-box;
     font-size: 18px; 
     margin-top:16px;
+
     width:100%;
 /*    line-height: auto;*/
     /*margin:center;*/
     font-weight:lighter;
       font-family: brandon-grotesque, sans-serif;
-    line-height:1.5;
+    line-height:1.4;
 
+}
+.note{
+  color:white;
 }
 
 

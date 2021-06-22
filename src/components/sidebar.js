@@ -7,13 +7,13 @@ import ImageLoader from "../components/imageLoader"
 
 
 const linkStyle = {
-  color: 'black',
+  color: 'white',
   textDecoration: 'none',
   
 }
 const linkActiveStyle = {
-  color: "black", 
-  borderBottom: '3px solid black',  
+  color: "white", 
+  borderBottom: '3px solid white',  
 }
 
 

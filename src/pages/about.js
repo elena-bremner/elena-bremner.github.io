@@ -32,9 +32,9 @@ export default () => {
               // fixed={data.file.childImageSharp.fixed}
               alt="Elena's pic"/>
           </div>
-          <div>
+          <div className={Styles.wrapper}>
               <div className={Styles.name}>
-              Hi there,
+              Hi there, ✿
               </div>
               <div className={Styles.introduction}> 
               <div className={Styles.oneliner}> I'm a product designer originally from Tokyo, Japan. </div>  
@@ -46,9 +46,11 @@ export default () => {
                 Good design is about solving problems for users and those problems will most 
                 likely be different in the decade ahead.
                     <br></br><br></br>
-                <div>Rhode Island School of Design 21'</div>
+                <div >Rhode Island School of Design 21' </div>
                 <br></br>
-                <b>This website is coded by Elena.</b>
+                 <div> Hobbies include making motion designs on Blender and watching oscar reaction videos.</div>
+                <br></br>
+                <b className={Styles.note}>This website is coded by Elena.</b>
               </div>
           </div>
 

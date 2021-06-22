@@ -67,7 +67,8 @@ export default ({data}) => {
        
   return (
 
-  <Layout  >
+  <Layout>
+
     <div className={style.hero} >
       <div className={style.name}  data-aos="fade-up" data-aos-mirror="true" data-aos-offset="10"  >
          <Link to="/about/" className={style.link} > Elena Bremner </Link> is a product designer.
@@ -104,7 +105,6 @@ export default ({data}) => {
           )}
     </div>
 
- 
  </Layout>
 
 )

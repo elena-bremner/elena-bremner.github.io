@@ -41,13 +41,13 @@
   padding-right:8px;
   padding-top:8px;
   padding-bottom:8px;
-  background-color:#f9f7fa;
+  background-color:#3a4546;
   border-width: 2px;
   width:auto;
 /*  border-style: solid;*/
   border-radius: 4px;
 
-  color:#6b7b8a;
+  color:#97a7a9;
 
   display: inline-block;
   text-align: center;
@@ -68,6 +68,12 @@
 /*  box-shadow:  20px 20px 40px rgba(255,0,0,.03),
              -20px -20px 40px #ffffff;*/
 }
+body {
+    margin: 0;
+    background-color: black;
+    scroll-behavior: smooth;
+
+}
 
 
 .container:hover .middle {
@@ -80,7 +86,7 @@
   font-weight:bold;
   z-index: 99;
   position: relative;
-  color: #384853;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 16px;
