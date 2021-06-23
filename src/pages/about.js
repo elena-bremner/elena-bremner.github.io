@@ -34,22 +34,20 @@ export default () => {
           </div>
           <div className={Styles.wrapper}>
               <div className={Styles.name}>
-              Hi there, ✿
+              Hi there,  ✿ 
               </div>
               <div className={Styles.introduction}> 
               <div className={Styles.oneliner}> I'm a product designer originally from Tokyo, Japan. </div>  
                     <br></br>
-                Motivated to design experiences for users that outlive digital screens. As technology evolves, 
-                so will design. I often ask myself, “What would UX/UI look like if screens are no longer the main 
-                sources of information?” 
+                Good design is about solving problems for users in creative and effective ways. As technology evolves, so do the design challenges. 
                 <br></br>
-                Good design is about solving problems for users and those problems will most 
-                likely be different in the decade ahead.
+                What will UX/UI design look like if screens are no longer the main interface for sharing information? 
                     <br></br><br></br>
-                <div >Rhode Island School of Design 21' </div>
-                <br></br>
-                 <div> Hobbies include making motion designs on Blender and watching oscar reaction videos.</div>
-                <br></br>
+
+                 <div> Hobbies include making motion designs on Blender and watching oscar reaction videos. I climbed Mt. Fuji once. Will never do it twice!</div>
+                  <br></br>
+                <div className={Styles.school} >Rhode Island School of Design 21' </div>
+                  <br></br>
                 <b className={Styles.note}>This website is coded by Elena.</b>
               </div>
           </div>
