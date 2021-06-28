@@ -155,10 +155,10 @@ export default () => {
                       End Note
                     </div>
                     <div className={style.desc}>
-                      Tools used include: Sketch, pen and paper. <br></br> Thank you for reading through. I would greatly appreciate any feedback. 
+                       Thank you for reading through. 
                     </div>
                 </div>
-                <ImageLoader filename="pinterest/sketch.png" className={style.laptopShape} data-aos="fade-up"/>
+                <ImageLoader filename="pinterest/home.png" className={style.Himage} data-aos="fade-up"/>
         </div>
     </Layout>
   )

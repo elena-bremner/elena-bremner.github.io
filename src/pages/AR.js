@@ -102,7 +102,7 @@ export default () => {
             </div>  
             <ImageLoader filename="AR/code.png" className={style.Himage}/>
             <div className={style.desc} >
-                 Thank you for viewing. I had a lot of fun making this, please tell me what you think if you enjoyed it!
+                 Thank you for viewing!
             </div>  
         </div>
     </Layout>

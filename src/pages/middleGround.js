@@ -205,7 +205,7 @@ export default () => {
                 </div>
                 <div>
                     <div className = {style.name}>Anthony</div> 
-                    <div className = {style.role}> Senior social media manager at Twitch</div>
+                    <div className = {style.role}> Social media manager at Twitch</div>
                     <ImageLoader filename="middleGround/Anthony"/>
                     <div className = {style.quote}>
                         “I kinda felt overwhelmed with the UI, there is a lot of information 
