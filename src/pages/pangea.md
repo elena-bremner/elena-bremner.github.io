@@ -7,7 +7,7 @@ order: 2
 worktype: "ux"
 content: "index"
 useTemplate: false
-tag: "UX/UI"
+tag: "YC Startup"
 ---
 
 <style>
