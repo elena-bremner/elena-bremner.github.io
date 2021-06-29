@@ -21,7 +21,11 @@ export default () => {
             p2 = {"Please contact me to learn more about what I worked on!"}
         />
 
-
+    <div className={style.margin}>
+      <div className={style.paragraph}>
+          You can check out the platform <a href="https://pangea.app/home" target="_blank">here.</a>
+      </div>
+    </div>
 
     </Layout>
   )
