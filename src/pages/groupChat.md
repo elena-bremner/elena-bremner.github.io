@@ -6,7 +6,7 @@ desc: ""
 square: ./GroupChat/cover.jpg
 order: 6
 worktype: "ux"
-content: "index"
+content: "notIndex"
 useTemplate: false
 tag: "UX/UI"
 
