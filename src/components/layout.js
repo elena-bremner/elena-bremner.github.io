@@ -46,11 +46,19 @@ class SidebarToggle extends React.Component {
     }));
   }
 
+
   render() {
     console.log("isToggleOn");
     console.log(this.state.isMenuButtonOn);
     console.log("IsMobil?");
     console.log(this.state.isMobile);
+
+    if (typeof window !== "undefined") {
+    // eslint-disable-next-line global-require
+    require("smooth-scroll")('a[href*="#"]')
+    }   
+    //delete if breaks ^^^^
+    
     if (this.state.isMobile && !this.state.isMenuButtonOn) {
       return(    
         <div>
