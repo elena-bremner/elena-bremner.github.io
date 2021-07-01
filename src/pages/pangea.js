@@ -37,6 +37,8 @@ export default () => {
       <div className={style.paragraph}>
           You can check out the platform <a href="https://pangea.app/" target="_blank">here.</a>
       </div>
+      
+      {/* 
       <div className={style.wrap}>
           <div className = {style.h6}> My contribution </div>
           <div className = {style.line}> </div>
@@ -55,7 +57,8 @@ export default () => {
       </div>
       <div className={style.paragraph} id="test">
         Forums
-      </div>
+      </div> 
+      */}
 
 
 
