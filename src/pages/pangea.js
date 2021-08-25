@@ -39,6 +39,8 @@ export default () => {
       </div>
       
       {/* 
+      */}
+
       <div className={style.wrap}>
           <div className = {style.h6}> My contribution </div>
           <div className = {style.line}> </div>
@@ -47,19 +49,24 @@ export default () => {
           I worked as a UX designer on the team and helped build the features listed below. 
       </div>
       <ol className={style.list}>
-        <li className = {style.quote}>  <Link to="#test">Forums</Link></li>
-        <li className = {style.quote}> Post a Job </li>
-        <li className = {style.quote}> <a href="#test"> Mobile & Web designs </a> </li>
+        <li className = {style.quote}>  <Link to="#forums">Forums</Link></li>
+        <li className = {style.quote}> <Link to="#postjob">Post a Job</Link> </li>
+        <li className = {style.quote}> <Link to="#webmob">Web & Mobile</Link></li>
       </ol>
       <div className={style.wrap}>
           <div className = {style.h6}> Features </div>
           <div className = {style.line}> </div>
       </div>
-      <div className={style.paragraph} id="test">
+      <div className={style.header} id="forums">
         Forums
       </div> 
-      */}
-
+      <div className={style.header} id="postjob">
+        Post a Job
+      </div> 
+      <div className={style.header} id="webmob">
+        Web & Mobile
+      </div> 
+   
 
 
     </div>
