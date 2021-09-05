@@ -24,7 +24,8 @@
     display:block; 
     background-color:rgb(15,15,15);opacity:0.8;
 /*    box-shadow: 0.5px 0.5px 10px #C1D1DE;*/
-    backdrop-filter: blur(8px);
+/*    backdrop-filter: blur(8px);*/
+    height:fixed;
 
 }
 
