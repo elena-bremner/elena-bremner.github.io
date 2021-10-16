@@ -47,8 +47,9 @@ export default () => {
                  <div> Hobbies include making motion designs on Blender and watching oscar reaction videos. I climbed Mt. Fuji once. Will never do it twice!</div>
                   <br></br>
                 <div className={Styles.school} >Rhode Island School of Design 21' </div>
+                <div className={Styles.school} > Kleiner Perkins Design Fellow 21' </div>
                   <br></br>
-                <b className={Styles.note}>This website is coded by Elena.</b>
+                <div className={Styles.note}>This website is coded by Elena.</div>
               </div>
           </div>
 

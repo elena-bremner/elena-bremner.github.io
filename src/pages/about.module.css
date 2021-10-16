@@ -25,6 +25,7 @@
 }
 .school{
   color:white;
+  line-height: 32px;
 }
 
 .wrapper{
@@ -45,7 +46,8 @@
 
 }
 .note{
-  color:white;
+  color:#97a7a9;
+  font-size:18px;
 }
 
 

@@ -40,7 +40,7 @@ const Sidebar = props =>
         <div className = {style.grid}>
           <div className = {style.work}>
             <Link to="/about/" style={linkStyle} activeStyle={linkActiveStyle} >
-              <span > ME </span>
+              <span > ABOUT </span>
             </Link>
           </div>
           <div className = {style.work} >

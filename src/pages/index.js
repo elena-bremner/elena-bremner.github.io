@@ -71,7 +71,7 @@ export default ({data}) => {
 
     <div className={style.hero} >
       <div className={style.name}  data-aos="fade-up" data-aos-mirror="true" data-aos-offset="10"  >
-         <Link to="/about/" className={style.link} > Elena </Link> - product designer.
+         I'm <Link to="/about/" className={style.link} > Elena, </Link> a product designer.
       </div>
       <div className={style.introWrapper}>
           <div className={style.intro} data-aos="fade-up" data-aos-mirror="true" data-aos-offset="200"  >
